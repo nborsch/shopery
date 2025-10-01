@@ -1,0 +1,10 @@
+#root {
+  width: clamp(375px, 100vw, 1320px);
+  margin: 0 auto;
+  text-align: center;
+  border: 10px solid greenyellow;
+}
+
+*{
+  box-sizing: border-box;
+}
