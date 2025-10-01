@@ -18,12 +18,17 @@
   background-color: #FFFFFF;
   color: #1A1A1A;
   
-  --gray900: #1A1A1A;
-  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  --gray900: #1A1A1A;
+  --gray300: #B3B3B3;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -31,3 +36,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
+
+#root {
+  margin: 0 auto;
+}
+

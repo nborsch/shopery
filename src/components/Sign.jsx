@@ -1,6 +1,10 @@
 import React from "react"
+import classes from "../App.module.css"
+
 
 export default function Sign(){
 
-    return 
+    return <div className={classes.headerTopSign}>
+                    Sign In / Sign Up
+                </div>
 }
