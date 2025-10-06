@@ -5,7 +5,7 @@ export default function Sign(){
 
   return (
     <div>
-        Sign In / Sign Up
+        Sign In | Sign Up
     </div>
     )
 }
