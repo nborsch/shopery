@@ -5,6 +5,12 @@
 }
 
 @font-face{
+  font-family: "Poppins Bold";
+  src:local("Poppins-Bold"),
+  url('./assets/Poppins/Poppins-Bold.ttf') 
+}
+
+@font-face{
   font-family: "Segoe Script";
   src:local("Segoe Script"),
   url('./assets/Segoe/segoesc.ttf') 
@@ -13,10 +19,10 @@
 :root {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  letter-spacing: 0.01rem;
 
-  color-scheme: light dark;
   background-color: #FFFFFF;
-  color: #1A1A1A;
+  color: var(--gray900);
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,6 +31,7 @@
   
   --gray900: #1A1A1A;
   --gray300: #B3B3B3;
+  --gray500: #808080;
 }
 
 * {
@@ -41,3 +48,6 @@ body {
   margin: 0 auto;
 }
 
+address {
+  margin: 0;
+}

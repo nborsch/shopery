@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Logo(){
+export default function Logo({width}){
 
-    return 
+    return <img src="/img/logo.png" alt="Ecobazar Logo" width={width} />
 }
