@@ -1,0 +1,25 @@
+.footerNewsInput {
+  margin-left: 20px;
+  height: 2.75rem;
+  width: 18.75rem;
+
+  border: 1px solid #DAE5DA;
+  border-right: none;
+  border-radius: 3.4375rem 0 0 3.4375rem;
+
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-indent: 0.75rem;
+}
+
+.footerNewsButton {
+  height: 2.75rem;
+  padding: 10px 20px;
+
+  background-color: #00B207;
+  color: white;
+
+  border: none;
+  border-radius: 0 3.4375em 3.4375em 0;
+
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+}
