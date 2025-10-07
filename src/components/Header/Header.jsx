@@ -21,7 +21,7 @@ export default function Header(){
         </div>
       </div>
       <div className={classes.headerMid}>
-        <Logo width={183} />
+        <h1><Logo width={183} /></h1>
         <Search />
         <ShoppingCart />
       </div>

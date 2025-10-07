@@ -1,0 +1,8 @@
+.breadcrumbs {
+  width: 100vw;
+  height: 7.5rem;
+  border: 1px solid greenyellow;
+
+  background-image: url("/img/bg-breadcrumbs.png");
+  background-position: right;
+}

@@ -28,6 +28,11 @@
   align-items: center;
 }
 
+.headerMid h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .headerBottom {
   width: clamp(375px, 100vw, 1320px);
   height: 3.75em;
