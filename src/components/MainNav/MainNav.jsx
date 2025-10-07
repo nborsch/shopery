@@ -1,5 +1,5 @@
 import React from "react"
-import classes from "../../App.module.css"
+import classes from "./MainNav.module.css"
 
 export default function MainNav(){
 

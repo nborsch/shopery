@@ -1,0 +1,36 @@
+.headerMidForm {
+  justify-self: center;
+}
+
+.headerMidInput {
+  height: 2.8125em;
+
+  border: 1px solid #e6e6e6;
+  border-right: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+
+  background-image: url('img/header-search.png');
+  background-repeat: no-repeat;
+  background-position: center left 5px;
+  text-indent: 26px;
+}
+
+.headerMidButton {
+  height: 2.8125em;
+  padding: 0 15px;
+
+  background-color: #00B207;
+  color: white;
+
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

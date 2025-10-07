@@ -1,5 +1,5 @@
 import React from "react"
-import classes from "../App.module.css"
+import classes from "./ShoppingCart.module.css"
 
 
 export default function ShoppingCart(){

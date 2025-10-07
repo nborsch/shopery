@@ -1,0 +1,15 @@
+.headerBottomNav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  gap: 2em;
+}
+
+.headerBottomNav li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}

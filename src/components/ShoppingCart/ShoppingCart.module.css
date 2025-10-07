@@ -1,0 +1,35 @@
+.headerCart {
+  display: flex;
+  gap: 0.3125em;
+  align-items: center;
+
+  font-size: 11px;
+
+  justify-self: end;
+}
+
+.headerCartIcon {
+  position: relative;
+}
+
+.headerCartPrice {
+  font-size: 14px;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+}
+
+.headerCartQty {
+  background-color: #2C742F;
+  border-radius: 50%;
+  height: 1.125em;
+  width: 1.125em;
+  padding-bottom: 14px;
+  
+  position: absolute;
+  right: 0;
+  top: 2px;
+
+  color: white;
+
+  display: flex;
+  place-content: center;
+}
