@@ -2,5 +2,5 @@ import React from "react"
 
 export default function PhoneNumber(){
 
-    return <>(504) 123 4567</>
+    return <a href="tel:5042123456">(504) 212 3456</a>
 }

@@ -40,6 +40,24 @@
 
 .footerBottomMid {
   min-height: 25.9375rem;
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #618062;
+  font-size: 0.875rem;
+}
+
+.footerBottomMidAbout h3 {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.footerBottomMidAbout a {
+  color: white;
+  text-decoration-color: #20b526;
+  text-decoration-thickness: 2px;
 }
 
 .footerBottomBottom {
