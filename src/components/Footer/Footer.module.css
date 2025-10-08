@@ -5,7 +5,7 @@
 
 .footerNews {
   height: 160px;
-  width: clamp(375px, 100vw, 1320px);
+  max-width: 1320px;
   margin: 0 auto;
 
   display: flex;
@@ -17,48 +17,30 @@
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
-  }
+}
 
 .footerNewsSpan {
   margin: 0;
   font-size: 0.875em;
 }
 
-.footerBottom {
+.footerBottomContainer {
   color: white;
-  background-color: #002603;
-
-  display: grid;
-  grid-template-columns: 1fr 1320px 1fr;
-  grid-template-areas: 
-    "left  mid   right"
-    "left bottom right";
+  background:
+    url("/img/bg-footer-left.png") no-repeat bottom left,
+    url("/img/bg-footer-right.png") no-repeat bottom right,
+    #002603;
+  min-height: 31.25rem;
 }
 
-.footerBottomLeft {
-  grid-area: left;
-
-  height: 31.25rem;
-  background-image: url("/img/bg-footer-left.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+.footerBottom {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .footerBottomMid {
-  grid-area: mid;
-
-  height: 25.9375rem;
-}
-
-.footerBottomRight {
-  grid-area: right;
-
-  height: 31.25rem;
-  background-image: url("/img/bg-footer-right.png");
-  background-repeat: no-repeat;
-  background-position: bottom left;
+  min-height: 25.9375rem;
 }
 
 .footerBottomBottom {
-  grid-area: bottom;
 }
