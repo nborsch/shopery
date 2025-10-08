@@ -21,16 +21,14 @@ export default function Footer(){
     </div>
     <div className={classes.footerBottom}>
       <div className={classes.footerBottomLeft}>
-        BottomLeft
       </div>
       <div className={classes.footerBottomMid}>
-        BottomMid
+        Mid
       </div>
       <div className={classes.footerBottomRight}>
-        BotttomRight
       </div>
       <div className={classes.footerBottomBottom}>
-        BottomBottom
+        Bottom
       </div>
     </div>
   </footer> 
