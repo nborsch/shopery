@@ -82,6 +82,49 @@ html {
   line-height: 2.5;
 }
 
+.footerBottomMidLinks a {
+  color: #618062;
+  text-decoration: none;
+}
+
+.footerBottomMidLinks a:hover {
+  color: white;
+}
+
 .footerBottomBottom {
+  padding: 1.5625rem 0;
+  border-top: 1px solid #1a421d;
+
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  justify-content: space-between;
+}
+
+.footerBottomBottomSocials {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.footerBottomBottomSocials a {
+  color: #618062;
+}
+
+.footerBottomBottomSocials a:hover {
+  color: #20b526;
+} 
+
+.footerBottomBottomFlags {
+  justify-self: end;
+  
+  display: flex;
+  gap: 10px;
   border: 1px solid greenyellow;
 }
+
+.footerBottomBottomFlags a {
+  color: #618062;
+}
+
+.footerBottomBottomFlags a:hover {
+  color: #20b526;
+} 

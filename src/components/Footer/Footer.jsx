@@ -1,3 +1,14 @@
+import { 
+  FaFacebook, 
+  FaSquareXTwitter, 
+  FaPinterestP,
+  FaInstagram,
+  FaApplePay,
+  FaCcVisa,
+  FaCcDiscover,
+  FaCcMastercard,
+
+} from "react-icons/fa6"
 import classes from "./Footer.module.css"
 import Logo from "../Logo"
 import NewsLetter from "../NewsLetter/Newsletter"
@@ -33,33 +44,45 @@ export default function Footer(){
             <div>
               <h3>My account</h3>
               <ul>
-                <li>Account</li>
-                <li>Order history</li>
-                <li>Shopping Cart</li>
-                <li>Settings</li>
+                <li><a href="">Account</a></li>
+                <li><a href="">Order history</a></li>
+                <li><a href="">Shopping Cart</a></li>
+                <li><a href="">Settings</a></li>
               </ul>
             </div>
             <div>
               <h3>Help</h3>
               <ul>
-                <li>Contact us</li>
-                <li>Terms & conditions</li>
-                <li>Privacy policy</li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Terms & conditions</a></li>
+                <li><a href="">Privacy policy</a></li>
               </ul>
             </div>
             <div>
               <h3>Pages</h3>
               <ul>
-                <li>About</li>
-                <li>Shop</li>
-                <li>Track order</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Track order</a></li>
               </ul>
             </div>
           </nav>
           <Instagram />
         </div>
         <div className={classes.footerBottomBottom}>
-          Bottom
+          <div className={classes.footerBottomBottomSocials}>
+            <a href="facebook.com"><FaFacebook size="30px" /></a>
+            <a href="x.com"><FaSquareXTwitter size="30px" /></a>
+            <a href="pinterest.com"><FaPinterestP size="30px" /></a>
+            <a href="instagramcom"><FaInstagram size="30px" /></a>
+          </div>
+          <p>Shopery eCommerce by Nadia Borsch © {new Date().getFullYear()}. All Rights Reserved</p>
+          <div className={classes.footerBottomBottomFlags}>
+            <a href=""><FaApplePay size="45px" /></a>
+            <a href=""><FaCcVisa size="45px" /></a>
+            <a href=""><FaCcDiscover size="45px" /></a>
+            <a href=""><FaCcMastercard size="45px" /></a>
+          </div>
         </div>
       </div>
     </div>
