@@ -1,4 +1,3 @@
-import React from "react"
 import classes from "./Footer.module.css"
 import Logo from "../Logo"
 import NewsLetter from "../NewsLetter/Newsletter"
@@ -19,18 +18,16 @@ export default function Footer(){
         </div>
         </div>
     </div>
-    <div className={classes.footerBottom}>
-      <div className={classes.footerBottomLeft}>
-      </div>
-      <div className={classes.footerBottomMid}>
-        Mid
-      </div>
-      <div className={classes.footerBottomRight}>
-      </div>
-      <div className={classes.footerBottomBottom}>
-        Bottom
+    <div className={classes.footerBottomContainer}>
+      <div className={classes.footerBottom}>
+        <div className={classes.footerBottomMid}>
+          Mid
+        </div>
+        <div className={classes.footerBottomBottom}>
+          Bottom
+        </div>
       </div>
     </div>
-  </footer> 
+  </footer>
   )
 }
