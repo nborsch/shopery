@@ -31,13 +31,29 @@ export default function Footer(){
           </div>
           <nav className={classes.footerBottomMidLinks}>
             <div>
-              My account
+              <h3>My account</h3>
+              <ul>
+                <li>Account</li>
+                <li>Order history</li>
+                <li>Shopping Cart</li>
+                <li>Settings</li>
+              </ul>
             </div>
             <div>
-              Help
+              <h3>Help</h3>
+              <ul>
+                <li>Contact us</li>
+                <li>Terms & conditions</li>
+                <li>Privacy policy</li>
+              </ul>
             </div>
             <div>
-              Pages
+              <h3>Pages</h3>
+              <ul>
+                <li>About</li>
+                <li>Shop</li>
+                <li>Track order</li>
+              </ul>
             </div>
           </nav>
           <Instagram />

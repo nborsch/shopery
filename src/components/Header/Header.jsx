@@ -1,4 +1,5 @@
 import React from "react"
+import { FaPhoneVolume } from "react-icons/fa6";
 import classes from "../Header/Header.module.css"
 import Sign from "../Sign"
 import Address from "../Address"
@@ -30,7 +31,7 @@ export default function Header(){
           <MainNav />
         </nav>
         <div className={classes.headerBottomPhone}>
-          <PhoneNumber />
+          <FaPhoneVolume /> <PhoneNumber />
         </div>
       </div>
     </header>

@@ -1,3 +1,8 @@
+html {
+  overflow: hidden; 
+  overflow-y: auto;
+}
+
 .footerNewsContainer {
   background-color: #EDF2EE;
   width: 100vw;
@@ -36,6 +41,15 @@
 .footerBottom {
   max-width: 1320px;
   margin: 0 auto;
+
+  color: #618062;
+  font-size: 0.875rem;
+}
+
+.footerBottom h3 {
+  font-size: 1.25rem;
+  color: white;
+  margin: 0;
 }
 
 .footerBottomMid {
@@ -44,14 +58,10 @@
 
   display: flex;
   justify-content: space-between;
-
-  color: #618062;
-  font-size: 0.875rem;
 }
 
-.footerBottomMidAbout h3 {
-  font-size: 1.25rem;
-  color: white;
+.footerBottomMidAbout {
+  max-width: 330px;
 }
 
 .footerBottomMidAbout a {
@@ -60,5 +70,18 @@
   text-decoration-thickness: 2px;
 }
 
+.footerBottomMidLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 4.875rem;
+}
+
+.footerBottomMidLinks ul {
+  padding: 0;
+  list-style-type: none;
+  line-height: 2.5;
+}
+
 .footerBottomBottom {
+  border: 1px solid greenyellow;
 }

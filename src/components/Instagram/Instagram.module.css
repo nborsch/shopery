@@ -1,0 +1,9 @@
+.footerMidInstagram {
+  display: grid;
+  grid-template-columns: repeat(4, 4.375rem);
+  gap: 10px;
+}
+
+.footerMidInstagram h3 {
+  grid-column: span 4;
+}
