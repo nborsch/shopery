@@ -1,13 +1,16 @@
+.footerMidInstagramContainer {
+}
+
+.footerMidInstagramTitle {
+  margin: 0 0 1em;
+}
+
 .footerMidInstagram {
   display: grid;
-  grid-template-columns: repeat(4, 4.375rem);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
 .footerMidInstagram img {
   display: block;
 }
-
-.footerMidInstagram h3 {
-  grid-column: span 4;
-} 
