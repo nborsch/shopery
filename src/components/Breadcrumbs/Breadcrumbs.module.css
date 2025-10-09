@@ -4,14 +4,43 @@
 
   background-image: url("/img/bg-breadcrumbs.png");
   background-position: right;
-  background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 0%);
-  
+
   color: #999999;
-  display: grid;
-  grid-template-columns: 1320px;
+}
+
+.breadcrumbsContainerGradient {
+  width: 100vw;
+  height: 7.5rem;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .breadcrumbs {
-  border: 1px solid greenyellow;
+  max-width: 1320px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbsLink {
+  text-decoration: none;
+  color: #999999;
+  margin: 0 0.625rem;
+}
+
+.breadcrumbsLink:hover {
+  color: #00b207;
+}
+
+.breadcrumbsLink:first-of-type {
+  margin: 0 0.625rem 0 0;
 }
