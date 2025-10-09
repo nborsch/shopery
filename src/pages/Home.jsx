@@ -8,7 +8,6 @@ export default function Home(){
   return (
     <>
       <Header />
-      {/* <Breadcrumbs /> */}
       <h1>Hello World</h1>
       <Footer />
     </>

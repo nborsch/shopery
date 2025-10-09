@@ -1,10 +1,17 @@
-.breadcrumbs {
+.breadcrumbsContainer {
   width: 100vw;
   height: 7.5rem;
-  border: 1px solid greenyellow;
 
   background-image: url("/img/bg-breadcrumbs.png");
   background-position: right;
-
+  background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 0%);
+  
   color: #999999;
+  display: grid;
+  grid-template-columns: 1320px;
+  align-items: center;
+}
+
+.breadcrumbs {
+  border: 1px solid greenyellow;
 }

@@ -8,6 +8,7 @@ import Search from "../Search/Search"
 import ShoppingCart from "../ShoppingCart/ShoppingCart"
 import MainNav from "../MainNav/MainNav"
 import PhoneNumber from "../PhoneNumber"
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs"
 
 export default function Header(){
 
@@ -34,6 +35,7 @@ export default function Header(){
           <FaPhoneVolume /> <PhoneNumber />
         </div>
       </div>
+      <Breadcrumbs />
     </header>
   )
 }

@@ -4,6 +4,10 @@
   gap: 10px;
 }
 
+.footerMidInstagram img {
+  display: block;
+}
+
 .footerMidInstagram h3 {
   grid-column: span 4;
 } 

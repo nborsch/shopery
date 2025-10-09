@@ -68,24 +68,24 @@ export default function Footer(){
             </div>
           </nav>
           <Instagram />
-        </div>
+        </div> {/* footerBottomMid */}
         <div className={classes.footerBottomBottom}>
           <div className={classes.footerBottomBottomSocials}>
-            <a href="facebook.com"><FaFacebook size="30px" /></a>
-            <a href="x.com"><FaSquareXTwitter size="30px" /></a>
-            <a href="pinterest.com"><FaPinterestP size="30px" /></a>
-            <a href="instagramcom"><FaInstagram size="30px" /></a>
+            <a href="https://facebook.com"><FaFacebook size="30px" /></a>
+            <a href="https://x.com"><FaSquareXTwitter size="30px" /></a>
+            <a href="https://pinterest.com"><FaPinterestP size="30px" /></a>
+            <a href="https://instagramcom"><FaInstagram size="30px" /></a>
           </div>
           <p>Shopery eCommerce by Nadia Borsch © {new Date().getFullYear()}. All Rights Reserved</p>
           <div className={classes.footerBottomBottomFlags}>
-            <a href=""><FaApplePay size="45px" /></a>
-            <a href=""><FaCcVisa size="45px" /></a>
-            <a href=""><FaCcDiscover size="45px" /></a>
-            <a href=""><FaCcMastercard size="45px" /></a>
+            <a href="https://www.apple.com/apple-pay/"><FaApplePay size="45px" /></a>
+            <a href="https://usa.visa.com/"><FaCcVisa size="45px" /></a>
+            <a href="https://www.discover.com/"><FaCcDiscover size="45px" /></a>
+            <a href="https://www.mastercard.com/"><FaCcMastercard size="45px" /></a>
           </div>
-        </div>
-      </div>
-    </div>
+        </div> {/* footerBottomBottom */}
+      </div> {/* footerBottom */}
+    </div> {/* footerBottomContainer */}
   </footer>
   )
 }
