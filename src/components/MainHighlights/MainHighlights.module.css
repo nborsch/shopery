@@ -1,0 +1,13 @@
+.bg {
+  background-color: #edf2ee;
+  padding: 3.125rem 0;
+}
+
+.container {
+  max-width: 82.5rem;
+  height: 13.75rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+
+  display: flex;
+}

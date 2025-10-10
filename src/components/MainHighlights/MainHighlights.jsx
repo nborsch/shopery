@@ -1,7 +1,13 @@
 import React from "react"
-import classes from "./MainHighlights"
+import classes from "./MainHighlights.module.css"
 
-export default function MainHighlights(){
+export default function MainHighlights({children}){
 
-    return 
+    return (
+      <div className={classes.bg}>
+        <div className={classes.container}>
+          {children}
+        </div>
+      </div>
+    )
 }

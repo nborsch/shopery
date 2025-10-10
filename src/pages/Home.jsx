@@ -17,6 +17,9 @@ export default function Home(){
         </MainFeatures>
         <MainHighlights>
           <MainHighlight />
+          <MainHighlight />
+          <MainHighlight />
+          <MainHighlight />
         </MainHighlights>
         <h1>Hello World</h1>
       </main>
