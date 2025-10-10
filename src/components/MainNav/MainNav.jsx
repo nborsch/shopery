@@ -3,13 +3,15 @@ import classes from "./MainNav.module.css"
 
 export default function MainNav(){
 
-    return <>
-        <ul className={classes.headerBottomNav}>
-            <li>Home <img src="/img/icon-down.png" /></li>
-            <li>Shop <img src="/img/icon-down.png" /></li>
-            <li>Blog <img src="/img/icon-down.png" /></li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-        </ul>
-    </>
+    return (
+    <nav>
+      <ul className={classes.nav}>
+        <li className={classes.navItem}>Home <img src="/img/icon-down.png" /></li>
+        <li className={classes.navItem}>Shop <img src="/img/icon-down.png" /></li>
+        <li className={classes.navItem}>Blog <img src="/img/icon-down.png" /></li>
+        <li className={classes.navItem}>About Us</li>
+        <li className={classes.navItem}>Contact Us</li>
+      </ul>
+    </nav>
+    )
 }

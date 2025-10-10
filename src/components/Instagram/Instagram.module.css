@@ -1,13 +1,9 @@
-.footerMidInstagram {
+.instagram {
   display: grid;
   grid-template-columns: repeat(4, 4.375rem);
   gap: 10px;
 }
 
-.footerMidInstagram img {
-  display: block;
-}
-
-.footerMidInstagram h3 {
+.instagramTitle {
   grid-column: span 4;
-} 
+}

@@ -1,14 +1,14 @@
 html {
-  overflow: hidden; 
+  overflow: hidden;
   overflow-y: auto;
 }
 
-.footerNewsContainer {
-  background-color: #EDF2EE;
+.newsContainer {
+  background-color: #edf2ee;
   width: 100vw;
 }
 
-.footerNews {
+.news {
   height: 160px;
   max-width: 1320px;
   margin: 0 auto;
@@ -18,18 +18,18 @@ html {
   align-items: center;
 }
 
-.footerNewsPara {
+.newsPara {
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
 }
 
-.footerNewsSpan {
+.newsSpan {
   margin: 0;
   font-size: 0.875em;
 }
 
-.footerBottomContainer {
+.infoContainer {
   color: white;
   background:
     url("/img/bg-footer-left.png") no-repeat bottom left,
@@ -38,7 +38,7 @@ html {
   min-height: 31.25rem;
 }
 
-.footerBottom {
+.info {
   max-width: 1320px;
   margin: 0 auto;
 
@@ -46,13 +46,13 @@ html {
   font-size: 0.875rem;
 }
 
-.footerBottom h3 {
+.info h3 {
   font-size: 1.25rem;
   color: white;
   margin: 0;
 }
 
-.footerBottomMid {
+.infoTop {
   min-height: 25.9375rem;
   padding: 100px 0;
 
@@ -60,38 +60,38 @@ html {
   justify-content: space-between;
 }
 
-.footerBottomMidAbout {
+.infoTopAbout {
   max-width: 330px;
 }
 
-.footerBottomMidAbout a {
+.infoTopAbout a {
   color: white;
   text-decoration-color: #20b526;
   text-decoration-thickness: 2px;
 }
 
-.footerBottomMidLinks {
+.infoTopLinks {
   display: flex;
   justify-content: space-between;
   gap: 4.875rem;
 }
 
-.footerBottomMidLinks ul {
+.infoTopLinksList {
   padding: 0;
   list-style-type: none;
   line-height: 2.5;
 }
 
-.footerBottomMidLinks a {
+.infoTopLinks a {
   color: #618062;
   text-decoration: none;
 }
 
-.footerBottomMidLinks a:hover {
+.infoTopLinks a:hover {
   color: white;
 }
 
-.footerBottomBottom {
+.infoBottom {
   padding: 1.5625rem 0;
   border-top: 1px solid #1a421d;
 
@@ -100,30 +100,30 @@ html {
   justify-content: space-between;
 }
 
-.footerBottomBottomSocials {
+.infoBottomSocials {
   display: flex;
   gap: 0.625rem;
 }
 
-.footerBottomBottomSocials a {
+.infoBottomSocials a {
   color: #618062;
 }
 
-.footerBottomBottomSocials a:hover {
+.infoBottomSocials a:hover {
   color: #20b526;
-} 
+}
 
-.footerBottomBottomFlags {
+.infoBottomFlags {
   justify-self: end;
-  
+
   display: flex;
   gap: 10px;
 }
 
-.footerBottomBottomFlags a {
+.infoBottomFlags a {
   color: #618062;
 }
 
-.footerBottomBottomFlags a:hover {
+.infoBottomFlags a:hover {
   color: #20b526;
-} 
+}

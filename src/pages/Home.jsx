@@ -1,14 +1,25 @@
 import React from "react"
 import Header from "../components/Header/Header"
-import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs"
 import Footer from "../components/Footer/Footer"
+import MainFeatures from "../components/MainFeatures/MainFeatures"
+import MainFeature from "../components/MainFeatures/MainFeature"
+import MainHighlights from "../components/MainHighlights/MainHighlights"
+import MainHighlight from "../components/MainHighlights/MainHighlight"
 
 export default function Home(){
 
   return (
     <>
       <Header />
-      <h1>Hello World</h1>
+      <main>
+        <MainFeatures>
+          <MainFeature />
+        </MainFeatures>
+        <MainHighlights>
+          <MainHighlight />
+        </MainHighlights>
+        <h1>Hello World</h1>
+      </main>
       <Footer />
     </>
   )

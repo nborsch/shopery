@@ -1,8 +1,8 @@
-.headerMidForm {
+.form {
   justify-self: center;
 }
 
-.headerMidInput {
+.input {
   height: 2.8125em;
 
   border: 1px solid #e6e6e6;
@@ -13,17 +13,17 @@
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
 
-  background-image: url('img/header-search.png');
+  background-image: url("img/header-search.png");
   background-repeat: no-repeat;
   background-position: center left 5px;
   text-indent: 26px;
 }
 
-.headerMidButton {
+.button {
   height: 2.8125em;
   padding: 0 15px;
 
-  background-color: #00B207;
+  background-color: #00b207;
   color: white;
 
   font-family: "Poppins", Helvetica, Arial, sans-serif;

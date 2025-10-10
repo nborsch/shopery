@@ -4,8 +4,8 @@ import classes from "./Instagram.module.css"
 export default function Instagram(){
 
   return <>
-    <div className={classes.footerMidInstagram}>
-      <h3>Instagram</h3>
+    <div className={classes.instagram}>
+      <h3 className={classes.instagramTitle}>Instagram</h3>
       <img src="/img/temp-insta1.png" />
       <img src="/img/temp-insta2.png" />
       <img src="/img/temp-insta3.png" />

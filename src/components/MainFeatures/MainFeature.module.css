@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.welcome {
+  font-family: "Segoe Script", Arial, Helvetica, sans-serif;
+  color: #00b207;
+}
+
+.basket {
+  max-width: 49.6875rem;
+}
+
+.title {
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1;
+  margin: 0.625rem 0 1.875rem 0;
+}
+
+.freeShipping {
+  font-size: 1.125rem;
+  color: #618062;
+}
+
+.button {
+  display: flex;
+  gap: 5px;
+}

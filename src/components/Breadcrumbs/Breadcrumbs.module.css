@@ -1,4 +1,4 @@
-.breadcrumbsContainer {
+.container {
   width: 100vw;
   height: 7.5rem;
 
@@ -8,7 +8,7 @@
   color: #999999;
 }
 
-.breadcrumbsContainerGradient {
+.containerGradient {
   width: 100vw;
   height: 7.5rem;
   background: linear-gradient(
@@ -31,16 +31,16 @@
   align-items: center;
 }
 
-.breadcrumbsLink {
+.link {
   text-decoration: none;
   color: #999999;
   margin: 0 0.625rem;
 }
 
-.breadcrumbsLink:hover {
+.link:hover {
   color: #00b207;
 }
 
-.breadcrumbsLink:first-of-type {
+.link:first-of-type {
   margin: 0 0.625rem 0 0;
 }
