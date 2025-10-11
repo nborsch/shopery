@@ -1,6 +1,14 @@
 import React from "react"
+import classes from "./ProductCard.module.css"
 
-export default function ProductCard(){
+export default function ProductCard({
+  border, 
+  borderRadius
+}){
 
-    return 
+    return (
+      <div className={classes.container}>
+        ProductCard
+      </div>
+    )
 }

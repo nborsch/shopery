@@ -1,0 +1,23 @@
+.list {
+  padding: 0;
+  margin-bottom: 50px;
+  list-style-type: none;
+
+  color: #b4ccb4;
+
+  display: flex;
+}
+
+.link {
+  margin: 0 24px;
+
+  color: #808080;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #00b207;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 1rem;
+}
