@@ -1,0 +1,12 @@
+.bg {
+  background-color: #edf2ee;
+}
+
+.container {
+  max-width: 82.5rem;
+  margin: 0 auto;
+  padding: 108px 0;
+
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,65 @@
+.container {
+  max-width: 82.5rem;
+  margin: 5rem auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  color: #00b207;
+  text-transform: uppercase;
+}
+
+.title,
+.numbers {
+  font-size: 2.5rem;
+}
+
+.title {
+  margin: 1.125rem 0;
+  color: #002603;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+}
+
+.numbers {
+  display: grid;
+  place-content: center;
+
+  color: #00b207;
+  text-transform: uppercase;
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: 6rem 0.3125rem 6rem 0.3125rem 6rem 0.3125rem 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.dividers {
+  padding-left: 0;
+  grid-row: span 2;
+  align-self: center;
+}
+
+.time {
+  margin-top: -0.625rem;
+  text-align: center;
+  color: #618062;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.img {
+  display: block;
+  margin-left: -6.25rem;
+}

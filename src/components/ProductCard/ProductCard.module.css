@@ -1,8 +1,48 @@
 .container {
   width: 100%;
   background-color: white;
+  border: 1px solid white;
 }
 
-.container ~ .container {
-  border-left: none;
+.text {
+  width: 100%;
+  padding: 0 20px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  line-height: 1.9;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: #4d4d4d;
+}
+
+.price {
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+.filled {
+  color: #ff8a00;
+}
+
+.empty {
+  color: #cccccc;
+}
+
+.bag {
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #dae5da;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-content: center;
 }

@@ -16,7 +16,7 @@ export default function MainFeature(){
         <span className={classes.welcome}>Welcome to Shopery</span>
         <h2 className={classes.title}>Fresh & Healthy Organic Food</h2>
         <p className={classes.freeShipping}>Free shipping on all orders. We deliver, you enjoy.</p>
-        <Button className={classes.button}>
+        <Button>
           Shop now <FaArrowRightLong />
         </Button>
       </div>

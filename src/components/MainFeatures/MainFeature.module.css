@@ -24,8 +24,3 @@
   font-size: 1.125rem;
   color: #618062;
 }
-
-.button {
-  display: flex;
-  gap: 5px;
-}

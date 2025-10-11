@@ -6,6 +6,8 @@ import MainFeature from "../components/MainFeatures/MainFeature"
 import MainHighlights from "../components/MainHighlights/MainHighlights"
 import MainHighlight from "../components/MainHighlights/MainHighlight"
 import Intro from "../components/Intro/Intro"
+import Highlights from "../components/Highlights/Highlights"
+import Specials from "../components/Specials/Specials"
 
 export default function Home(){
 
@@ -23,6 +25,8 @@ export default function Home(){
           <MainHighlight />
         </MainHighlights>
         <Intro />
+        <Highlights />
+        <Specials />
         <h1>Hello World</h1>
       </main>
       <Footer />
