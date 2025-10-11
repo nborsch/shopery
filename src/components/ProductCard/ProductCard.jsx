@@ -1,5 +1,6 @@
 import React from "react"
 import classes from "./ProductCard.module.css"
+import CartBtn from "../CartBtn/CartBtn"
 import { FaStar } from "react-icons/fa6"
 
 export default function ProductCard({
@@ -23,9 +24,7 @@ export default function ProductCard({
               <FaStar className={classes.empty} /> 
             </div>
           </div>
-          <div className={classes.bag}>
-            <img src="/img/product-card-bag.png" />
-          </div>
+          <CartBtn />
         </div>
       </div>
     )

@@ -1,0 +1,19 @@
+.bag {
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #dae5da;
+  background-image: url("/img/product-card-bag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-content: center;
+}
+
+.bag:hover {
+  background-color: #00b207;
+  background-image: url(/img/product-card-bag-hover.png);
+  cursor: pointer;
+}
