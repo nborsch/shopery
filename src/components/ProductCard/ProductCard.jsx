@@ -8,19 +8,25 @@ import { FaStar } from "react-icons/fa6"
 
 export default function ProductCard({sz = 'md'}){
 
+  const sizeClass = sz === 'lg' ?
+    classesLg :
+    sz === 'md' ?
+      classesMd :
+      classesSm
+
   return (
-    <div className={classes.container}>
-      <img className={classes.img} src="/img/temp-mango.png" />
+    <div className={sizeClass.container}>
+      <img className={sizeClass.img} src="/img/temp-mango.png" />
       <div className={classes.text}>
         <div className={classes.info}>
-          <span className={classes.name}>Surjapur Mango</span>
+          <span className={sizeClass.name}>Surjapur Mango</span>
           <span className={classes.price}>$14.99</span>
           <div>
-            <FaStar className={classes.filled} />
-            <FaStar className={classes.filled} /> 
-            <FaStar className={classes.filled} /> 
-            <FaStar className={classes.filled} /> 
-            <FaStar className={classes.empty} /> 
+            <FaStar className={sizeClass.filled} />
+            <FaStar className={sizeClass.filled} /> 
+            <FaStar className={sizeClass.filled} /> 
+            <FaStar className={sizeClass.filled} /> 
+            <FaStar className={sizeClass.empty} /> 
           </div>
         </div>
         <CartBtn />

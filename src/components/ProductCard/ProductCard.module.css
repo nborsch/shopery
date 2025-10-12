@@ -16,3 +16,8 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.price {
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+}

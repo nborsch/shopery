@@ -21,10 +21,6 @@
 }
 
 .productsAll {
-  background-color: rgb(218, 229, 218);
-  border: 1px solid rgb(218, 229, 218);
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
 }
