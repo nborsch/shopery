@@ -1,7 +1,22 @@
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   background-color: white;
   border: 1px solid white;
+}
+
+.container330 {
+  width: 330px;
+  height: 428px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.img {
+  width: 100%;
 }
 
 .text {
@@ -23,7 +38,16 @@
   color: #4d4d4d;
 }
 
+.name330 {
+  color: #4d4d4d;
+}
+
 .price {
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+.price330 {
   font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
   color: #1a1a1a;
 }
@@ -32,6 +56,14 @@
   color: #ff8a00;
 }
 
+.filled330 {
+  color: #ff8a00;
+}
+
 .empty {
+  color: #cccccc;
+}
+
+.empty330 {
   color: #cccccc;
 }

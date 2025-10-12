@@ -11,38 +11,14 @@ export default function Intro(){
         <IntroMenu />
         <div className={classes.productsContainer}>
           <div className={classes.productsAll}>
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-            />
+            <a href=""><ProductCard sz={330} /></a>
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
+            <ProductCard sz={330} />
           </div>
         </div>
       </div>
