@@ -1,0 +1,30 @@
+.container {
+  width: 328px;
+  background-color: white;
+  border: 1px solid white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  height: 310px;
+}
+
+.name {
+  color: #4d4d4d;
+}
+
+.price {
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+.filled {
+  color: #ff8a00;
+}
+
+.empty {
+  color: #cccccc;
+}

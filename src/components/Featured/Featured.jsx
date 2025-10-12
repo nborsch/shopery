@@ -9,36 +9,11 @@ export default function Featured(){
         <div className={classes.container}>
           <h2 className={classes.title}>Featured Products</h2>
           <div className={classes.productsContainer}>
-            <a href="">
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-              />
-            </a>
-            <a href="">
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-              />
-            </a>
-            <a href="">
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-              />
-            </a>
-            <a href="">
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-              />
-            </a>
-            <a href="">
-            <ProductCard
-              borderThickness={1}
-              borderRadius={0} 
-              />
-            </a>
+            <a href=""><ProductCard sz='sm' /></a>
+            <a href=""><ProductCard sz='sm' /></a>
+            <a href=""><ProductCard sz='sm' /></a>
+            <a href=""><ProductCard sz='sm' /></a>
+            <a href=""><ProductCard sz='sm' /></a>
           </div>
         </div>
       </div>

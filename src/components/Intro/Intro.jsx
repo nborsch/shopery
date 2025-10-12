@@ -11,14 +11,14 @@ export default function Intro(){
         <IntroMenu />
         <div className={classes.productsContainer}>
           <div className={classes.productsAll}>
-            <a href=""><ProductCard sz={330} /></a>
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
-            <ProductCard sz={330} />
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
+            <a href=""><ProductCard sz={'lg'} /></a>
           </div>
         </div>
       </div>
