@@ -1,5 +1,5 @@
 .container {
-  width: 330px;
+  width: 20.625rem;
   background-color: white;
   border: 1px solid rgb(229, 229, 229);
 
@@ -9,7 +9,7 @@
 }
 
 .img {
-  height: 308px;
+  height: 19.25rem;
 }
 
 .name {

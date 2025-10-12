@@ -1,0 +1,61 @@
+.container {
+  max-width: 82.5rem;
+  margin: 90px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+}
+
+.title {
+  color: #002603;
+  font-size: 2.5rem;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 2.5rem 0;
+
+  grid-column: span 3;
+}
+
+.info {
+  width: 424px;
+  height: 252px;
+  padding: 32px;
+  background-image: url("/img/testimonials-bg.png");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.testimonial {
+  color: #406b42;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headshot {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 0;
+
+  border: 1px solid #acb8ad;
+  border-radius: 50%;
+}
+
+.name {
+  color: #002603;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+}
+
+.clientType {
+  font-size: 0.875rem;
+  color: #618062;
+}
