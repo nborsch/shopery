@@ -42,51 +42,69 @@ export default function MainNav(){
         </li>
       </ul>
       <ul className={classes.shop}>
-        <Link to={""}>
-          <MainNavItem>
-            <FaAppleWhole /> Fruits
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaLeaf /> Vegetables
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaFishFins /> Fish
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaKiwiBird /> Poultry
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaPiggyBank /> Meat
-          </MainNavItem>
-        <Link to={""}>
-          <MainNavItem>
-            <FaDroplet /> Dairy
-          </MainNavItem>
-        </Link>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaBottleDroplet /> Water & Beverages
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaCanadianMapleLeaf /> Bakery
-          </MainNavItem>
-        </Link>
-        <Link to={""}>
-          <MainNavItem>
-            <FaPlus /> View all categories
-          </MainNavItem>
-        </Link>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaAppleWhole /> Fruits
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaLeaf /> Vegetables
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaFishFins /> Fish
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaKiwiBird /> Poultry
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaPiggyBank /> Meat
+            </MainNavItem>
+          </Link>
+          <li>
+        </li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaDroplet /> Dairy
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaBottleDroplet /> Water & Beverages
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaCanadianMapleLeaf /> Bakery
+            </MainNavItem>
+          </Link>
+        </li>
+        <li>
+          <Link to={""}>
+            <MainNavItem>
+              <FaPlus /> View all categories
+            </MainNavItem>
+          </Link>
+        </li>
       </ul>
     </nav>
     )
