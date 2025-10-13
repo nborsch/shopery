@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router"
 import { FaPhoneVolume } from "react-icons/fa6";
 import classes from "../Header/Header.module.css"
 import Sign from "../Sign/Sign"
@@ -23,7 +24,11 @@ export default function Header(){
         </div>
       </div>
       <div className={classes.middle}>
-        <h1 className={classes.middleLogo}><Logo width={183} /></h1>
+        <h1 className={classes.middleLogo}>
+          <Link to={"/"}>
+            <Logo width={183} />
+          </Link>
+        </h1>
         <Search />
         <ShoppingCart />
       </div>

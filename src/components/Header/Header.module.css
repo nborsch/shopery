@@ -19,12 +19,12 @@
 }
 
 .middle {
-  width: clamp(23.4375rem, 100vw, 82.5rem);
+  max-width: 82.5rem;
   height: 5.8125em;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: 1fr 31.125em 1fr;
+  grid-template-columns: 3fr 2fr 3fr;
   align-items: center;
 }
 
