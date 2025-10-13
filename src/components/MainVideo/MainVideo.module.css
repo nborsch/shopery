@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+figure {
+  margin: 0;
+}
+
 .title {
   width: 60%;
 

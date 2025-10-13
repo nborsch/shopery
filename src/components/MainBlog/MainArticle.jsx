@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6"
 export default function MainArticle(){
 
     return (
-      <div className={classes.container}>
+      <article className={classes.container}>
         <img src="/img/temp-blog.png" />
         <h3 className={classes.title}>
           Curabitur porttitor orci eget neque accumsan venenatis.
@@ -14,6 +14,6 @@ export default function MainArticle(){
           Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.
         </p>
         <a className={classes.link} href="">Read more <FaArrowRightLong /></a>
-      </div>
+      </article>
     )
 }
