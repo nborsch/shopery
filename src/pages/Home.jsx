@@ -1,6 +1,3 @@
-import React from "react"
-import Header from "../components/Header/Header"
-import Footer from "../components/Footer/Footer"
 import MainFeatures from "../components/MainFeatures/MainFeatures"
 import MainFeature from "../components/MainFeatures/MainFeature"
 import MainHighlights from "../components/MainHighlights/MainHighlights"
@@ -17,31 +14,27 @@ import MainArticle from "../components/MainBlog/MainArticle"
 export default function Home(){
 
   return (
-    <>
-      <Header />
-      <main>
-        <MainFeatures>
-          <MainFeature />
-        </MainFeatures>
-        <MainHighlights>
-          <MainHighlight />
-          <MainHighlight />
-          <MainHighlight />
-          <MainHighlight />
-        </MainHighlights>
-        <Intro />
-        <Highlights />
-        <Specials />
-        <Featured />
-        <Testimonials />
-        <MainVideo />
-        <MainBlog>
-          <MainArticle />
-          <MainArticle />
-          <MainArticle />
-        </MainBlog>
-      </main>
-      <Footer />
-    </>
+    <main>
+      <MainFeatures>
+        <MainFeature />
+      </MainFeatures>
+      <MainHighlights>
+        <MainHighlight />
+        <MainHighlight />
+        <MainHighlight />
+        <MainHighlight />
+      </MainHighlights>
+      <Intro />
+      <Highlights />
+      <Specials />
+      <Featured />
+      <Testimonials />
+      <MainVideo />
+      <MainBlog>
+        <MainArticle />
+        <MainArticle />
+        <MainArticle />
+      </MainBlog>
+    </main>
   )
 }
