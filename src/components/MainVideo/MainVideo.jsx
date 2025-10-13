@@ -1,17 +1,21 @@
 import React from "react"
 import classes from "./MainVideo.module.css"
 
-const MainVideoBg = React.lazy(() => import("./MainVideoBg"))
+const MainVideoFootage = React.lazy(() => import("./MainVideoFootage"))
 
 export default function MainVideo(){
 
     return (
       <div className={classes.bg}>
         <div className={classes.container}>
-          <React.Suspense fallback={<>Loading...</>}>
-            <MainVideoBg />
-          </React.Suspense>
-          <h2 className={classes.title}>We’re the Largest Organic Farm in the World</h2>
+          <figure>
+            <React.Suspense fallback={<>Loading...</>}>
+              <MainVideoFootage />
+            </React.Suspense>
+          </figure>
+          <figcaption>
+            <h2 className={classes.title}>We’re the Largest Organic Farm in the World</h2>
+          </figcaption>
           <div className={classes.videoBg}></div>
         </div>
       </div>

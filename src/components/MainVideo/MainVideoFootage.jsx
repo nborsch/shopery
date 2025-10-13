@@ -1,5 +1,5 @@
 import React from "react"
-import classes from "./MainVideoBg.module.css"
+import classes from "./MainVideoFootage.module.css"
 import videoBg from "/img/home-farm.mp4"
 
 export default function MainVideoBg(){
