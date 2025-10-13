@@ -1,0 +1,19 @@
+.container {
+  max-width: 82.5rem;
+  margin: 90px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+}
+
+.title {
+  margin: 0 0 2.5rem 0;
+
+  color: #002603;
+  font-size: 2.5rem;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  text-align: center;
+
+  grid-column: span 3;
+}

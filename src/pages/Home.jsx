@@ -11,6 +11,8 @@ import Specials from "../components/Specials/Specials"
 import Featured from "../components/Featured/Featured"
 import Testimonials from "../components/Testimonials/Testimonials"
 import MainVideo from "../components/MainVideo/MainVideo"
+import MainBlog from "../components/MainBlog/MainBlog"
+import MainArticle from "../components/MainBlog/MainArticle"
 
 export default function Home(){
 
@@ -33,7 +35,11 @@ export default function Home(){
         <Featured />
         <Testimonials />
         <MainVideo />
-        <h1>Hello World</h1>
+        <MainBlog>
+          <MainArticle />
+          <MainArticle />
+          <MainArticle />
+        </MainBlog>
       </main>
       <Footer />
     </>

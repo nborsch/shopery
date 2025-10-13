@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  padding: 24px;
+
+  color: #618062;
+  background-color: #edf2ee;
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: #002603;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.03125rem;
+}
+
+.link {
+  color: #00b207;
+  font-size: 16px;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #002603;
+}
