@@ -1,0 +1,14 @@
+.item {
+  padding: 16px 160px 16px 20px;
+  border-bottom: 1px solid #e5e5e5;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item:hover {
+  background-color: #00b207;
+  color: white;
+  cursor: pointer;
+}
