@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding: 24px;
+  padding: 1.5rem;
 
   color: #618062;
   background-color: #edf2ee;
@@ -15,12 +15,11 @@
 
 .link {
   color: #00b207;
-  font-size: 16px;
   font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
 
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 
   cursor: pointer;
 }
