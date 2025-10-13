@@ -1,6 +1,6 @@
 .list {
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   list-style-type: none;
 
   color: #b4ccb4;
@@ -9,7 +9,7 @@
 }
 
 .link {
-  margin: 0 24px;
+  margin: 0 1.5rem;
 
   color: #808080;
   text-decoration: none;

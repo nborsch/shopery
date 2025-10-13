@@ -7,21 +7,21 @@
 
   border: 1px solid #e6e6e6;
   border-right: none;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
 
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
 
   background-image: url("img/header-search.png");
   background-repeat: no-repeat;
-  background-position: center left 5px;
-  text-indent: 26px;
+  background-position: center left 0.3125rem;
+  text-indent: 21.625rem;
 }
 
 .button {
   height: 2.8125em;
-  padding: 0 15px;
+  padding: 0 0.9375rem;
 
   background-color: #00b207;
   color: white;
@@ -31,6 +31,6 @@
   font-weight: bold;
 
   border: none;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }

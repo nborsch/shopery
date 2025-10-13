@@ -1,9 +1,9 @@
 .footerNewsInput {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   height: 2.75rem;
   width: 18.75rem;
 
-  border: 1px solid #DAE5DA;
+  border: 1px solid #dae5da;
   border-right: none;
   border-radius: 3.4375rem 0 0 3.4375rem;
 
@@ -13,9 +13,9 @@
 
 .footerNewsButton {
   height: 2.75rem;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 
-  background-color: #00B207;
+  background-color: #00b207;
   color: white;
 
   border: none;

@@ -3,7 +3,7 @@
   gap: 0.3125em;
   align-items: center;
 
-  font-size: 11px;
+  font-size: 0.6875rem;
 
   justify-self: end;
 }
@@ -13,7 +13,7 @@
 }
 
 .cartPrice {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
 }
 
@@ -22,7 +22,7 @@
   border-radius: 50%;
   height: 1.125em;
   width: 1.125em;
-  padding-bottom: 14px;
+  padding-bottom: 0.875rem;
 
   position: absolute;
   right: 0;

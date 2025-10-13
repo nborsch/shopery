@@ -9,8 +9,8 @@ html {
 }
 
 .news {
-  height: 160px;
-  max-width: 1320px;
+  height: 10rem;
+  max-width: 82.5;
   margin: 0 auto;
 
   display: flex;
@@ -39,7 +39,7 @@ html {
 }
 
 .info {
-  max-width: 1320px;
+  max-width: 82.5rem;
   margin: 0 auto;
 
   color: #618062;
@@ -54,20 +54,20 @@ html {
 
 .infoTop {
   min-height: 25.9375rem;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 
   display: flex;
   justify-content: space-between;
 }
 
 .infoTopAbout {
-  max-width: 330px;
+  max-width: 20.625rem;
 }
 
 .infoTopAbout a {
   color: white;
   text-decoration-color: #20b526;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.125rem;
 }
 
 .infoTopLinks {
@@ -96,7 +96,7 @@ html {
   border-top: 1px solid #1a421d;
 
   display: grid;
-  grid-template-columns: 1fr 500px 1fr;
+  grid-template-columns: 1fr 31.25rem 1fr;
   justify-content: space-between;
 }
 
@@ -117,7 +117,7 @@ html {
   justify-self: end;
 
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .infoBottomFlags a {

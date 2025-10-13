@@ -6,7 +6,7 @@
 }
 
 .topContainer {
-  width: clamp(375px, 100vw, 1320px);
+  width: clamp(23.4375rem, 100vw, 82.5rem);
   height: 100%;
   margin: 0 auto;
 
@@ -19,7 +19,7 @@
 }
 
 .middle {
-  width: clamp(375px, 100vw, 1320px);
+  width: clamp(23.4375rem, 100vw, 82.5rem);
   height: 5.8125em;
   margin: 0 auto;
 
@@ -34,7 +34,7 @@
 }
 
 .bottom {
-  width: clamp(375px, 100vw, 1320px);
+  width: clamp(23.4375rem, 100vw, 82.5rem);
   height: 3.75em;
   margin: 0 auto;
 
@@ -57,5 +57,5 @@
 
 .bottomPhone a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.125rem;
 }

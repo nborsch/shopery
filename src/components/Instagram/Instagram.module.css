@@ -1,7 +1,7 @@
 .instagram {
   display: grid;
   grid-template-columns: repeat(4, 4.375rem);
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .instagramTitle {
