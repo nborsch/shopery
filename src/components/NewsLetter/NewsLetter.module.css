@@ -1,4 +1,30 @@
-.footerNewsInput {
+.container {
+  background-color: #edf2ee;
+  width: 100vw;
+}
+
+.news {
+  height: 10rem;
+  max-width: 82.5rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.span {
+  margin: 0;
+  font-size: 0.875em;
+}
+
+.input {
   margin-left: 1.25rem;
   height: 2.75rem;
   width: 18.75rem;
@@ -11,7 +37,7 @@
   text-indent: 0.75rem;
 }
 
-.footerNewsButton {
+.button {
   height: 2.75rem;
   padding: 0.625rem 1.25rem;
 

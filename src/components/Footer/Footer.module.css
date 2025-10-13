@@ -3,33 +3,7 @@ html {
   overflow-y: auto;
 }
 
-.newsContainer {
-  background-color: #edf2ee;
-  width: 100vw;
-}
-
-.news {
-  height: 10rem;
-  max-width: 82.5;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.newsPara {
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
-
-.newsSpan {
-  margin: 0;
-  font-size: 0.875em;
-}
-
-.infoContainer {
+.container {
   color: white;
   background:
     url("/img/bg-footer-left.png") no-repeat bottom left,
@@ -52,7 +26,7 @@ html {
   margin: 0;
 }
 
-.infoTop {
+.top {
   min-height: 25.9375rem;
   padding: 6.25rem 0;
 
@@ -60,38 +34,38 @@ html {
   justify-content: space-between;
 }
 
-.infoTopAbout {
+.topAbout {
   max-width: 20.625rem;
 }
 
-.infoTopAbout a {
+.topAbout a {
   color: white;
   text-decoration-color: #20b526;
   text-decoration-thickness: 0.125rem;
 }
 
-.infoTopLinks {
+.topLinks {
   display: flex;
   justify-content: space-between;
   gap: 4.875rem;
 }
 
-.infoTopLinksList {
+.topLinksList {
   padding: 0;
   list-style-type: none;
   line-height: 2.5;
 }
 
-.infoTopLinks a {
+.topLinks a {
   color: #618062;
   text-decoration: none;
 }
 
-.infoTopLinks a:hover {
+.topLinks a:hover {
   color: white;
 }
 
-.infoBottom {
+.bottom {
   padding: 1.5625rem 0;
   border-top: 1px solid #1a421d;
 
@@ -100,30 +74,30 @@ html {
   justify-content: space-between;
 }
 
-.infoBottomSocials {
+.bottomSocials {
   display: flex;
   gap: 0.625rem;
 }
 
-.infoBottomSocials a {
+.bottomSocials a {
   color: #618062;
 }
 
-.infoBottomSocials a:hover {
+.bottomSocials a:hover {
   color: #20b526;
 }
 
-.infoBottomFlags {
+.bottomFlags {
   justify-self: end;
 
   display: flex;
   gap: 0.625rem;
 }
 
-.infoBottomFlags a {
+.bottomFlags a {
   color: #618062;
 }
 
-.infoBottomFlags a:hover {
+.bottomFlags a:hover {
   color: #20b526;
 }
