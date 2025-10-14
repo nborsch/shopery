@@ -20,7 +20,8 @@
   width: 100%;
 }
 
-.productsAll {
+.productsAll,
+.productsVegetables {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

@@ -9,15 +9,29 @@
 }
 
 .link {
-  margin: 0 1.5rem;
+  padding: 0 24px;
+  border-right: 2px solid #dadada;
+  cursor: pointer;
+}
 
+.link:last-of-type {
+  border: none;
+}
+
+.link,
+.link a {
   color: #808080;
   text-decoration: none;
 }
 
-.link:hover {
+.link:hover,
+.link a:hover {
   color: #00b207;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 1rem;
+}
+
+.link:visited {
+  color: #808080;
 }

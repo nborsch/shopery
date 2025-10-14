@@ -6,7 +6,7 @@ import classesSm from "./ProductCardSm.module.css"
 import CartBtn from "../CartBtn/CartBtn"
 import { FaStar } from "react-icons/fa6"
 
-export default function ProductCard({sz = 'md'}){
+export default function ProductCard({sz = 'md', children}){
 
   const sizeClass = sz === 'lg' ?
     classesLg :
