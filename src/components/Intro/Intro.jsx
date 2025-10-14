@@ -16,7 +16,7 @@ export default function Intro(){
         <IntroMenu toggle={toggle}/>
         <div className={classes.productsContainer}>
           {on === "All" ? (
-            <div className={classes.productsAll}>
+            <div className={classes.products}>
               <Link to=""><ProductCard sz={'lg'} /></Link>
               <Link to=""><ProductCard sz={'lg'} /></Link>
               <Link to=""><ProductCard sz={'lg'} /></Link>
@@ -28,7 +28,7 @@ export default function Intro(){
             </div>
           ) : null}
           {on === "Vegetables" ? (
-            <div className={classes.productsVegetables}>
+            <div className={classes.products}>
               <Link to=""><ProductCard sz={'lg'} /></Link>
               <Link to=""><ProductCard sz={'lg'} /></Link>
               <Link to=""><ProductCard sz={'lg'} /></Link>
