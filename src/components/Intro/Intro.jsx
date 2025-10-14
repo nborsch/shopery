@@ -8,13 +8,7 @@ export default function Intro(){
 
   const [on, setOn] = React.useState("All")
 
-  const toggle = (clicked) => {
-    if (clicked === "All") setOn("All")
-    if (clicked === "Vegetables") setOn("Vegetables")
-    if (clicked === "Fruits") setOn("Fruits")
-    if (clicked === "MeatAndFish") setOn("MeatAndFish")
-    console.log(clicked)
-  }
+  const toggle = (clicked) => setOn(clicked)
 
     return (
       <div className={classes.container}>
