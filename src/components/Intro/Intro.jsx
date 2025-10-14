@@ -17,30 +17,14 @@ export default function Intro(){
         <div className={classes.productsContainer}>
           {on === "All" ? (
             <div className={classes.productsAll}>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
-              <Link to="">
-                <ProductCard sz={'lg'} />
-              </Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
+              <Link to=""><ProductCard sz={'lg'} /></Link>
             </div>
           ) : null}
           {on === "Vegetables" ? (
