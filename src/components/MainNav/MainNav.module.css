@@ -39,10 +39,6 @@
   flex-direction: column;
 }
 
-.shopOff {
-  display: none;
-}
-
 .shop a {
   color: #666666;
 }

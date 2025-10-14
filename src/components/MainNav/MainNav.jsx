@@ -16,11 +16,17 @@ import classes from "./MainNav.module.css"
 import MainNavItem from "./MainNavItem"
 
 export default function MainNav(){
+  const [on, setOn] = React.useState(false)
+
+  const toggle = () => setOn(prev => !prev)
 
     return (
     <nav>
       <ul className={classes.nav}>
-        <li className={classes.navItem}>
+        <li 
+          className={classes.navItem}
+          onClick={toggle}
+        >
           <Link to={""}>
             Shop <FaAngleDown />
           </Link>
@@ -41,7 +47,8 @@ export default function MainNav(){
           </Link>
         </li>
       </ul>
-      <ul className={classes.shop}>
+
+      { on && (<ul className={classes.shop}>
         <li>
           <Link to={""}>
             <MainNavItem>
@@ -80,14 +87,14 @@ export default function MainNav(){
         </li>
           <Link to={""}>
             <MainNavItem>
-              <FaDroplet /> Dairy
+              <FaBottleDroplet /> Dairy
             </MainNavItem>
           </Link>
         </li>
         <li>
           <Link to={""}>
             <MainNavItem>
-              <FaBottleDroplet /> Water & Beverages
+              <FaDroplet /> Water & Beverages
             </MainNavItem>
           </Link>
         </li>
@@ -105,7 +112,7 @@ export default function MainNav(){
             </MainNavItem>
           </Link>
         </li>
-      </ul>
+      </ul>)}
     </nav>
     )
 }
