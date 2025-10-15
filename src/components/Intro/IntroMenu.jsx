@@ -1,16 +1,37 @@
 import React from "react"
-import { Link } from "react-router"
+import { NavLink } from "react-router"
 import classes from "./IntroMenu.module.css"
 
-export default function IntroMenu({toggle}){
-  
+export default function IntroMenu({status}){
+  const [on, toggle] = status
+
     return (
       <ul className={classes.list}>
-        <li className={classes.link} onClick={() => toggle("All")}>All</li>
-        <li className={classes.link} onClick={() => toggle("Vegetables")}>Vegetables</li>
-        <li className={classes.link} onClick={() => toggle("Fruits")}>Fruit</li>
-        <li className={classes.link} onClick={() => toggle("MeatAndFish")}>Meat & Fish</li>
-        <li className={classes.link}><Link to="">View all</Link></li>
+        <li 
+          className={`${classes.link} ${on === "all" && classes.selected}`} 
+          onClick={() => toggle("all")}
+        >
+          All
+        </li>
+        <li 
+        className={`${classes.link} ${on === "vegetables" && classes.selected}`} 
+        onClick={() => toggle("vegetables")}
+      >
+        Vegetables
+      </li>
+        <li 
+        className={`${classes.link} ${on === "fruits" && classes.selected}`} 
+        onClick={() => toggle("fruits")}
+      >
+        Fruit
+      </li>
+      <li 
+        className={`${classes.link} ${on === "meatandfish" && classes.selected}`} 
+        onClick={() => toggle("meatandfish")}
+      >
+        Meat & Fish
+      </li>
+        <li className={classes.link}><NavLink to="">View all</NavLink></li>
       </ul>
     )
 }
