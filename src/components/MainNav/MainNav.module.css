@@ -21,7 +21,8 @@
   gap: 2px;
 }
 
-.navItem a:hover {
+.navItem a:hover,
+.active {
   color: #00b207;
 }
 

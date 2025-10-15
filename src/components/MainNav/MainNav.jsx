@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router"
+import { Link, NavLink } from "react-router"
 import { 
   FaAngleDown, 
   FaAppleWhole, 
@@ -20,6 +20,8 @@ export default function MainNav(){
 
   const toggle = () => setOn(prev => !prev)
 
+  const active = ({isActive}) => isActive ? classes.active : ""
+
     return (
     <nav>
       <ul className={classes.nav}>
@@ -32,86 +34,77 @@ export default function MainNav(){
           </Link>
         </li>
         <li className={classes.navItem}>
-          <Link to={""}>
+          <NavLink 
+            to={""} 
+            className={active}
+          >
             Blog
-          </Link>
+          </NavLink>
         </li>
         <li className={classes.navItem}>
-          <Link to={""}>
+          <NavLink 
+            to={""} 
+            className={active}
+          >
             About Us
-          </Link>
+          </NavLink>
         </li>
         <li className={classes.navItem}>
-          <Link to={""}>
+          <NavLink 
+            to={""} 
+            className={active}
+          >
             Contact Us
-          </Link>
+          </NavLink>
         </li>
       </ul>
 
       { on && (<ul className={classes.shop}>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaAppleWhole /> Fruits
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaLeaf /> Vegetables
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaFishFins /> Fish
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaKiwiBird /> Poultry
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaPiggyBank /> Meat
-            </MainNavItem>
-          </Link>
-          <li>
-        </li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaBottleDroplet /> Dairy
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaDroplet /> Water & Beverages
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaCanadianMapleLeaf /> Bakery
-            </MainNavItem>
-          </Link>
-        </li>
-        <li>
-          <Link to={""}>
-            <MainNavItem>
-              <FaPlus /> View all categories
-            </MainNavItem>
-          </Link>
-        </li>
+        <NavLink to={""} >
+          <MainNavItem>
+            <FaAppleWhole /> Fruits
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaLeaf /> Vegetables
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaFishFins /> Fish
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaKiwiBird /> Poultry
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaPiggyBank /> Meat
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaBottleDroplet /> Dairy
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaDroplet /> Water & Beverages
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaCanadianMapleLeaf /> Bakery
+          </MainNavItem>
+        </NavLink>
+        <NavLink to={""}>
+          <MainNavItem>
+            <FaPlus /> View all categories
+          </MainNavItem>
+        </NavLink>
       </ul>)}
     </nav>
     )
