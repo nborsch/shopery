@@ -1,5 +1,28 @@
+.container {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container:hover {
+  border: 1px solid rgb(44, 116, 47);
+  box-shadow: 0 0 5px rgb(44, 116, 47);
+  position: relative;
+}
+
 a {
   text-decoration: none;
+}
+
+.img {
+  width: 100%;
+}
+
+.name {
+  color: #4d4d4d;
 }
 
 .text {
@@ -20,4 +43,12 @@ a {
 .price {
   font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
   color: #1a1a1a;
+}
+
+.filled {
+  color: #ff8a00;
+}
+
+.empty {
+  color: #cccccc;
 }

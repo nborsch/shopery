@@ -15,18 +15,18 @@ export default function ProductCard({sz = 'md', children}){
       classesSm
 
   return (
-    <div className={sizeClass.container}>
-      <img className={sizeClass.img} src="/img/temp-mango.png" />
+    <div className={`${sizeClass.container} ${classes.container}`}>
+      <img className={`${sizeClass.img} ${classes.img}`} src="/img/temp-mango.png" />
       <div className={classes.text}>
         <div className={classes.info}>
-          <span className={sizeClass.name}>Surjapur Mango</span>
+          <span className={`${sizeClass.name} ${classes.name}`}>Surjapur Mango</span>
           <span className={classes.price}>$14.99</span>
           <div>
-            <FaStar className={sizeClass.filled} />
-            <FaStar className={sizeClass.filled} /> 
-            <FaStar className={sizeClass.filled} /> 
-            <FaStar className={sizeClass.filled} /> 
-            <FaStar className={sizeClass.empty} /> 
+            <FaStar className={`${sizeClass.filled} ${classes.filled}`} />
+            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
+            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
+            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
+            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
           </div>
         </div>
         <CartBtn />

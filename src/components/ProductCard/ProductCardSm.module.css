@@ -1,11 +1,5 @@
 .container {
   width: 16.5rem;
-  background-color: white;
-  border: 1px solid rgb(229, 229, 229);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .img {
@@ -13,7 +7,6 @@
 }
 
 .name {
-  color: #4d4d4d;
   font-size: 0.875rem;
 }
 

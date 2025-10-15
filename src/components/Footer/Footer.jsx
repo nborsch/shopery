@@ -62,7 +62,7 @@ export default function Footer(){
             <a href="https://facebook.com"><FaFacebook size="30px" /></a>
             <a href="https://x.com"><FaSquareXTwitter size="30px" /></a>
             <a href="https://pinterest.com"><FaPinterestP size="30px" /></a>
-            <a href="https://instagramcom"><FaInstagram size="30px" /></a>
+            <a href="https://instagram.com"><FaInstagram size="30px" /></a>
           </div>
           <p>Shopery eCommerce by Nadia Borsch © {new Date().getFullYear()}. All Rights Reserved</p>
           <div className={classes.bottomFlags}>
