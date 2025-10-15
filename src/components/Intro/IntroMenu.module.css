@@ -25,7 +25,8 @@
 }
 
 .link:hover,
-.link a:hover {
+.link a:hover,
+.selected {
   color: #00b207;
   text-decoration: underline;
   text-decoration-thickness: 2px;

@@ -13,7 +13,7 @@ export default function Intro(){
     return (
       <div className={classes.container}>
         <h2 className={classes.title}>Introducing Our Products</h2>
-        <IntroMenu toggle={toggle}/>
+        <IntroMenu status={toggle}/>
         <div className={classes.productsContainer}>
           {on === "All" ? (
             <div className={classes.products}>
