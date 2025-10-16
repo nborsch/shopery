@@ -6,14 +6,14 @@ import ProductCard from "../ProductCard/ProductCard"
 
 export default function Intro(){
 
-  const [on, setOn] = React.useState("All")
+  const [on, setOn] = React.useState("all")
 
-  const toggle = (clicked) => setOn(clicked)
+  const toggle = (clicked : string) => setOn(clicked)
 
     return (
       <div className={classes.container}>
         <h2 className={classes.title}>Introducing Our Products</h2>
-        <IntroMenu status={[on, toggle]}/>
+        <IntroMenu status={on} toggle={toggle} />
         <div className={classes.productsContainer}>
           {on === "all" ? (
             <div className={classes.products}>
