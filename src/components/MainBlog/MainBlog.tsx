@@ -1,7 +1,7 @@
 import React from "react"
 import classes from "./MainBlog.module.css"
 
-export default function MainBlog({children}){
+export default function MainBlog({children}:{children:React.JSX.Element[]}){
 
     return (
       <div className={classes.container}>

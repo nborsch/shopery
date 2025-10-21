@@ -6,9 +6,9 @@ import ProductCard from "../ProductCard/ProductCard"
 
 export default function Intro(){
 
-  const [on, setOn] = React.useState("all")
+  const [on, setOn] = React.useState<string>("all")
 
-  const toggle = (clicked : string) => setOn(clicked)
+  const toggle = (clicked : string):void => setOn(clicked)
 
     return (
       <div className={classes.container}>
