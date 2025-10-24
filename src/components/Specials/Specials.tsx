@@ -22,6 +22,8 @@ export default function Specials(){
       })
     }, 1000)
 
+    return () => clearInterval(countdown)
+
   }, [])
 
     return (
