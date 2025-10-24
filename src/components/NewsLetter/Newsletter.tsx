@@ -14,7 +14,7 @@ export default function Newsletter(){
         </div>
         <div>
           <form>
-            <input className={classes.input} placeholder="Search" />
+            <input className={classes.input} placeholder="Your email" />
             <button className={classes.button}>Subscribe</button>
           </form>
         </div>
