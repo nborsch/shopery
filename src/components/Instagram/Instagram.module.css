@@ -7,3 +7,8 @@
 .instagramTitle {
   grid-column: span 4;
 }
+
+.img {
+  width: 70px;
+  height: 70px;
+}
