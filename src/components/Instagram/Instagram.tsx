@@ -28,9 +28,6 @@ export default function Instagram() {
   const [photos, setPhotos] = React.useState<Photo[] | null>(null)
 
   React.useEffect(() => {
-    // preparing to close connection on unmount
-    const controller = new AbortController()
-
     async function fetchPhotos() {
       const photosResponse = await fetch(
         "https://api.pexels.com/v1/search?query=healthy&orientation=square&per_page=8",
@@ -39,7 +36,6 @@ export default function Instagram() {
           headers: {
             Authorization: import.meta.env.VITE_PEXELS_API_KEY,
           },
-          signal: controller.signal,
         }
       )
 
@@ -53,8 +49,6 @@ export default function Instagram() {
     }
 
     fetchPhotos()
-
-    return () => controller.abort()
   }, [])
 
   const photosEls = photos
@@ -73,7 +67,7 @@ export default function Instagram() {
     <>
       <div className={classes.instagram}>
         <h3 className={classes.instagramTitle}>Instagram</h3>
-        {photosEls ? photosEls : null}
+        {photosEls || null}
       </div>
     </>
   )
