@@ -24,30 +24,24 @@ export default function Specials() {
     return () => clearInterval(countdown);
   }, []);
 
+  const days = Math.floor(timer / (60 * 60 * 24));
+  const hours = Math.floor((timer % (60 * 60 * 24)) / (60 * 60));
+  const minutes = Math.floor((timer % 3600) / 60);
+  const seconds = timer % 60;
+
   return (
     <div className={classes.container}>
       <div className={classes.text}>
         <span className={classes.subtitle}>Best deals</span>
         <h2 className={classes.title}>Our Specials of the Month</h2>
         <div className={classes.countdown}>
-          <div className={classes.numbers}>
-            {`${Math.floor(timer / (60 * 60 * 24))}`.padStart(2, "0")}
-          </div>
+          <div className={classes.numbers}>{`${days}`.padStart(2, "0")}</div>
           <div className={classes.dividers}>:</div>
-          <div className={classes.numbers}>
-            {`${Math.floor((timer % (60 * 60 * 24)) / (60 * 60))}`.padStart(
-              2,
-              "0"
-            )}
-          </div>
+          <div className={classes.numbers}>{`${hours}`.padStart(2, "0")}</div>
           <div className={classes.dividers}>:</div>
-          <div className={classes.numbers}>
-            {`${Math.floor((timer % 3600) / 60)}`.padStart(2, "0")}
-          </div>
+          <div className={classes.numbers}>{`${minutes}`.padStart(2, "0")}</div>
           <div className={classes.dividers}>:</div>
-          <div className={classes.numbers}>
-            {`${timer % 60}`.padStart(2, "0")}
-          </div>
+          <div className={classes.numbers}>{`${seconds}`.padStart(2, "0")}</div>
           <div className={classes.time}>Days</div>
           <div className={classes.time}>Hours</div>
           <div className={classes.time}>Mins</div>
