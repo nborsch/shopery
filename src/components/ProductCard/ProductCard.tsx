@@ -6,28 +6,62 @@ import classesSm from "./ProductCardSm.module.css"
 import CartBtn from "../CartBtn/CartBtn"
 import { FaStar } from "react-icons/fa6"
 
-export default function ProductCard({sz = 'md'}){
+export type Product = {
+  id: number
+  name: string
+  brand: string
+  description: string
+  imageUrl: string
+  quantity: number
+  price: number
+  category: string
+  tags: string[]
+  rating: number
+  dateCreated: string
+  lastUpdated: string
+}
 
-  const sizeClass = sz === 'lg' ?
-    classesLg :
-    sz === 'md' ?
-      classesMd :
-      classesSm
+export default function ProductCard({
+  sz = "md",
+  product,
+}: {
+  sz: string
+  product: Product
+}) {
+  const sizeClass =
+    sz === "lg" ? classesLg : sz === "md" ? classesMd : classesSm
+
+  function convertRating() {
+    const ratingArr = Array(5).fill(<></>)
+    const starsArr = ratingArr.map((item, index) => {
+      if (index < product.rating) {
+        return <FaStar className={classes.filled} />
+      }
+      if (index >= product.rating) {
+        return <FaStar className={classes.empty} />
+      }
+    })
+
+    return starsArr
+  }
+
+  const starRating = product ? convertRating() : null
 
   return (
     <div className={`${sizeClass.container} ${classes.container}`}>
-      <img className={`${sizeClass.img} ${classes.img}`} src="/img/temp-mango.png" />
+      <img
+        className={`${sizeClass.img} ${classes.img}`}
+        src={product?.imageUrl || ""}
+      />
       <div className={classes.text}>
         <div className={classes.info}>
-          <span className={`${sizeClass.name} ${classes.name}`}>Surjapur Mango</span>
-          <span className={classes.price}>$14.99</span>
-          <div>
-            <FaStar className={`${sizeClass.filled} ${classes.filled}`} />
-            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
-            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
-            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
-            <FaStar className={`${sizeClass.filled} ${classes.filled}`} /> 
-          </div>
+          <span className={`${sizeClass.name} ${classes.name}`}>
+            {product?.name || <>Loading</>}
+          </span>
+          <span className={classes.price}>
+            ${product?.price || <>Loading</>}
+          </span>
+          <div>{starRating || null}</div>
         </div>
         <CartBtn />
       </div>

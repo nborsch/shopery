@@ -5,15 +5,11 @@
       "name": "Organic Banana",
       "brand": "Sunrise Farms",
       "description": "Fresh, local Organic banana from Sunrise Farms. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/banana-1001.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e",
       "quantity": 188,
       "price": 2.49,
       "category": "Fruits",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-01-15T10:30:45Z",
       "lastUpdated": "2025-09-22T14:12:01Z"
@@ -23,15 +19,11 @@
       "name": "Organic Spinach",
       "brand": "GreenAcres Organics",
       "description": "Fresh, non-gmo Organic spinach from GreenAcres Organics. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/spinach-1002.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb",
       "quantity": 250,
       "price": 4.99,
       "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["local", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2023-11-01T08:00:00Z",
       "lastUpdated": "2025-10-20T09:30:15Z"
@@ -41,16 +33,12 @@
       "name": "Organic Eggs",
       "brand": "FarmFresh Co.",
       "description": "Fresh, free-range Organic eggs from FarmFresh Co.. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/eggs-1003.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1559738928-5d5dc5c2458d",
       "quantity": 120,
       "price": 6.99,
       "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "free-range",
-        "local"
-      ],
-      "rating": 5,
+      "tags": ["organic", "free-range", "local"],
+      "rating": 3,
       "dateCreated": "2024-05-20T14:22:30Z",
       "lastUpdated": "2025-10-19T11:05:00Z"
     },
@@ -59,15 +47,11 @@
       "name": "Organic Sourdough Bread",
       "brand": "Earthly Goods",
       "description": "Fresh, fresh Organic sourdough bread from Earthly Goods. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/sourdough-bread-1004.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1551888761-382cd30b5da6",
       "quantity": 45,
       "price": 5.49,
       "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2025-01-10T06:15:00Z",
       "lastUpdated": "2025-10-22T08:00:00Z"
@@ -77,15 +61,11 @@
       "name": "Organic Olive Oil",
       "brand": "PureHarvest",
       "description": "Fresh, kosher Organic olive oil from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/olive-oil-1005.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1627894005682-166e8687356a",
       "quantity": 200,
       "price": 14.99,
       "category": "Pantry",
-      "tags": [
-        "organic",
-        "kosher",
-        "non-gmo"
-      ],
+      "tags": ["organic", "kosher", "non-gmo"],
       "rating": 5,
       "dateCreated": "2023-12-05T11:00:00Z",
       "lastUpdated": "2025-08-30T18:45:10Z"
@@ -95,15 +75,11 @@
       "name": "Organic Chicken Breast",
       "brand": "Nature's Bounty",
       "description": "Fresh, free-range Organic chicken breast from Nature's Bounty. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/chicken-breast-1006.jpg",
+      "imageUrl": "https://media.istockphoto.com/id/2175701334/photo/frying-two-chicken-breast-fillets.webp?a=1&b=1&s=612x612&w=0&k=20&c=4yqhdM-GsdV3aaKe4euiKlUwF1eYSxmpizGFOWZ53r4=",
       "quantity": 80,
       "price": 12.99,
       "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "free-range",
-        "grass-fed"
-      ],
+      "tags": ["organic", "free-range", "grass-fed"],
       "rating": 4,
       "dateCreated": "2024-08-01T16:00:00Z",
       "lastUpdated": "2025-10-21T10:00:00Z"
@@ -113,15 +89,11 @@
       "name": "Organic Kombucha",
       "brand": "GoldenRoot",
       "description": "Fresh, vegan Organic kombucha from GoldenRoot. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/kombucha-1007.jpg",
+      "imageUrl": "https://homesteadingfamily.com/wp-content/uploads/2021/05/Lemon-Ginger-Kombucha-500x500.jpg",
       "quantity": 150,
       "price": 3.99,
       "category": "Beverages",
-      "tags": [
-        "vegan",
-        "organic",
-        "gluten-free"
-      ],
+      "tags": ["vegan", "organic", "gluten-free"],
       "rating": 3,
       "dateCreated": "2024-03-18T09:05:12Z",
       "lastUpdated": "2025-07-11T12:20:30Z"
@@ -131,15 +103,11 @@
       "name": "Organic Apple",
       "brand": "ValleyPure",
       "description": "Fresh, local Organic apple from ValleyPure. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/apple-1008.jpg",
+      "imageUrl": "https://images.pexels.com/photos/3746517/pexels-photo-3746517.jpeg",
       "quantity": 300,
       "price": 1.29,
       "category": "Fruits",
-      "tags": [
-        "seasonal",
-        "organic",
-        "local"
-      ],
+      "tags": ["seasonal", "organic", "local"],
       "rating": 5,
       "dateCreated": "2024-09-01T10:00:00Z",
       "lastUpdated": "2025-10-15T11:30:00Z"
@@ -149,15 +117,11 @@
       "name": "Organic Carrot",
       "brand": "GreenAcres Organics",
       "description": "Fresh, fresh Organic carrot from GreenAcres Organics. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/carrot-1009.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1729292993549-a74a67e69c2a",
       "quantity": 450,
       "price": 2.99,
       "category": "Vegetables",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-02-22T13:10:05Z",
       "lastUpdated": "2025-10-18T07:45:00Z"
@@ -167,15 +131,11 @@
       "name": "Organic Milk",
       "brand": "Sunrise Farms",
       "description": "Fresh, grass-fed Organic milk from Sunrise Farms. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/milk-1010.jpg",
+      "imageUrl": "https://images.pexels.com/photos/28664618/pexels-photo-28664618.jpeg",
       "quantity": 90,
       "price": 5.99,
       "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
+      "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-07-14T05:00:00Z",
       "lastUpdated": "2025-10-22T05:30:10Z"
@@ -185,15 +145,11 @@
       "name": "Organic Quinoa",
       "brand": "PureHarvest",
       "description": "Fresh, vegan Organic quinoa from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/quinoa-1011.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1708949125682-c0cb09727101",
       "quantity": 220,
       "price": 8.99,
       "category": "Pantry",
-      "tags": [
-        "organic",
-        "gluten-free",
-        "vegan"
-      ],
+      "tags": ["organic", "gluten-free", "vegan"],
       "rating": 4,
       "dateCreated": "2024-10-30T17:45:00Z",
       "lastUpdated": "2025-06-15T14:00:00Z"
@@ -203,15 +159,11 @@
       "name": "Organic Strawberry",
       "brand": "FarmFresh Co.",
       "description": "Fresh, seasonal Organic strawberry from FarmFresh Co.. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/strawberry-1012.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1652448919151-c8be3cfb185b",
       "quantity": 130,
       "price": 4.49,
       "category": "Fruits",
-      "tags": [
-        "organic",
-        "seasonal",
-        "fresh"
-      ],
+      "tags": ["organic", "seasonal", "fresh"],
       "rating": 5,
       "dateCreated": "2024-06-10T09:15:00Z",
       "lastUpdated": "2025-06-11T10:00:00Z"
@@ -221,15 +173,11 @@
       "name": "Organic Tomato",
       "brand": "ValleyPure",
       "description": "Fresh, non-gmo Organic tomato from ValleyPure. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/tomato-1013.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1642372849465-ad4afb304542",
       "quantity": 380,
       "price": 3.49,
       "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["local", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-08-25T11:20:00Z",
       "lastUpdated": "2025-10-10T12:00:00Z"
@@ -239,15 +187,11 @@
       "name": "Organic Ground Beef",
       "brand": "GreenAcres Organics",
       "description": "Fresh, grass-fed Organic ground beef from GreenAcres Organics. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/ground-beef-1014.jpg",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2474/3862/files/how-is-ground-beef-made.webp?v=1715807335",
       "quantity": 60,
       "price": 9.99,
       "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
+      "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-04-12T18:00:00Z",
       "lastUpdated": "2025-10-21T09:15:00Z"
@@ -257,15 +201,11 @@
       "name": "Organic Almond Milk",
       "brand": "Earthly Goods",
       "description": "Fresh, vegan Organic almond milk from Earthly Goods. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/almond-milk-1015.jpg",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1693118931226-54167a9c6c12",
       "quantity": 110,
       "price": 4.79,
       "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
+      "tags": ["organic", "vegan", "gluten-free"],
       "rating": 3,
       "dateCreated": "2024-11-30T12:00:00Z",
       "lastUpdated": "2025-09-05T16:20:00Z"
@@ -279,11 +219,7 @@
       "quantity": 75,
       "price": 5.29,
       "category": "Beverages",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2025-02-01T07:30:00Z",
       "lastUpdated": "2025-10-20T08:00:00Z"
@@ -297,11 +233,7 @@
       "quantity": 210,
       "price": 2.99,
       "category": "Fruits",
-      "tags": [
-        "organic",
-        "fair-trade",
-        "non-gmo"
-      ],
+      "tags": ["organic", "fair-trade", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-09-15T15:00:00Z",
       "lastUpdated": "2025-10-17T18:00:00Z"
@@ -315,11 +247,7 @@
       "quantity": 30,
       "price": 4.99,
       "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "local"
-      ],
+      "tags": ["fresh", "organic", "local"],
       "rating": 4,
       "dateCreated": "2025-03-03T05:30:00Z",
       "lastUpdated": "2025-10-22T06:00:00Z"
@@ -333,11 +261,7 @@
       "quantity": 170,
       "price": 3.29,
       "category": "Vegetables",
-      "tags": [
-        "organic",
-        "non-gmo",
-        "fresh"
-      ],
+      "tags": ["organic", "non-gmo", "fresh"],
       "rating": 5,
       "dateCreated": "2024-07-28T10:10:10Z",
       "lastUpdated": "2025-10-19T10:00:00Z"
@@ -351,11 +275,7 @@
       "quantity": 40,
       "price": 18.99,
       "category": "Meat & Seafood",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-10-01T14:00:00Z",
       "lastUpdated": "2025-10-20T15:00:00Z"
@@ -369,11 +289,7 @@
       "quantity": 90,
       "price": 5.99,
       "category": "Fruits",
-      "tags": [
-        "seasonal",
-        "organic",
-        "fresh"
-      ],
+      "tags": ["seasonal", "organic", "fresh"],
       "rating": 4,
       "dateCreated": "2024-06-25T08:30:00Z",
       "lastUpdated": "2025-06-26T09:00:00Z"
@@ -387,11 +303,7 @@
       "quantity": 130,
       "price": 15.99,
       "category": "Beverages",
-      "tags": [
-        "fair-trade",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fair-trade", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-01-20T19:00:00Z",
       "lastUpdated": "2025-08-15T10:00:00Z"
@@ -405,11 +317,7 @@
       "quantity": 160,
       "price": 4.29,
       "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "fresh"
-      ],
+      "tags": ["organic", "grass-fed", "fresh"],
       "rating": 3,
       "dateCreated": "2024-08-18T13:45:00Z",
       "lastUpdated": "2025-10-18T14:00:00Z"
@@ -423,11 +331,7 @@
       "quantity": 280,
       "price": 1.99,
       "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
+      "tags": ["local", "organic", "fresh"],
       "rating": 4,
       "dateCreated": "2024-05-05T12:12:12Z",
       "lastUpdated": "2025-10-16T13:00:00Z"
@@ -441,11 +345,7 @@
       "quantity": 100,
       "price": 10.99,
       "category": "Pantry",
-      "tags": [
-        "local",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["local", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-04-01T16:30:00Z",
       "lastUpdated": "2025-09-20T11:00:00Z"
@@ -459,11 +359,7 @@
       "quantity": 50,
       "price": 4.99,
       "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "kosher"
-      ],
+      "tags": ["fresh", "organic", "kosher"],
       "rating": 4,
       "dateCreated": "2025-04-10T06:00:00Z",
       "lastUpdated": "2025-10-22T06:30:00Z"
@@ -477,11 +373,7 @@
       "quantity": 90,
       "price": 3.49,
       "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
+      "tags": ["organic", "vegan", "gluten-free"],
       "rating": 4,
       "dateCreated": "2024-09-20T11:50:00Z",
       "lastUpdated": "2025-08-25T14:30:00Z"
@@ -495,11 +387,7 @@
       "quantity": 400,
       "price": 0.99,
       "category": "Fruits",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
+      "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-03-12T10:00:00Z",
       "lastUpdated": "2025-10-14T11:00:00Z"
@@ -513,11 +401,7 @@
       "quantity": 230,
       "price": 1.79,
       "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
+      "tags": ["local", "organic", "fresh"],
       "rating": 5,
       "dateCreated": "2024-11-11T11:11:11Z",
       "lastUpdated": "2025-10-13T12:00:00Z"
@@ -531,914 +415,10 @@
       "quantity": 70,
       "price": 7.49,
       "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
+      "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-07-01T14:30:00Z",
       "lastUpdated": "2025-10-10T15:00:00Z"
-    },
-    {
-      "id": 1031,
-      "name": "Organic Black Beans",
-      "brand": "Earthly Goods",
-      "description": "Fresh, vegan Organic black beans from Earthly Goods. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/black-beans-1031.jpg",
-      "quantity": 300,
-      "price": 2.99,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "vegan",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-02-15T09:00:00Z",
-      "lastUpdated": "2025-07-20T10:00:00Z"
-    },
-    {
-      "id": 1032,
-      "name": "Organic Green Tea",
-      "brand": "PureHarvest",
-      "description": "Fresh, fair-trade Organic green tea from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/green-tea-1032.jpg",
-      "quantity": 110,
-      "price": 6.49,
-      "category": "Beverages",
-      "tags": [
-        "organic",
-        "fair-trade",
-        "kosher"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-08-08T08:08:08Z",
-      "lastUpdated": "2025-09-18T09:00:00Z"
-    },
-    {
-      "id": 1033,
-      "name": "Organic Onion",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, local Organic onion from FarmFresh Co.. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/onion-1033.jpg",
-      "quantity": 500,
-      "price": 1.49,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-03-20T10:00:00Z",
-      "lastUpdated": "2025-10-20T11:00:00Z"
-    },
-    {
-      "id": 1034,
-      "name": "Organic Peach",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, seasonal Organic peach from GreenAcres Organics. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/peach-1034.jpg",
-      "quantity": 80,
-      "price": 3.99,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "seasonal",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-07-15T14:00:00Z",
-      "lastUpdated": "2025-07-16T15:00:00Z"
-    },
-    {
-      "id": 1035,
-      "name": "Organic Muffins",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, gluten-free Organic muffins from Nature's Bounty. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/muffins-1035.jpg",
-      "quantity": 40,
-      "price": 5.99,
-      "category": "Bakery",
-      "tags": [
-        "organic",
-        "gluten-free",
-        "fresh"
-      ],
-      "rating": 3,
-      "dateCreated": "2025-01-01T06:30:00Z",
-      "lastUpdated": "2025-10-22T07:00:00Z"
-    },
-    {
-      "id": 1036,
-      "name": "Organic Butter",
-      "brand": "GoldenRoot",
-      "description": "Fresh, grass-fed Organic butter from GoldenRoot. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/butter-1036.jpg",
-      "quantity": 95,
-      "price": 6.29,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-10-10T09:00:00Z",
-      "lastUpdated": "2025-10-15T10:00:00Z"
-    },
-    {
-      "id": 1037,
-      "name": "Organic Shrimp",
-      "brand": "ValleyPure",
-      "description": "Fresh, fresh Organic shrimp from ValleyPure. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/shrimp-1037.jpg",
-      "quantity": 25,
-      "price": 22.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-12-01T15:00:00Z",
-      "lastUpdated": "2025-10-19T16:00:00Z"
-    },
-    {
-      "id": 1038,
-      "name": "Organic Potato",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, local Organic potato from Sunrise Farms. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/potato-1038.jpg",
-      "quantity": 600,
-      "price": 0.99,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-05-15T10:30:00Z",
-      "lastUpdated": "2025-10-20T11:30:00Z"
-    },
-    {
-      "id": 1039,
-      "name": "Organic Pasta",
-      "brand": "Earthly Goods",
-      "description": "Fresh, kosher Organic pasta from Earthly Goods. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/pasta-1039.jpg",
-      "quantity": 250,
-      "price": 3.79,
-      "category": "Pantry",
-      "tags": [
-        "kosher",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-06-01T11:00:00Z",
-      "lastUpdated": "2025-08-22T12:00:00Z"
-    },
-    {
-      "id": 1040,
-      "name": "Organic Mango",
-      "brand": "PureHarvest",
-      "description": "Fresh, fair-trade Organic mango from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/mango-1040.jpg",
-      "quantity": 110,
-      "price": 3.49,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "fair-trade",
-        "seasonal"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-08-10T13:00:00Z",
-      "lastUpdated": "2025-08-12T14:00:00Z"
-    },
-    {
-      "id": 1041,
-      "name": "Organic Apple Cider",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, local Organic apple cider from FarmFresh Co.. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/apple-cider-1041.jpg",
-      "quantity": 60,
-      "price": 7.99,
-      "category": "Beverages",
-      "tags": [
-        "organic",
-        "local",
-        "seasonal"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-09-25T14:00:00Z",
-      "lastUpdated": "2025-10-15T15:00:00Z"
-    },
-    {
-      "id": 1042,
-      "name": "Organic Lettuce",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic lettuce from GreenAcres Organics. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/lettuce-1042.jpg",
-      "quantity": 190,
-      "price": 2.79,
-      "category": "Vegetables",
-      "tags": [
-        "fresh",
-        "organic",
-        "local"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-10-20T09:00:00Z",
-      "lastUpdated": "2025-10-21T09:30:00Z"
-    },
-    {
-      "id": 1043,
-      "name": "Organic Oat Milk",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, vegan Organic oat milk from Nature's Bounty. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/oat-milk-1043.jpg",
-      "quantity": 130,
-      "price": 4.99,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-11-05T10:00:00Z",
-      "lastUpdated": "2025-09-10T11:00:00Z"
-    },
-    {
-      "id": 1044,
-      "name": "Organic Granola",
-      "brand": "GoldenRoot",
-      "description": "Fresh, gluten-free Organic granola from GoldenRoot. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/granola-1044.jpg",
-      "quantity": 80,
-      "price": 6.99,
-      "category": "Bakery",
-      "tags": [
-        "organic",
-        "gluten-free",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-02-10T07:00:00Z",
-      "lastUpdated": "2025-09-30T08:00:00Z"
-    },
-    {
-      "id": 1045,
-      "name": "Organic Oats",
-      "brand": "ValleyPure",
-      "description": "Fresh, vegan Organic oats from ValleyPure. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/oats-1045.jpg",
-      "quantity": 400,
-      "price": 5.49,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-01-30T13:00:00Z",
-      "lastUpdated": "2025-07-01T14:00:00Z"
-    },
-    {
-      "id": 1046,
-      "name": "Organic Grapes",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, seasonal Organic grapes from Sunrise Farms. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/grapes-1046.jpg",
-      "quantity": 120,
-      "price": 4.99,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "seasonal",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-08-15T10:00:00Z",
-      "lastUpdated": "2025-08-16T11:00:00Z"
-    },
-    {
-      "id": 1047,
-      "name": "Organic Kale",
-      "brand": "Earthly Goods",
-      "description": "Fresh, fresh Organic kale from Earthly Goods. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/kale-1047.jpg",
-      "quantity": 150,
-      "price": 3.49,
-      "category": "Vegetables",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-09-10T11:00:00Z",
-      "lastUpdated": "2025-10-21T12:00:00Z"
-    },
-    {
-      "id": 1048,
-      "name": "Organic Tempeh",
-      "brand": "PureHarvest",
-      "description": "Fresh, vegan Organic tempeh from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/tempeh-1048.jpg",
-      "quantity": 60,
-      "price": 4.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-12-10T14:00:00Z",
-      "lastUpdated": "2025-09-15T15:00:00Z"
-    },
-    {
-      "id": 1049,
-      "name": "Organic Sparkling Water",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, kosher Organic sparkling water from FarmFresh Co.. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/sparkling-water-1049.jpg",
-      "quantity": 300,
-      "price": 1.99,
-      "category": "Beverages",
-      "tags": [
-        "kosher",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 3,
-      "dateCreated": "2025-03-15T09:00:00Z",
-      "lastUpdated": "2025-10-01T10:00:00Z"
-    },
-    {
-      "id": 1050,
-      "name": "Organic Goat Cheese",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic goat cheese from GreenAcres Organics. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/goat-cheese-1050.jpg",
-      "quantity": 50,
-      "price": 8.99,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "fresh",
-        "organic",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-08-20T16:00:00Z",
-      "lastUpdated": "2025-10-12T17:00:00Z"
-    },
-    {
-      "id": 1051,
-      "name": "Organic Zucchini",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, local Organic zucchini from Nature's Bounty. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/zucchini-1051.jpg",
-      "quantity": 200,
-      "price": 2.29,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-07-20T10:00:00Z",
-      "lastUpdated": "2025-10-18T11:00:00Z"
-    },
-    {
-      "id": 1052,
-      "name": "Organic Watermelon",
-      "brand": "GoldenRoot",
-      "description": "Fresh, seasonal Organic watermelon from GoldenRoot. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/watermelon-1052.jpg",
-      "quantity": 30,
-      "price": 7.99,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "seasonal",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-07-05T13:00:00Z",
-      "lastUpdated": "2025-07-06T14:00:00Z"
-    },
-    {
-      "id": 1053,
-      "name": "Organic Tomato Sauce",
-      "brand": "ValleyPure",
-      "description": "Fresh, kosher Organic tomato sauce from ValleyPure. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/tomato-sauce-1053.jpg",
-      "quantity": 180,
-      "price": 4.49,
-      "category": "Pantry",
-      "tags": [
-        "kosher",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-09-05T15:00:00Z",
-      "lastUpdated": "2025-09-01T16:00:00Z"
-    },
-    {
-      "id": 1054,
-      "name": "Organic Croissants",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, fresh Organic croissants from Sunrise Farms. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/croissants-1054.jpg",
-      "quantity": 20,
-      "price": 6.99,
-      "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-05-01T05:00:00Z",
-      "lastUpdated": "2025-10-22T05:30:00Z"
-    },
-    {
-      "id": 1055,
-      "name": "Organic Sausages",
-      "brand": "Earthly Goods",
-      "description": "Fresh, grass-fed Organic sausages from Earthly Goods. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/sausages-1055.jpg",
-      "quantity": 40,
-      "price": 11.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-10-15T12:00:00Z",
-      "lastUpdated": "2025-10-20T13:00:00Z"
-    },
-    {
-      "id": 1056,
-      "name": "Organic Mushroom",
-      "brand": "PureHarvest",
-      "description": "Fresh, local Organic mushroom from PureHarvest. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/mushroom-1056.jpg",
-      "quantity": 100,
-      "price": 4.99,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-11-20T09:30:00Z",
-      "lastUpdated": "2025-10-19T10:30:00Z"
-    },
-    {
-      "id": 1057,
-      "name": "Organic Lentils",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, vegan Organic lentils from FarmFresh Co.. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/lentils-1057.jpg",
-      "quantity": 280,
-      "price": 3.99,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-12-20T11:00:00Z",
-      "lastUpdated": "2025-08-10T12:00:00Z"
-    },
-    {
-      "id": 1058,
-      "name": "Organic Orange",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, non-gmo Organic orange from GreenAcres Organics. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/orange-1058.jpg",
-      "quantity": 350,
-      "price": 1.49,
-      "category": "Fruits",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-01-05T10:00:00Z",
-      "lastUpdated": "2025-10-17T11:00:00Z"
-    },
-    {
-      "id": 1059,
-      "name": "Organic Almonds",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, vegan Organic almonds from Nature's Bounty. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/almonds-1059.jpg",
-      "quantity": 160,
-      "price": 12.99,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "vegan",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-02-20T14:00:00Z",
-      "lastUpdated": "2025-09-25T15:00:00Z"
-    },
-    {
-      "id": 1060,
-      "name": "Organic Peanut Butter",
-      "brand": "GoldenRoot",
-      "description": "Fresh, vegan Organic peanut butter from GoldenRoot. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/peanut-butter-1060.jpg",
-      "quantity": 140,
-      "price": 6.49,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-03-25T16:00:00Z",
-      "lastUpdated": "2025-10-05T17:00:00Z"
-    },
-    {
-      "id": 1061,
-      "name": "Organic Spinach",
-      "brand": "ValleyPure",
-      "description": "Fresh, local Organic spinach from ValleyPure. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/spinach-1061.jpg",
-      "quantity": 180,
-      "price": 4.99,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-04-15T10:00:00Z",
-      "lastUpdated": "2025-10-21T11:00:00Z"
-    },
-    {
-      "id": 1062,
-      "name": "Organic Milk",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, grass-fed Organic milk from FarmFresh Co.. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/milk-1062.jpg",
-      "quantity": 100,
-      "price": 5.99,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-05-10T05:00:00Z",
-      "lastUpdated": "2025-10-22T05:30:00Z"
-    },
-    {
-      "id": 1063,
-      "name": "Organic Apple",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, local Organic apple from Sunrise Farms. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/apple-1063.jpg",
-      "quantity": 400,
-      "price": 1.29,
-      "category": "Fruits",
-      "tags": [
-        "local",
-        "organic",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-06-05T09:00:00Z",
-      "lastUpdated": "2025-10-20T10:00:00Z"
-    },
-    {
-      "id": 1064,
-      "name": "Organic Kombucha",
-      "brand": "Earthly Goods",
-      "description": "Fresh, vegan Organic kombucha from Earthly Goods. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/kombucha-1064.jpg",
-      "quantity": 120,
-      "price": 3.99,
-      "category": "Beverages",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-07-01T11:00:00Z",
-      "lastUpdated": "2025-10-10T12:00:00Z"
-    },
-    {
-      "id": 1065,
-      "name": "Organic Sourdough Bread",
-      "brand": "PureHarvest",
-      "description": "Fresh, non-gmo Organic sourdough bread from PureHarvest. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/sourdough-bread-1065.jpg",
-      "quantity": 35,
-      "price": 5.49,
-      "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-08-10T06:00:00Z",
-      "lastUpdated": "2025-10-22T06:30:00Z"
-    },
-    {
-      "id": 1066,
-      "name": "Organic Ground Beef",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, grass-fed Organic ground beef from Nature's Bounty. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/ground-beef-1066.jpg",
-      "quantity": 50,
-      "price": 9.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "grass-fed",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-09-15T14:00:00Z",
-      "lastUpdated": "2025-10-21T15:00:00Z"
-    },
-    {
-      "id": 1067,
-      "name": "Organic Carrot",
-      "brand": "GoldenRoot",
-      "description": "Fresh, fresh Organic carrot from GoldenRoot. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/carrot-1067.jpg",
-      "quantity": 300,
-      "price": 2.99,
-      "category": "Vegetables",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-10-01T10:00:00Z",
-      "lastUpdated": "2025-10-20T11:00:00Z"
-    },
-    {
-      "id": 1068,
-      "name": "Organic Olive Oil",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, kosher Organic olive oil from GreenAcres Organics. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/olive-oil-1068.jpg",
-      "quantity": 190,
-      "price": 14.99,
-      "category": "Pantry",
-      "tags": [
-        "organic",
-        "kosher",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-10-25T12:00:00Z",
-      "lastUpdated": "2025-09-12T13:00:00Z"
-    },
-    {
-      "id": 1069,
-      "name": "Organic Eggs",
-      "brand": "ValleyPure",
-      "description": "Fresh, free-range Organic eggs from ValleyPure. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/eggs-1069.jpg",
-      "quantity": 140,
-      "price": 6.99,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "free-range",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2024-11-15T08:00:00Z",
-      "lastUpdated": "2025-10-20T09:00:00Z"
-    },
-    {
-      "id": 1070,
-      "name": "Organic Strawberry",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, seasonal Organic strawberry from Sunrise Farms. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/strawberry-1070.jpg",
-      "quantity": 100,
-      "price": 4.49,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "seasonal",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-06-12T09:00:00Z",
-      "lastUpdated": "2025-06-13T10:00:00Z"
-    },
-    {
-      "id": 1071,
-      "name": "Organic Tomato",
-      "brand": "Earthly Goods",
-      "description": "Fresh, local Organic tomato from Earthly Goods. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/tomato-1071.jpg",
-      "quantity": 320,
-      "price": 3.49,
-      "category": "Vegetables",
-      "tags": [
-        "local",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 4,
-      "dateCreated": "2024-12-25T10:00:00Z",
-      "lastUpdated": "2025-10-15T11:00:00Z"
-    },
-    {
-      "id": 1072,
-      "name": "Organic Chicken Breast",
-      "brand": "PureHarvest",
-      "description": "Fresh, free-range Organic chicken breast from PureHarvest. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/chicken-breast-1072.jpg",
-      "quantity": 70,
-      "price": 12.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "organic",
-        "free-range",
-        "local"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-01-20T15:00:00Z",
-      "lastUpdated": "2025-10-21T16:00:00Z"
-    },
-    {
-      "id": 1073,
-      "name": "Organic Almond Milk",
-      "brand": "FarmFresh Co.",
-      "description": "Fresh, vegan Organic almond milk from FarmFresh Co.. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/almond-milk-1073.jpg",
-      "quantity": 100,
-      "price": 4.79,
-      "category": "Dairy & Eggs",
-      "tags": [
-        "organic",
-        "vegan",
-        "gluten-free"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-02-28T12:00:00Z",
-      "lastUpdated": "2025-09-28T13:00:00Z"
-    },
-    {
-      "id": 1074,
-      "name": "Organic Orange Juice",
-      "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic orange juice from GreenAcres Organics. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/orange-juice-1074.jpg",
-      "quantity": 65,
-      "price": 5.29,
-      "category": "Beverages",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-04-05T07:00:00Z",
-      "lastUpdated": "2025-10-21T08:00:00Z"
-    },
-    {
-      "id": 1075,
-      "name": "Organic Avocado",
-      "brand": "Nature's Bounty",
-      "description": "Fresh, fair-trade Organic avocado from Nature's Bounty. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/avocado-1075.jpg",
-      "quantity": 250,
-      "price": 2.99,
-      "category": "Fruits",
-      "tags": [
-        "organic",
-        "fair-trade",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-05-18T14:00:00Z",
-      "lastUpdated": "2025-10-20T15:00:00Z"
-    },
-    {
-      "id": 1076,
-      "name": "Organic Whole Wheat Loaf",
-      "brand": "GoldenRoot",
-      "description": "Fresh, fresh Organic whole wheat loaf from GoldenRoot. Sourced daily.",
-      "imageUrl": "https://example.com/images/products/whole-wheat-loaf-1076.jpg",
-      "quantity": 25,
-      "price": 4.99,
-      "category": "Bakery",
-      "tags": [
-        "fresh",
-        "organic",
-        "local"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-07-10T05:30:00Z",
-      "lastUpdated": "2025-10-22T06:00:00Z"
-    },
-    {
-      "id": 1077,
-      "name": "Organic Broccoli",
-      "brand": "ValleyPure",
-      "description": "Fresh, non-gmo Organic broccoli from ValleyPure. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/broccoli-1077.jpg",
-      "quantity": 160,
-      "price": 3.29,
-      "category": "Vegetables",
-      "tags": [
-        "organic",
-        "non-gmo",
-        "fresh"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-08-20T10:00:00Z",
-      "lastUpdated": "2025-10-21T11:00:00Z"
-    },
-    {
-      "id": 1078,
-      "name": "Organic Salmon Fillet",
-      "brand": "Sunrise Farms",
-      "description": "Fresh, fresh Organic salmon fillet from Sunrise Farms. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/salmon-fillet-1078.jpg",
-      "quantity": 30,
-      "price": 18.99,
-      "category": "Meat & Seafood",
-      "tags": [
-        "fresh",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-09-22T14:00:00Z",
-      "lastUpdated": "2025-10-21T15:00:00Z"
-    },
-    {
-      "id": 1079,
-      "name": "Organic Blueberry",
-      "brand": "Earthly Goods",
-      "description": "Fresh, seasonal Organic blueberry from Earthly Goods. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/blueberry-1079.jpg",
-      "quantity": 80,
-      "price": 5.99,
-      "category": "Fruits",
-      "tags": [
-        "seasonal",
-        "organic",
-        "fresh"
-      ],
-      "rating": 4,
-      "dateCreated": "2025-06-28T08:00:00Z",
-      "lastUpdated": "2025-06-29T09:00:00Z"
-    },
-    {
-      "id": 1080,
-      "name": "Organic Coffee Beans",
-      "brand": "PureHarvest",
-      "description": "Fresh, fair-trade Organic coffee beans from PureHarvest. Sourced sustainably.",
-      "imageUrl": "https://example.com/images/products/coffee-beans-1080.jpg",
-      "quantity": 120,
-      "price": 15.99,
-      "category": "Beverages",
-      "tags": [
-        "fair-trade",
-        "organic",
-        "non-gmo"
-      ],
-      "rating": 5,
-      "dateCreated": "2025-10-15T10:00:00Z",
-      "lastUpdated": "2025-10-20T11:00:00Z"
     }
   ],
   "blog": [
@@ -1449,12 +429,7 @@
       "content": "Discover how to combine our freshest seasonal vegetables, like Sunrise Farms tomatoes and GreenAcres spinach, into a light and refreshing summer salad. Perfect for any barbecue or weekday lunch. It's healthy, easy, and delicious!",
       "imageUrl": "https://example.com/images/blog/summer-salad.jpg",
       "category": "Recipes",
-      "tags": [
-        "seasonal",
-        "recipe",
-        "salad",
-        "healthy"
-      ],
+      "tags": ["seasonal", "recipe", "salad", "healthy"],
       "lastUpdated": "2025-10-16T09:00:00Z"
     },
     {
@@ -1464,12 +439,7 @@
       "content": "We visited Sunrise Farms, the source of our delicious organic bananas and milk. Learn about their commitment to sustainable, generational farming and animal welfare. It's a story you don't want to miss.",
       "imageUrl": "https://example.com/images/blog/sunrise-farms.jpg",
       "category": "Farm Stories",
-      "tags": [
-        "local",
-        "farming",
-        "sustainability",
-        "interview"
-      ],
+      "tags": ["local", "farming", "sustainability", "interview"],
       "lastUpdated": "2025-10-10T11:00:00Z"
     },
     {
@@ -1479,12 +449,7 @@
       "content": "Wondering why 'organic' matters? From reducing pesticide exposure to boosting antioxidants and being better for the environment, we break down the top 5 health benefits of choosing organic produce for you and your family.",
       "imageUrl": "https://example.com/images/blog/health-benefits.jpg",
       "category": "Health & Wellness",
-      "tags": [
-        "health",
-        "organic",
-        "tips",
-        "wellness"
-      ],
+      "tags": ["health", "organic", "tips", "wellness"],
       "lastUpdated": "2025-10-06T14:20:00Z"
     },
     {
@@ -1494,12 +459,7 @@
       "content": "A warm, comforting, and fully vegan lentil soup recipe using our organic carrots, onions, and PureHarvest lentils. It's packed with protein and flavor. Easy to make in under 30 minutes and perfect for a chilly evening.",
       "imageUrl": "https://example.com/images/blog/lentil-soup.jpg",
       "category": "Recipes",
-      "tags": [
-        "vegan",
-        "recipe",
-        "soup",
-        "gluten-free"
-      ],
+      "tags": ["vegan", "recipe", "soup", "gluten-free"],
       "lastUpdated": "2025-09-28T18:00:00Z"
     },
     {
@@ -1509,12 +469,7 @@
       "content": "Eating seasonally is not only more affordable, but it's also when produce is at its peak flavor! This guide highlights the best of our fall harvest, from crisp apples and pears to robust kale and squash.",
       "imageUrl": "https://example.com/images/blog/fall-harvest.jpg",
       "category": "Guides",
-      "tags": [
-        "seasonal",
-        "fall",
-        "guides",
-        "fresh"
-      ],
+      "tags": ["seasonal", "fall", "guides", "fresh"],
       "lastUpdated": "2025-09-23T11:15:00Z"
     },
     {
@@ -1524,12 +479,7 @@
       "content": "Learn about our new initiatives to reduce plastic and move towards 100% compostable and recyclable packaging for all our products. We believe in a healthier planet, one box at a time. See how you can help!",
       "imageUrl": "https://example.com/images/blog/zero-waste.jpg",
       "category": "Sustainability",
-      "tags": [
-        "eco-friendly",
-        "sustainability",
-        "packaging",
-        "store-news"
-      ],
+      "tags": ["eco-friendly", "sustainability", "packaging", "store-news"],
       "lastUpdated": "2025-09-18T16:45:00Z"
     },
     {
@@ -1539,12 +489,7 @@
       "content": "Short on time? This one-pan organic chicken breast and broccoli recipe is a lifesaver. It's quick, requires minimal cleanup, and is packed with protein and nutrients. A new family favorite!",
       "imageUrl": "https://example.com/images/blog/chicken-broccoli.jpg",
       "category": "Recipes",
-      "tags": [
-        "recipe",
-        "easy",
-        "weeknight",
-        "chicken"
-      ],
+      "tags": ["recipe", "easy", "weeknight", "chicken"],
       "lastUpdated": "2025-09-12T13:00:00Z"
     },
     {
@@ -1554,12 +499,7 @@
       "content": "The world of food labels can be confusing. This post breaks down what 'Non-GMO', 'Fair-Trade', 'Grass-Fed', and 'Free-Range' really mean for you, the farmers, and the planet.",
       "imageUrl": "https://example.com/images/blog/food-labels.jpg",
       "category": "Guides",
-      "tags": [
-        "guides",
-        "organic",
-        "non-gmo",
-        "fair-trade"
-      ],
+      "tags": ["guides", "organic", "non-gmo", "fair-trade"],
       "lastUpdated": "2025-09-10T10:00:00Z"
     },
     {
@@ -1569,12 +509,7 @@
       "content": "Boost your mornings with our perfect green smoothie. We share our secret formula for a delicious, nutrient-dense smoothie every time using our organic spinach, bananas, and almond milk. No more bitter green juice!",
       "imageUrl": "https://example.com/images/blog/green-smoothie.jpg",
       "category": "Health & Wellness",
-      "tags": [
-        "health",
-        "smoothie",
-        "recipe",
-        "vegan"
-      ],
+      "tags": ["health", "smoothie", "recipe", "vegan"],
       "lastUpdated": "2025-09-02T12:00:00Z"
     },
     {
@@ -1584,12 +519,7 @@
       "content": "Our new local honey from Nature's Bounty isn't just delicious. We explore the benefits of eating local honey, from supporting local beekeepers to potentially helping with seasonal allergies.",
       "imageUrl": "https://example.com/images/blog/local-honey.jpg",
       "category": "Farm Stories",
-      "tags": [
-        "local",
-        "honey",
-        "health",
-        "new-product"
-      ],
+      "tags": ["local", "honey", "health", "new-product"],
       "lastUpdated": "2025-08-30T10:00:00Z"
     },
     {
@@ -1599,11 +529,7 @@
       "content": "You asked, and we listened! Starting this month, we're extending our weekend hours to better serve you. We'll now be open from 8 AM to 8 PM on both Saturday and Sunday. See you then!",
       "imageUrl": "https://example.com/images/blog/store-front.jpg",
       "category": "Store News",
-      "tags": [
-        "store-news",
-        "announcement",
-        "hours"
-      ],
+      "tags": ["store-news", "announcement", "hours"],
       "lastUpdated": "2025-08-25T15:10:00Z"
     },
     {
@@ -1613,12 +539,7 @@
       "content": "Intimidated by sourdough? Don't be! We walk you through the basics of using our fresh Organic Sourdough starter from Earthly Goods to bake your first delicious, crusty loaf at home.",
       "imageUrl": "https://example.com/images/blog/sourdough-baking.jpg",
       "category": "Recipes",
-      "tags": [
-        "baking",
-        "sourdough",
-        "recipe",
-        "guides"
-      ],
+      "tags": ["baking", "sourdough", "recipe", "guides"],
       "lastUpdated": "2025-08-21T16:30:00Z"
     },
     {
@@ -1628,12 +549,7 @@
       "content": "Don't throw away those organic veggie scraps! Composting is an easy way to reduce landfill waste and create nutrient-rich soil for your garden. Our guide shows you how to get started in any space, big or small.",
       "imageUrl": "https://example.com/images/blog/composting.jpg",
       "category": "Sustainability",
-      "tags": [
-        "sustainability",
-        "compost",
-        "tips",
-        "eco-friendly"
-      ],
+      "tags": ["sustainability", "compost", "tips", "eco-friendly"],
       "lastUpdated": "2025-08-15T11:30:00Z"
     },
     {
@@ -1643,12 +559,7 @@
       "content": "Avocados are a true superfood. While great on toast, we're sharing five new ways to use this creamy fruit, from a vegan chocolate mousse to a hydrating face mask. You'll be surprised!",
       "imageUrl": "https://example.com/images/blog/avocado-ideas.jpg",
       "category": "Health & Wellness",
-      "tags": [
-        "avocado",
-        "health",
-        "recipe",
-        "tips"
-      ],
+      "tags": ["avocado", "health", "recipe", "tips"],
       "lastUpdated": "2025-08-11T09:00:00Z"
     },
     {
@@ -1658,12 +569,7 @@
       "content": "Not all olive oils are created equal. We did a taste test of the new PureHarvest Organic Olive Oil and were blown away. Learn what makes it special, its flavor profile, and the best ways to use it.",
       "imageUrl": "https://example.com/images/blog/olive-oil.jpg",
       "category": "Guides",
-      "tags": [
-        "new-product",
-        "olive-oil",
-        "guides",
-        "cooking"
-      ],
+      "tags": ["new-product", "olive-oil", "guides", "cooking"],
       "lastUpdated": "2025-08-05T10:20:00Z"
     },
     {
@@ -1673,11 +579,7 @@
       "content": "Last weekend, our team had a fantastic time volunteering at the local community garden, helping plant fall crops for the food bank. Thank you to everyone who came out to support a great cause!",
       "imageUrl": "https://example.com/images/blog/community-garden.jpg",
       "category": "Store News",
-      "tags": [
-        "community",
-        "store-news",
-        "local"
-      ],
+      "tags": ["community", "store-news", "local"],
       "lastUpdated": "2025-08-01T17:00:00Z"
     },
     {
@@ -1687,12 +589,7 @@
       "content": "Are your bananas browning too fast? Is your spinach wilting? You might be storing them incorrectly! Read our top tips for storing fruits and vegetables to make them last longer and reduce food waste.",
       "imageUrl": "https://example.com/images/blog/produce-storage.jpg",
       "category": "Guides",
-      "tags": [
-        "tips",
-        "guides",
-        "storage",
-        "fresh"
-      ],
+      "tags": ["tips", "guides", "storage", "fresh"],
       "lastUpdated": "2025-07-29T10:00:00Z"
     },
     {
@@ -1702,12 +599,7 @@
       "content": "Finding healthy snacks that kids will actually eat can be a challenge. We've compiled a list of five easy, kid-approved snacks made with simple, organic ingredients. No processed sugars here!",
       "imageUrl": "https://example.com/images/blog/kid-snacks.jpg",
       "category": "Health & Wellness",
-      "tags": [
-        "kids",
-        "healthy",
-        "snacks",
-        "recipe"
-      ],
+      "tags": ["kids", "healthy", "snacks", "recipe"],
       "lastUpdated": "2025-07-22T09:00:00Z"
     },
     {
@@ -1717,12 +609,7 @@
       "content": "GreenAcres Organics is one of our oldest partners, and for good reason. Their dedication to soil health and biodiversity results in the most flavorful vegetables, like their famous carrots and spinach.",
       "imageUrl": "https://example.com/images/blog/greenacres-farm.jpg",
       "category": "Farm Stories",
-      "tags": [
-        "farming",
-        "local",
-        "interview",
-        "sustainability"
-      ],
+      "tags": ["farming", "local", "interview", "sustainability"],
       "lastUpdated": "2025-07-17T11:00:00Z"
     },
     {
@@ -1732,12 +619,7 @@
       "content": "Our Organic Salmon Fillet is a customer favorite. This recipe shows you the simplest, most foolproof way to roast it for a flaky, delicious, and healthy main course in under 15 minutes.",
       "imageUrl": "https://example.com/images/blog/roasted-salmon.jpg",
       "category": "Recipes",
-      "tags": [
-        "recipe",
-        "salmon",
-        "seafood",
-        "easy"
-      ],
+      "tags": ["recipe", "salmon", "seafood", "easy"],
       "lastUpdated": "2025-07-13T08:45:00Z"
     }
   ],
@@ -2118,10 +1000,7 @@
         "state": "TX",
         "zip": "73301"
       },
-      "orderHistory": [
-        6002,
-        6004
-      ]
+      "orderHistory": [6002, 6004]
     },
     {
       "id": 7002,
@@ -2141,10 +1020,7 @@
         "state": "FL",
         "zip": "33101"
       },
-      "orderHistory": [
-        6006,
-        6007
-      ]
+      "orderHistory": [6006, 6007]
     },
     {
       "id": 7003,
@@ -2164,9 +1040,7 @@
         "state": "WA",
         "zip": "98101"
       },
-      "orderHistory": [
-        6001
-      ]
+      "orderHistory": [6001]
     },
     {
       "id": 7004,
@@ -2186,9 +1060,7 @@
         "state": "CO",
         "zip": "80204"
       },
-      "orderHistory": [
-        6008
-      ]
+      "orderHistory": [6008]
     },
     {
       "id": 7005,
@@ -2208,9 +1080,7 @@
         "state": "OR",
         "zip": "97201"
       },
-      "orderHistory": [
-        6009
-      ]
+      "orderHistory": [6009]
     },
     {
       "id": 7006,
@@ -2230,9 +1100,7 @@
         "state": "MA",
         "zip": "02108"
       },
-      "orderHistory": [
-        6005
-      ]
+      "orderHistory": [6005]
     },
     {
       "id": 7007,
@@ -2252,9 +1120,7 @@
         "state": "IL",
         "zip": "60601"
       },
-      "orderHistory": [
-        6010
-      ]
+      "orderHistory": [6010]
     },
     {
       "id": 7008,
@@ -2274,9 +1140,7 @@
         "state": "AZ",
         "zip": "85001"
       },
-      "orderHistory": [
-        6003
-      ]
+      "orderHistory": [6003]
     },
     {
       "id": 7009,
