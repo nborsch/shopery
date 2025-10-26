@@ -5,10 +5,8 @@ html {
 
 .container {
   color: white;
-  background:
-    url("/img/bg-footer-left.png") no-repeat bottom left,
-    url("/img/bg-footer-right.png") no-repeat bottom right,
-    #002603;
+  background: url("/img/bg-footer-left.png") no-repeat bottom left,
+    url("/img/bg-footer-right.png") no-repeat bottom right, #002603;
   min-height: 31.25rem;
 }
 
