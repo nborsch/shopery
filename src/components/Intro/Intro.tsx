@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router"
 import classes from "./Intro.module.css"
 import IntroMenu from "./IntroMenu"
 import ProductCard from "../ProductCard/ProductCard"
@@ -7,7 +6,7 @@ import type { Product } from "../ProductCard/ProductCard"
 
 export default function Intro() {
   const [on, setOn] = React.useState<string>("all")
-  const [products, setProducts] = React.useState<Product[]>(null)
+  const [products, setProducts] = React.useState<Product[] | null>(null)
 
   React.useEffect(() => {
     async function getProducts() {
@@ -33,16 +32,16 @@ export default function Intro() {
     if (category === "meatandfish") filterTag = "non-gmo"
 
     const filtered = products.filter((product) => {
-      return product.tags.find((tag) => tag === filterTag)
-    })
+        return product.tags.find((tag) => tag === filterTag)
+      })
 
     return filtered
   }
 
   function displayProducts(filterTag: string) {
     const categorizedProducts: Product[] = categorizeProducts(filterTag)
-    const productsEls: React.JSX.Element[] = Array(8).fill(<></>) // number of product to display
-    productsEls.map((element, index) => {
+    const arr: React.JSX.Element[] = Array(8).fill(<></>) // number of product to display
+    const productsEls = arr.map((element, index) => {
       return (
         <ProductCard
           sz={"lg"}
@@ -61,6 +60,11 @@ export default function Intro() {
       <IntroMenu status={on} toggle={toggle} />
       <div className={classes.productsContainer}>
         {products && on === "all" ? displayProducts("all") : null}
+        {products && on === "vegetables" ? displayProducts("vegetables") : null}
+        {products && on === "fruits" ? displayProducts("fruits") : null}
+        {products && on === "meatandfish"
+          ? displayProducts("meatandfish")
+          : null}
       </div>
     </div>
   )
