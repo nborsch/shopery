@@ -26,21 +26,25 @@ export default function Intro() {
   function categorizeProducts(category: string) {
     let filterTag: string
 
+    if (!products) {
+      return []
+    }
+
     if (category === "all") filterTag = "organic"
     if (category === "vegetables") filterTag = "fresh"
     if (category === "fruits") filterTag = "local"
-    if (category === "meatandfish") filterTag = "non-gmo"
+    if (category === "meatfish") filterTag = "non-gmo"
 
     const filtered = products.filter((product) => {
-        return product.tags.find((tag) => tag === filterTag)
-      })
+      return product.tags.find((tag) => tag === filterTag)
+    })
 
     return filtered
   }
 
   function displayProducts(filterTag: string) {
     const categorizedProducts: Product[] = categorizeProducts(filterTag)
-    const arr: React.JSX.Element[] = Array(8).fill(<></>) // number of product to display
+    const arr = categorizedProducts.slice(0, 8) // number of product to display
     const productsEls = arr.map((element, index) => {
       return (
         <ProductCard
@@ -59,12 +63,7 @@ export default function Intro() {
       <h2 className={classes.title}>Introducing Our Products</h2>
       <IntroMenu status={on} toggle={toggle} />
       <div className={classes.productsContainer}>
-        {products && on === "all" ? displayProducts("all") : null}
-        {products && on === "vegetables" ? displayProducts("vegetables") : null}
-        {products && on === "fruits" ? displayProducts("fruits") : null}
-        {products && on === "meatandfish"
-          ? displayProducts("meatandfish")
-          : null}
+        {products ? displayProducts(on) : null}
       </div>
     </div>
   )
