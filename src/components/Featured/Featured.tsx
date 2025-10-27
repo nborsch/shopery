@@ -8,13 +8,17 @@ export default function Featured() {
 
   React.useEffect(() => {
     async function getProducts() {
-      const response = await fetch("http://localhost:3000/shop")
-      if (!response.ok) {
-        return new Error("Could not fetch data")
+      try {
+        const response = await fetch("http://localhost:3000/shop")
+        if (!response.ok) {
+          throw new Error("Could not fetch data")
+        }
+        const data = await response.json()
+        const filtered = filterProducts(data)
+        setFeatured(filtered)
+      } catch (err) {
+        console.log(err)
       }
-      const data = await response.json()
-      const filtered = filterProducts(data)
-      setFeatured(filtered)
     }
 
     getProducts()
