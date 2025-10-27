@@ -28,7 +28,7 @@ export default function Featured() {
 
   const featuredEls = featured
     ? featured.map((product) => {
-        return <ProductCard sz="sm" product={product} />
+        return <ProductCard sz="sm" product={product} key={product.id} />
       })
     : null
 
