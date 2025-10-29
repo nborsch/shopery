@@ -20,7 +20,7 @@ export default function MainNav(){
 
   const toggle = () => setOn(prev => !prev)
 
-  const active = ({isActive}) => isActive ? classes.active : ""
+  const active = ({isActive}:{isActive:boolean}) => isActive ? classes.active : ""
 
     return (
     <nav>

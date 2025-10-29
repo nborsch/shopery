@@ -35,9 +35,9 @@ export default function ProductCard({
     const ratingArr = Array(5).fill(<></>)
     const starsArr = ratingArr.map((item, index) => {
       if (index < product.rating) {
-        return <FaStar className={classes.filled} />
+        return <FaStar className={classes.filled} key={index} />
       } else if (index >= product.rating) {
-        return <FaStar className={classes.empty} />
+        return <FaStar className={classes.empty} key={index} />
       }
     })
 
