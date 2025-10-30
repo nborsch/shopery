@@ -8,15 +8,25 @@
 
 .sidebar {
   width: 19.5rem;
-  border: 1px solid blue;
 }
 
-.categories {
+.filter {
   width: 100%;
-  border: 1px solid greenyellow;
+  margin-top: 30px;
 
   display: flex;
   flex-direction: column;
+}
+
+.filterTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterTitle {
+  margin-bottom: 15px;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
 }
 
 .category {
@@ -26,6 +36,59 @@
 
 .category input {
   margin-bottom: 3px;
+}
+
+.qty {
+  color: #b3b3b3;
+}
+
+.price {
+  color: #00b207;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 3px;
+
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.stars span {
+  margin-left: 3px;
+}
+
+.filled {
+  color: #ff8a00;
+}
+
+.empty {
+  color: #cccccc;
+}
+
+.tags span {
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 0 10px 10px 0;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.tags span:hover {
+  color: white;
+  background-color: #00b207;
+}
+
+.sideBanner {
+  margin-top: 30px;
+  width: 100%;
 }
 
 .shop {
