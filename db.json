@@ -12,7 +12,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-01-15T10:30:45Z",
-      "lastUpdated": "2025-09-22T14:12:01Z"
+      "lastUpdated": "2025-09-22T14:12:01Z",
+      "sold": 150,
+      "featured": true
     },
     {
       "id": 1002,
@@ -26,7 +28,9 @@
       "tags": ["local", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2023-11-01T08:00:00Z",
-      "lastUpdated": "2025-10-20T09:30:15Z"
+      "lastUpdated": "2025-10-20T09:30:15Z",
+      "sold": 200,
+      "featured": false
     },
     {
       "id": 1003,
@@ -40,7 +44,9 @@
       "tags": ["organic", "free-range", "local"],
       "rating": 3,
       "dateCreated": "2024-05-20T14:22:30Z",
-      "lastUpdated": "2025-10-19T11:05:00Z"
+      "lastUpdated": "2025-10-19T11:05:00Z",
+      "sold": 350,
+      "featured": true
     },
     {
       "id": 1004,
@@ -54,7 +60,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2025-01-10T06:15:00Z",
-      "lastUpdated": "2025-10-22T08:00:00Z"
+      "lastUpdated": "2025-10-22T08:00:00Z",
+      "sold": 80,
+      "featured": false
     },
     {
       "id": 1005,
@@ -68,7 +76,9 @@
       "tags": ["organic", "kosher", "non-gmo"],
       "rating": 5,
       "dateCreated": "2023-12-05T11:00:00Z",
-      "lastUpdated": "2025-08-30T18:45:10Z"
+      "lastUpdated": "2025-08-30T18:45:10Z",
+      "sold": 120,
+      "featured": true
     },
     {
       "id": 1006,
@@ -82,7 +92,9 @@
       "tags": ["organic", "free-range", "grass-fed"],
       "rating": 4,
       "dateCreated": "2024-08-01T16:00:00Z",
-      "lastUpdated": "2025-10-21T10:00:00Z"
+      "lastUpdated": "2025-10-21T10:00:00Z",
+      "sold": 95,
+      "featured": true
     },
     {
       "id": 1007,
@@ -96,7 +108,9 @@
       "tags": ["vegan", "organic", "gluten-free"],
       "rating": 3,
       "dateCreated": "2024-03-18T09:05:12Z",
-      "lastUpdated": "2025-07-11T12:20:30Z"
+      "lastUpdated": "2025-07-11T12:20:30Z",
+      "sold": 210,
+      "featured": false
     },
     {
       "id": 1008,
@@ -110,7 +124,9 @@
       "tags": ["seasonal", "organic", "local"],
       "rating": 5,
       "dateCreated": "2024-09-01T10:00:00Z",
-      "lastUpdated": "2025-10-15T11:30:00Z"
+      "lastUpdated": "2025-10-15T11:30:00Z",
+      "sold": 500,
+      "featured": true
     },
     {
       "id": 1009,
@@ -124,7 +140,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-02-22T13:10:05Z",
-      "lastUpdated": "2025-10-18T07:45:00Z"
+      "lastUpdated": "2025-10-18T07:45:00Z",
+      "sold": 450,
+      "featured": false
     },
     {
       "id": 1010,
@@ -138,7 +156,9 @@
       "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-07-14T05:00:00Z",
-      "lastUpdated": "2025-10-22T05:30:10Z"
+      "lastUpdated": "2025-10-22T05:30:10Z",
+      "sold": 300,
+      "featured": true
     },
     {
       "id": 1011,
@@ -152,7 +172,9 @@
       "tags": ["organic", "gluten-free", "vegan"],
       "rating": 4,
       "dateCreated": "2024-10-30T17:45:00Z",
-      "lastUpdated": "2025-06-15T14:00:00Z"
+      "lastUpdated": "2025-06-15T14:00:00Z",
+      "sold": 75,
+      "featured": false
     },
     {
       "id": 1012,
@@ -166,7 +188,9 @@
       "tags": ["organic", "seasonal", "fresh"],
       "rating": 5,
       "dateCreated": "2024-06-10T09:15:00Z",
-      "lastUpdated": "2025-06-11T10:00:00Z"
+      "lastUpdated": "2025-06-11T10:00:00Z",
+      "sold": 220,
+      "featured": true
     },
     {
       "id": 1013,
@@ -180,7 +204,9 @@
       "tags": ["local", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-08-25T11:20:00Z",
-      "lastUpdated": "2025-10-10T12:00:00Z"
+      "lastUpdated": "2025-10-10T12:00:00Z",
+      "sold": 380,
+      "featured": false
     },
     {
       "id": 1014,
@@ -194,7 +220,9 @@
       "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-04-12T18:00:00Z",
-      "lastUpdated": "2025-10-21T09:15:00Z"
+      "lastUpdated": "2025-10-21T09:15:00Z",
+      "sold": 100,
+      "featured": true
     },
     {
       "id": 1015,
@@ -208,7 +236,9 @@
       "tags": ["organic", "vegan", "gluten-free"],
       "rating": 3,
       "dateCreated": "2024-11-30T12:00:00Z",
-      "lastUpdated": "2025-09-05T16:20:00Z"
+      "lastUpdated": "2025-09-05T16:20:00Z",
+      "sold": 150,
+      "featured": false
     },
     {
       "id": 1016,
@@ -222,7 +252,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2025-02-01T07:30:00Z",
-      "lastUpdated": "2025-10-20T08:00:00Z"
+      "lastUpdated": "2025-10-20T08:00:00Z",
+      "sold": 130,
+      "featured": false
     },
     {
       "id": 1017,
@@ -236,7 +268,9 @@
       "tags": ["organic", "fair-trade", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-09-15T15:00:00Z",
-      "lastUpdated": "2025-10-17T18:00:00Z"
+      "lastUpdated": "2025-10-17T18:00:00Z",
+      "sold": 400,
+      "featured": true
     },
     {
       "id": 1018,
@@ -250,7 +284,9 @@
       "tags": ["fresh", "organic", "local"],
       "rating": 4,
       "dateCreated": "2025-03-03T05:30:00Z",
-      "lastUpdated": "2025-10-22T06:00:00Z"
+      "lastUpdated": "2025-10-22T06:00:00Z",
+      "sold": 60,
+      "featured": false
     },
     {
       "id": 1019,
@@ -264,7 +300,9 @@
       "tags": ["organic", "non-gmo", "fresh"],
       "rating": 5,
       "dateCreated": "2024-07-28T10:10:10Z",
-      "lastUpdated": "2025-10-19T10:00:00Z"
+      "lastUpdated": "2025-10-19T10:00:00Z",
+      "sold": 250,
+      "featured": true
     },
     {
       "id": 1020,
@@ -278,7 +316,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-10-01T14:00:00Z",
-      "lastUpdated": "2025-10-20T15:00:00Z"
+      "lastUpdated": "2025-10-20T15:00:00Z",
+      "sold": 70,
+      "featured": true
     },
     {
       "id": 1021,
@@ -292,7 +332,9 @@
       "tags": ["seasonal", "organic", "fresh"],
       "rating": 4,
       "dateCreated": "2024-06-25T08:30:00Z",
-      "lastUpdated": "2025-06-26T09:00:00Z"
+      "lastUpdated": "2025-06-26T09:00:00Z",
+      "sold": 180,
+      "featured": false
     },
     {
       "id": 1022,
@@ -306,7 +348,9 @@
       "tags": ["fair-trade", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-01-20T19:00:00Z",
-      "lastUpdated": "2025-08-15T10:00:00Z"
+      "lastUpdated": "2025-08-15T10:00:00Z",
+      "sold": 90,
+      "featured": true
     },
     {
       "id": 1023,
@@ -320,7 +364,9 @@
       "tags": ["organic", "grass-fed", "fresh"],
       "rating": 3,
       "dateCreated": "2024-08-18T13:45:00Z",
-      "lastUpdated": "2025-10-18T14:00:00Z"
+      "lastUpdated": "2025-10-18T14:00:00Z",
+      "sold": 260,
+      "featured": false
     },
     {
       "id": 1024,
@@ -334,7 +380,9 @@
       "tags": ["local", "organic", "fresh"],
       "rating": 4,
       "dateCreated": "2024-05-05T12:12:12Z",
-      "lastUpdated": "2025-10-16T13:00:00Z"
+      "lastUpdated": "2025-10-16T13:00:00Z",
+      "sold": 310,
+      "featured": false
     },
     {
       "id": 1025,
@@ -348,7 +396,9 @@
       "tags": ["local", "organic", "non-gmo"],
       "rating": 5,
       "dateCreated": "2024-04-01T16:30:00Z",
-      "lastUpdated": "2025-09-20T11:00:00Z"
+      "lastUpdated": "2025-09-20T11:00:00Z",
+      "sold": 110,
+      "featured": true
     },
     {
       "id": 1026,
@@ -362,7 +412,9 @@
       "tags": ["fresh", "organic", "kosher"],
       "rating": 4,
       "dateCreated": "2025-04-10T06:00:00Z",
-      "lastUpdated": "2025-10-22T06:30:00Z"
+      "lastUpdated": "2025-10-22T06:30:00Z",
+      "sold": 105,
+      "featured": false
     },
     {
       "id": 1027,
@@ -376,7 +428,9 @@
       "tags": ["organic", "vegan", "gluten-free"],
       "rating": 4,
       "dateCreated": "2024-09-20T11:50:00Z",
-      "lastUpdated": "2025-08-25T14:30:00Z"
+      "lastUpdated": "2025-08-25T14:30:00Z",
+      "sold": 190,
+      "featured": false
     },
     {
       "id": 1028,
@@ -390,7 +444,9 @@
       "tags": ["fresh", "organic", "non-gmo"],
       "rating": 4,
       "dateCreated": "2024-03-12T10:00:00Z",
-      "lastUpdated": "2025-10-14T11:00:00Z"
+      "lastUpdated": "2025-10-14T11:00:00Z",
+      "sold": 600,
+      "featured": true
     },
     {
       "id": 1029,
@@ -404,21 +460,25 @@
       "tags": ["local", "organic", "fresh"],
       "rating": 5,
       "dateCreated": "2024-11-11T11:11:11Z",
-      "lastUpdated": "2025-10-13T12:00:00Z"
+      "lastUpdated": "2025-10-13T12:00:00Z",
+      "sold": 270,
+      "featured": false
     },
     {
       "id": 1030,
       "name": "Organic Cheddar Cheese",
       "brand": "Sunrise Farms",
       "description": "Fresh, grass-fed Organic cheddar cheese from Sunrise Farms. Sourced locally.",
-      "imageUrl": "https://example.com/images/products/cheddar-cheese-1030.jpg",
+      "imageUrl": "httpsT://example.com/images/products/cheddar-cheese-1030.jpg",
       "quantity": 70,
       "price": 7.49,
       "category": "Dairy & Eggs",
       "tags": ["organic", "grass-fed", "local"],
       "rating": 5,
       "dateCreated": "2024-07-01T14:30:00Z",
-      "lastUpdated": "2025-10-10T15:00:00Z"
+      "lastUpdated": "2025-10-10T15:00:00Z",
+      "sold": 140,
+      "featured": true
     }
   ],
   "blog": [

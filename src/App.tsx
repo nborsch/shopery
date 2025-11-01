@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router"
+import "@mantine/core/styles.css"
 import Layout from "./components/Layout"
 import Home from "./pages/Home"
 import Shop from "./pages/Shop/Shop"

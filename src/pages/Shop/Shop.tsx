@@ -5,9 +5,11 @@ import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
 import { LuFilter } from "react-icons/lu"
 import { FaAngleUp, FaStar } from "react-icons/fa6"
+import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
   const [allProducts, setAllProducts] = React.useState<Product[] | null>(null)
+  const [range, setRange] = React.useState<[number, number]>([20, 80])
 
   React.useEffect(() => {
     async function getAllProducts() {
@@ -22,7 +24,9 @@ export default function Shop() {
   }, [])
 
   const productsEls = allProducts
-    ? allProducts.map((product) => <ProductCard sz="lg" product={product} />)
+    ? allProducts.map((product) => (
+        <ProductCard sz="lg" product={product} key={product.id} />
+      ))
     : null
 
   return (
@@ -99,7 +103,9 @@ export default function Shop() {
             <h3 className={classes.filterTitle}>Price</h3>
             <FaAngleUp />
           </div>
-          <div></div>
+          <div>
+            <RangeSlider color="#00b207" value={range} onChange={setRange} />
+          </div>
         </div>
         <div className={classes.filter}>
           <div className={classes.filterTitleContainer}>
