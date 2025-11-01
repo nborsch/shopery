@@ -19,6 +19,8 @@ export type Product = {
   rating: number
   dateCreated: string
   lastUpdated: string
+  sold: number
+  featured: boolean
 }
 
 export default function ProductCard({
