@@ -1,0 +1,23 @@
+.filter {
+  width: 100%;
+  padding: 20px 0 30px 0;
+  border-bottom: 1px solid #cccccc;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.filter:first-of-type {
+  padding-top: 0;
+}
+
+.filterTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterTitle {
+  margin-bottom: 15px;
+  font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
+}

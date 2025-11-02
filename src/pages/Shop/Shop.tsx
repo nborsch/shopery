@@ -3,9 +3,9 @@ import classes from "./Shop.module.css"
 import Button from "../../components/Button/Button"
 import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
-import useToggle from "../../hooks/useToggle"
+import Filter from "../../components/Filter/Filter"
 import { LuFilter } from "react-icons/lu"
-import { FaAngleUp, FaAngleDown, FaStar } from "react-icons/fa6"
+import { FaStar } from "react-icons/fa6"
 import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
@@ -53,11 +53,6 @@ export default function Shop() {
       ))
     : null
 
-  const [categories, toggleCategories] = useToggle()
-  const [price, togglePrice] = useToggle()
-  const [rating, toggleRating] = useToggle()
-  const [tags, toggleTags] = useToggle()
-
   const category = (
     value: string = "",
     label: string = "",
@@ -77,119 +72,92 @@ export default function Shop() {
         <Button>
           Filter <LuFilter />
         </Button>
-        <div className={classes.filter}>
-          <div
-            onClick={toggleCategories}
-            className={classes.filterTitleContainer}
-          >
-            <h3 className={classes.filterTitle}>All Categories</h3>
-            {categories ? <FaAngleUp /> : <FaAngleDown />}
+        <Filter label="Categories">
+          <>
+            {category("fruits", "Fruits", 30)}
+            {category("vegetables", "Vegetables", 40)}
+            {category("dairyeggs", "Dairy & Eggs", 20)}
+            {category("bakery", "Bakery", 25)}
+            {category("pantry", "Pantry", 50)}
+            {category("meatandseafood", "Meat & Seafood", 65)}
+            {category("beverages", "Beverages", 45)}
+          </>
+        </Filter>
+        <Filter label="Price">
+          <div>
+            <RangeSlider color="#00b207" value={range} onChange={setRange} />
           </div>
-          {categories ? (
-            <>
-              {category("fruits", "Fruits", 30)}
-              {category("vegetables", "Vegetables", 40)}
-              {category("dairyeggs", "Dairy & Eggs", 20)}
-              {category("bakery", "Bakery", 25)}
-              {category("pantry", "Pantry", 50)}
-              {category("meatandseafood", "Meat & Seafood", 65)}
-              {category("beverages", "Beverages", 45)}
-            </>
-          ) : null}
-        </div>
-        <div className={classes.filter}>
-          <div onClick={togglePrice} className={classes.filterTitleContainer}>
-            <h3 className={classes.filterTitle}>Price</h3>
-            {price ? <FaAngleUp /> : <FaAngleDown />}
-          </div>
-          {price ? (
-            <div>
-              <RangeSlider color="#00b207" value={range} onChange={setRange} />
+        </Filter>
+        <Filter label="Rating">
+          <>
+            <div className={classes.rating}>
+              <input type="checkbox" name="fivestars" />
+              <div className={classes.stars}>
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <span className={classes.label}>5 stars</span>
+              </div>
             </div>
-          ) : null}
-        </div>
-        <div className={classes.filter}>
-          <div onClick={toggleRating} className={classes.filterTitleContainer}>
-            <h3 className={classes.filterTitle}>Rating</h3>
-            {rating ? <FaAngleUp /> : <FaAngleDown />}
-          </div>
-          {rating ? (
-            <>
-              <div className={classes.rating}>
-                <input type="checkbox" name="fivestars" />
-                <div className={classes.stars}>
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <span className={classes.label}>5 stars</span>
-                </div>
+            <div className={classes.rating}>
+              <input type="checkbox" name="fourstars" />
+              <div className={classes.stars}>
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.empty} />
+                <span className={classes.label}>4 stars & up</span>
               </div>
-              <div className={classes.rating}>
-                <input type="checkbox" name="fourstars" />
-                <div className={classes.stars}>
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.empty} />
-                  <span className={classes.label}>4 stars & up</span>
-                </div>
-              </div>
-              <div className={classes.rating}>
-                <input type="checkbox" name="threestars" />
-                <div className={classes.stars}>
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <span className={classes.label}>3 stars & up</span>
-                </div>
-              </div>
-              <div className={classes.rating}>
-                <input type="checkbox" name="twostars" />
-                <div className={classes.stars}>
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <span className={classes.label}>2 stars & up</span>
-                </div>
-              </div>
-              <div className={classes.rating}>
-                <input type="checkbox" name="onestar" />
-                <div className={classes.stars}>
-                  <FaStar className={classes.filled} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <FaStar className={classes.empty} />
-                  <span className={classes.label}>1 star & up</span>
-                </div>
-              </div>
-            </>
-          ) : null}
-        </div>
-        <div className={classes.filter}>
-          <div onClick={toggleTags} className={classes.filterTitleContainer}>
-            <h3 className={classes.filterTitle}>Popular Tags</h3>
-            {tags ? <FaAngleUp /> : <FaAngleDown />}
-          </div>
-          {tags ? (
-            <div className={classes.tags}>
-              <span>vegan</span>
-              <span>organic</span>
-              <span>non-gmo</span>
-              <span>gluten-free</span>
-              <span>local</span>
-              <span>seasonal</span>
-              <span>fresh</span>
             </div>
-          ) : null}
-        </div>
+            <div className={classes.rating}>
+              <input type="checkbox" name="threestars" />
+              <div className={classes.stars}>
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <span className={classes.label}>3 stars & up</span>
+              </div>
+            </div>
+            <div className={classes.rating}>
+              <input type="checkbox" name="twostars" />
+              <div className={classes.stars}>
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <span className={classes.label}>2 stars & up</span>
+              </div>
+            </div>
+            <div className={classes.rating}>
+              <input type="checkbox" name="onestar" />
+              <div className={classes.stars}>
+                <FaStar className={classes.filled} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <FaStar className={classes.empty} />
+                <span className={classes.label}>1 star & up</span>
+              </div>
+            </div>
+          </>
+        </Filter>
+        <Filter label="Popular Tags">
+          <div className={classes.tags}>
+            <span>vegan</span>
+            <span>organic</span>
+            <span>non-gmo</span>
+            <span>gluten-free</span>
+            <span>local</span>
+            <span>seasonal</span>
+            <span>fresh</span>
+          </div>
+        </Filter>
         <img className={classes.sideBanner} src="img/shop-side-banner.png" />
       </aside>
       <section className={classes.shop}>
