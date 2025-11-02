@@ -47,6 +47,31 @@ export default function Shop() {
     })
   }
 
+  const applyFilters = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    const formData = new FormData(e.currentTarget)
+    if (!allProducts) return
+
+    const category = formData.get("categories") as string
+    const [priceMin, priceMax] = range
+    const rating = formData.get("rating")
+
+    const categoryFilter = allProducts.filter((product) => {
+      if (category === "All categories") return true
+      return product.category === category
+    })
+
+    const priceFilter = categoryFilter.filter(
+      (product) => priceMin < product.price && product.price < priceMax
+    )
+
+    const ratingFilter = priceFilter.filter(
+      (product) => `${product.rating}` === rating
+    )
+
+    setAllProducts(ratingFilter)
+  }
+
   const productsEls = allProducts
     ? allProducts.map((product) => (
         <ProductCard sz="lg" product={product} key={product.id} />
@@ -59,19 +84,19 @@ export default function Shop() {
     results: number
   ) => (
     <div className={classes.category}>
-      <input type="radio" name="categories" id={value} value={value} />
+      <input type="radio" name="categories" id={value} value={label} />
       <label htmlFor={value}>
         {label} <span className={classes.results}>({results})</span>
       </label>
     </div>
   )
 
-  const displayRating = (name: string, label: string, stars: number) => {
+  const displayRating = (label: string, stars: number) => {
     const starsEls = convertRating(stars)
 
     return (
       <div className={classes.rating}>
-        <input type="checkbox" name={name} />
+        <input type="checkbox" name="rating" value={stars} />
         <div className={classes.stars}>
           {starsEls}
           <span className={classes.label}>{label}</span>
@@ -81,8 +106,8 @@ export default function Shop() {
   }
 
   const displayTags = (tagsArr: string[]) => {
-    const tagsEls = tagsArr.map((tag) => {
-      return <span>{tag}</span>
+    const tagsEls = tagsArr.map((tag, index) => {
+      return <span key={index}>{tag}</span>
     })
 
     return <div className={classes.tags}>{tagsEls}</div>
@@ -91,7 +116,7 @@ export default function Shop() {
   return (
     <main className={classes.container}>
       <aside className={classes.sidebar}>
-        <form>
+        <form onSubmit={applyFilters}>
           <Button type="submit">
             Filter <LuFilter />
           </Button>
@@ -114,11 +139,11 @@ export default function Shop() {
           </Filter>
           <Filter label="Rating">
             <>
-              {displayRating("fivestars", "5 stars", 5)}
-              {displayRating("fourstars", "4 stars & up", 4)}
-              {displayRating("threestars", "3 stars & up", 3)}
-              {displayRating("twostars", "2 stars & up", 2)}
-              {displayRating("onestar", "1 star & up", 1)}
+              {displayRating("5 stars", 5)}
+              {displayRating("4 stars", 4)}
+              {displayRating("3 stars", 3)}
+              {displayRating("2 stars", 2)}
+              {displayRating("1 star", 1)}
             </>
           </Filter>
           <Filter label="Popular Tags">
