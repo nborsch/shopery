@@ -4,15 +4,28 @@ import Button from "../../components/Button/Button"
 import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
 import Filter from "../../components/Filter/Filter"
+import useToggle from "../../hooks/useToggle"
 import convertRating from "../../helper/convertRating"
 import { LuFilter } from "react-icons/lu"
 import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
-  const [allProducts, setAllProducts] = React.useState<Product[] | null>(null)
+  const [allProducts, setAllProducts] = React.useState<Product[]>([])
   const [range, setRange] = React.useState<[number, number]>([20, 80])
+  const [tags, setTags] = React.useState<string[]>([])
 
   React.useEffect(() => {
+    //
+    //
+    //
+    //
+    // Add try/catch!
+    //
+    //
+    //
+    //
+    //
+
     async function getAllProducts() {
       const response = await fetch("http://localhost:3000/shop")
       if (!response.ok) throw new Error("Server issues")
@@ -31,15 +44,15 @@ export default function Shop() {
       const products = prevAllProducts && [...prevAllProducts]
 
       if (sortingFilter === "bestsellers") {
-        products && products.sort((a, b) => b.sold - a.sold)
+        products.sort((a, b) => b.sold - a.sold)
         return products
       } else if (sortingFilter === "featured") {
-        return products && products.filter((product) => product.featured)
+        return products.filter((product) => product.featured)
       } else if (sortingFilter === "lowtohigh") {
-        products && products.sort((a, b) => a.price - b.price)
+        products.sort((a, b) => a.price - b.price)
         return products
       } else if (sortingFilter === "hightolow") {
-        products && products.sort((a, b) => b.price - a.price)
+        products.sort((a, b) => b.price - a.price)
         return products
       } else {
         return prevAllProducts
@@ -65,9 +78,15 @@ export default function Shop() {
       (product) => priceMin < product.price && product.price < priceMax
     )
 
-    const ratingFilter = priceFilter.filter(
+    let ratingFilter = priceFilter.filter(
       (product) => `${product.rating}` === rating
     )
+
+    tags.forEach((selectedTag) => {
+      ratingFilter = ratingFilter.filter((product) =>
+        product.tags.find((prodTag) => prodTag === selectedTag)
+      )
+    })
 
     setAllProducts(ratingFilter)
   }
@@ -105,9 +124,40 @@ export default function Shop() {
     )
   }
 
+  const selectTag = (tag: string) => {
+    setTags((prevTags) => {
+      const previousTags = [...prevTags]
+      const found = previousTags.find((prevTag) => prevTag === tag)
+
+      if (found) {
+        const index = previousTags.indexOf(tag)
+        previousTags.splice(index, 1)
+      } else if (!found) {
+        previousTags.push(tag)
+      }
+
+      return previousTags
+    })
+  }
+
+  const tagsHandler = (selectedTag: string, toggle: () => void) => {
+    toggle()
+    selectTag(selectedTag)
+  }
+
   const displayTags = (tagsArr: string[]) => {
     const tagsEls = tagsArr.map((tag, index) => {
-      return <span key={index}>{tag}</span>
+      const [selected, toggle] = useToggle()
+
+      return (
+        <span
+          onClick={() => tagsHandler(tag, toggle)}
+          key={index}
+          className={selected ? classes.tag : classes.selectedTag}
+        >
+          {tag}
+        </span>
+      )
     })
 
     return <div className={classes.tags}>{tagsEls}</div>
@@ -121,30 +171,24 @@ export default function Shop() {
             Filter <LuFilter />
           </Button>
           <Filter label="Categories">
-            <>
-              {displayCategory("allcategories", "All categories", 230)}
-              {displayCategory("fruits", "Fruits", 30)}
-              {displayCategory("vegetables", "Vegetables", 40)}
-              {displayCategory("dairyeggs", "Dairy & Eggs", 20)}
-              {displayCategory("bakery", "Bakery", 25)}
-              {displayCategory("pantry", "Pantry", 50)}
-              {displayCategory("meatandseafood", "Meat & Seafood", 65)}
-              {displayCategory("beverages", "Beverages", 45)}
-            </>
+            {displayCategory("allcategories", "All categories", 230)}
+            {displayCategory("fruits", "Fruits", 30)}
+            {displayCategory("vegetables", "Vegetables", 40)}
+            {displayCategory("dairyeggs", "Dairy & Eggs", 20)}
+            {displayCategory("bakery", "Bakery", 25)}
+            {displayCategory("pantry", "Pantry", 50)}
+            {displayCategory("meatandseafood", "Meat & Seafood", 65)}
+            {displayCategory("beverages", "Beverages", 45)}
           </Filter>
           <Filter label="Price">
-            <div>
-              <RangeSlider color="#00b207" value={range} onChange={setRange} />
-            </div>
+            <RangeSlider color="#00b207" value={range} onChange={setRange} />
           </Filter>
           <Filter label="Rating">
-            <>
-              {displayRating("5 stars", 5)}
-              {displayRating("4 stars", 4)}
-              {displayRating("3 stars", 3)}
-              {displayRating("2 stars", 2)}
-              {displayRating("1 star", 1)}
-            </>
+            {displayRating("5 stars", 5)}
+            {displayRating("4 stars", 4)}
+            {displayRating("3 stars", 3)}
+            {displayRating("2 stars", 2)}
+            {displayRating("1 star", 1)}
           </Filter>
           <Filter label="Popular Tags">
             {displayTags([

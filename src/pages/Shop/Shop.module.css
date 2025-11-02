@@ -44,15 +44,7 @@
   margin-left: 3px;
 }
 
-.filled {
-  color: #ff8a00;
-}
-
-.empty {
-  color: #cccccc;
-}
-
-.tags span {
+.tag {
   display: inline-block;
   padding: 5px 8px;
   margin: 0 10px 10px 0;
@@ -62,9 +54,21 @@
   cursor: pointer;
 }
 
-.tags span:hover {
+.tag:hover,
+.selectedTag {
   color: white;
   background-color: #00b207;
+}
+
+.selectedTag {
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 0 10px 10px 0;
+  border-radius: 15px;
+  color: white;
+  background-color: #00b207;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .sideBanner {

@@ -8,7 +8,7 @@ export default function Filter({
   children,
 }: {
   label: string
-  children: React.JSX.Element
+  children: React.ReactNode
 }) {
   const [on, toggle] = useToggle()
 
