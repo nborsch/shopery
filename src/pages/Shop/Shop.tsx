@@ -4,6 +4,7 @@ import Button from "../../components/Button/Button"
 import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
 import Filter from "../../components/Filter/Filter"
+import convertRating from "../../helper/convertRating"
 import { LuFilter } from "react-icons/lu"
 import { FaStar } from "react-icons/fa6"
 import { RangeSlider } from "@mantine/core"
@@ -53,7 +54,7 @@ export default function Shop() {
       ))
     : null
 
-  const category = (
+  const displayCategory = (
     value: string = "",
     label: string = "",
     results: number
@@ -66,98 +67,65 @@ export default function Shop() {
     </div>
   )
 
+  const displayRating = (name: string, label: string, stars: number) => {
+    const starsEls = convertRating(stars)
+
+    return (
+      <div className={classes.rating}>
+        <input type="checkbox" name={name} />
+        <div className={classes.stars}>
+          {starsEls}
+          <span className={classes.label}>{label}</span>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <main className={classes.container}>
       <aside className={classes.sidebar}>
-        <Button>
-          Filter <LuFilter />
-        </Button>
-        <Filter label="Categories">
-          <>
-            {category("fruits", "Fruits", 30)}
-            {category("vegetables", "Vegetables", 40)}
-            {category("dairyeggs", "Dairy & Eggs", 20)}
-            {category("bakery", "Bakery", 25)}
-            {category("pantry", "Pantry", 50)}
-            {category("meatandseafood", "Meat & Seafood", 65)}
-            {category("beverages", "Beverages", 45)}
-          </>
-        </Filter>
-        <Filter label="Price">
-          <div>
-            <RangeSlider color="#00b207" value={range} onChange={setRange} />
-          </div>
-        </Filter>
-        <Filter label="Rating">
-          <>
-            <div className={classes.rating}>
-              <input type="checkbox" name="fivestars" />
-              <div className={classes.stars}>
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <span className={classes.label}>5 stars</span>
-              </div>
+        <form>
+          <Button type="submit">
+            Filter <LuFilter />
+          </Button>
+          <Filter label="Categories">
+            <>
+              {displayCategory("allcategories", "All categories", 230)}
+              {displayCategory("fruits", "Fruits", 30)}
+              {displayCategory("vegetables", "Vegetables", 40)}
+              {displayCategory("dairyeggs", "Dairy & Eggs", 20)}
+              {displayCategory("bakery", "Bakery", 25)}
+              {displayCategory("pantry", "Pantry", 50)}
+              {displayCategory("meatandseafood", "Meat & Seafood", 65)}
+              {displayCategory("beverages", "Beverages", 45)}
+            </>
+          </Filter>
+          <Filter label="Price">
+            <div>
+              <RangeSlider color="#00b207" value={range} onChange={setRange} />
             </div>
-            <div className={classes.rating}>
-              <input type="checkbox" name="fourstars" />
-              <div className={classes.stars}>
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.empty} />
-                <span className={classes.label}>4 stars & up</span>
-              </div>
+          </Filter>
+          <Filter label="Rating">
+            <>
+              {displayRating("fivestars", "5 stars", 5)}
+              {displayRating("fourstars", "4 stars & up", 4)}
+              {displayRating("threestars", "3 stars & up", 3)}
+              {displayRating("twostars", "2 stars & up", 2)}
+              {displayRating("onestar", "1 star & up", 1)}
+            </>
+          </Filter>
+          <Filter label="Popular Tags">
+            <div className={classes.tags}>
+              <span>vegan</span>
+              <span>organic</span>
+              <span>non-gmo</span>
+              <span>gluten-free</span>
+              <span>local</span>
+              <span>seasonal</span>
+              <span>fresh</span>
             </div>
-            <div className={classes.rating}>
-              <input type="checkbox" name="threestars" />
-              <div className={classes.stars}>
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <span className={classes.label}>3 stars & up</span>
-              </div>
-            </div>
-            <div className={classes.rating}>
-              <input type="checkbox" name="twostars" />
-              <div className={classes.stars}>
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <span className={classes.label}>2 stars & up</span>
-              </div>
-            </div>
-            <div className={classes.rating}>
-              <input type="checkbox" name="onestar" />
-              <div className={classes.stars}>
-                <FaStar className={classes.filled} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <FaStar className={classes.empty} />
-                <span className={classes.label}>1 star & up</span>
-              </div>
-            </div>
-          </>
-        </Filter>
-        <Filter label="Popular Tags">
-          <div className={classes.tags}>
-            <span>vegan</span>
-            <span>organic</span>
-            <span>non-gmo</span>
-            <span>gluten-free</span>
-            <span>local</span>
-            <span>seasonal</span>
-            <span>fresh</span>
-          </div>
-        </Filter>
+          </Filter>
+        </form>
         <img className={classes.sideBanner} src="img/shop-side-banner.png" />
       </aside>
       <section className={classes.shop}>

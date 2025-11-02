@@ -1,9 +1,10 @@
 import React from "react"
+import CartBtn from "../CartBtn/CartBtn"
 import classes from "./ProductCard.module.css"
 import classesMd from "./ProductCardMd.module.css"
 import classesLg from "./ProductCardLg.module.css"
 import classesSm from "./ProductCardSm.module.css"
-import CartBtn from "../CartBtn/CartBtn"
+import convertRating from "../../helper/convertRating"
 import { FaStar } from "react-icons/fa6"
 
 export type Product = {
@@ -33,20 +34,7 @@ export default function ProductCard({
   const sizeClass =
     sz === "lg" ? classesLg : sz === "md" ? classesMd : classesSm
 
-  function convertRating() {
-    const ratingArr = Array(5).fill(<></>)
-    const starsArr = ratingArr.map((item, index) => {
-      if (index < product.rating) {
-        return <FaStar className={classes.filled} key={index} />
-      } else if (index >= product.rating) {
-        return <FaStar className={classes.empty} key={index} />
-      }
-    })
-
-    return starsArr
-  }
-
-  const starRating = product ? convertRating() : null
+  const starRating = product ? convertRating(product.rating) : null
 
   return (
     <div className={`${sizeClass.container} ${classes.container}`}>

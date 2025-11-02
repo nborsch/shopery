@@ -1,33 +1,33 @@
-import React from "react";
-import classes from "./Specials.module.css";
-import Button from "../Button/Button";
-import { FaArrowRightLong } from "react-icons/fa6";
+import React from "react"
+import classes from "./Specials.module.css"
+import Button from "../Button/Button"
+import { FaArrowRightLong } from "react-icons/fa6"
 
 function setPeriod() {
-  const interval = new Date(2025, 10, 0).getTime() - Date.now();
-  return Math.floor(interval / 1000);
+  const interval = new Date(2025, 10, 0).getTime() - Date.now()
+  return Math.floor(interval / 1000)
 }
 
 export default function Specials() {
-  const [timer, setTimer] = React.useState<number>(() => setPeriod());
+  const [timer, setTimer] = React.useState<number>(() => setPeriod())
 
   React.useEffect(() => {
     let countdown = setInterval(() => {
       setTimer((prevTime) => {
         if (prevTime === 0) {
-          clearInterval(countdown);
-          return 0;
-        } else return prevTime - 1;
-      });
-    }, 1000);
+          clearInterval(countdown)
+          return 0
+        } else return prevTime - 1
+      })
+    }, 1000)
 
-    return () => clearInterval(countdown);
-  }, []);
+    return () => clearInterval(countdown)
+  }, [])
 
-  const days = Math.floor(timer / (60 * 60 * 24));
-  const hours = Math.floor((timer % (60 * 60 * 24)) / (60 * 60));
-  const minutes = Math.floor((timer % 3600) / 60);
-  const seconds = timer % 60;
+  const days = Math.floor(timer / (60 * 60 * 24))
+  const hours = Math.floor((timer % (60 * 60 * 24)) / (60 * 60))
+  const minutes = Math.floor((timer % 3600) / 60)
+  const seconds = timer % 60
 
   return (
     <div className={classes.container}>
@@ -47,11 +47,11 @@ export default function Specials() {
           <div className={classes.time}>Mins</div>
           <div className={classes.time}>Secs</div>
         </div>
-        <Button>
+        <Button type="button">
           Shop now <FaArrowRightLong />
         </Button>
       </div>
       <img className={classes.img} src="/img/home-specials.png" />
     </div>
-  );
+  )
 }
