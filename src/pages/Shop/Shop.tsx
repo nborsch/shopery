@@ -6,7 +6,6 @@ import type { Product } from "../../components/ProductCard/ProductCard"
 import Filter from "../../components/Filter/Filter"
 import convertRating from "../../helper/convertRating"
 import { LuFilter } from "react-icons/lu"
-import { FaStar } from "react-icons/fa6"
 import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
@@ -81,6 +80,14 @@ export default function Shop() {
     )
   }
 
+  const displayTags = (tagsArr: string[]) => {
+    const tagsEls = tagsArr.map((tag) => {
+      return <span>{tag}</span>
+    })
+
+    return <div className={classes.tags}>{tagsEls}</div>
+  }
+
   return (
     <main className={classes.container}>
       <aside className={classes.sidebar}>
@@ -115,15 +122,15 @@ export default function Shop() {
             </>
           </Filter>
           <Filter label="Popular Tags">
-            <div className={classes.tags}>
-              <span>vegan</span>
-              <span>organic</span>
-              <span>non-gmo</span>
-              <span>gluten-free</span>
-              <span>local</span>
-              <span>seasonal</span>
-              <span>fresh</span>
-            </div>
+            {displayTags([
+              "vegan",
+              "organic",
+              "non-gmo",
+              "gluten-free",
+              "local",
+              "seasonal",
+              "fresh",
+            ])}
           </Filter>
         </form>
         <img className={classes.sideBanner} src="img/shop-side-banner.png" />
