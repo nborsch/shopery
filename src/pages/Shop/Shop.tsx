@@ -16,24 +16,17 @@ export default function Shop() {
   const [tags, setTags] = React.useState<string[]>([])
 
   React.useEffect(() => {
-    //
-    //
-    //
-    //
-    // Add try/catch!
-    //
-    //
-    //
-    //
-    //
-
     async function getAllProducts() {
-      const response = await fetch("http://localhost:3000/shop")
-      if (!response.ok) throw new Error("Server issues")
-      const data = await response.json()
-      const products = data.slice(0, 15)
-      setAllProducts(products)
-      setFilteredProducts(products)
+      try {
+        const response = await fetch("http://localhost:3000/shop")
+        if (!response.ok) throw new Error("Server issues")
+        const data = await response.json()
+        const products = data.slice(0, 15)
+        setAllProducts(products)
+        setFilteredProducts(products)
+      } catch (err) {
+        console.log(err)
+      }
     }
 
     getAllProducts()
@@ -102,11 +95,13 @@ export default function Shop() {
     setFilteredProducts(ratingFilter)
   }
 
-  const productsEls = filteredProducts
-    ? filteredProducts.map((product) => (
-        <ProductCard sz="lg" product={product} key={product.id} />
-      ))
-    : null
+  const productsEls = filteredProducts ? (
+    filteredProducts.map((product) => (
+      <ProductCard sz="lg" product={product} key={product.id} />
+    ))
+  ) : (
+    <p>Loading...</p>
+  )
 
   const displayCategory = (
     value: string = "",
