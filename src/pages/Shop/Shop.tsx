@@ -11,6 +11,7 @@ import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
   const [allProducts, setAllProducts] = React.useState<Product[]>([])
+  const [filteredProducts, setFilteredProducts] = React.useState<Product[]>([])
   const [range, setRange] = React.useState<[number, number]>([0, 100])
   const [tags, setTags] = React.useState<string[]>([])
 
@@ -32,6 +33,7 @@ export default function Shop() {
       const data = await response.json()
       const products = data.slice(0, 15)
       setAllProducts(products)
+      setFilteredProducts(products)
     }
 
     getAllProducts()
@@ -40,7 +42,7 @@ export default function Shop() {
   function sortHandler(e: React.ChangeEvent<HTMLSelectElement>) {
     const sortingFilter = e.target.value
 
-    setAllProducts((prevAllProducts) => {
+    setFilteredProducts((prevAllProducts) => {
       const products = prevAllProducts && [...prevAllProducts]
 
       if (sortingFilter === "bestsellers") {
@@ -67,7 +69,7 @@ export default function Shop() {
 
     const category = formData.get("categories") as string
     const [priceMin, priceMax] = range
-    const rating = Number(formData.get("rating"))
+    const rating = formData.getAll("rating")
 
     const categoryFilter = allProducts.filter((product) => {
       if (category === "All categories") return true
@@ -82,12 +84,12 @@ export default function Shop() {
     if (priceFilter.length === 0) priceFilter === categoryFilter
 
     let ratingFilter = priceFilter.filter((product) => {
-      if (!rating) return true
-      return product.rating === rating
+      if (rating.length === 0) return true
+      return rating.includes(`${product.rating}`)
     })
 
     if (!tags) {
-      setAllProducts(ratingFilter)
+      setFilteredProducts(ratingFilter)
       return
     }
 
@@ -97,11 +99,11 @@ export default function Shop() {
       )
     })
 
-    setAllProducts(ratingFilter)
+    setFilteredProducts(ratingFilter)
   }
 
-  const productsEls = allProducts
-    ? allProducts.map((product) => (
+  const productsEls = filteredProducts
+    ? filteredProducts.map((product) => (
         <ProductCard sz="lg" product={product} key={product.id} />
       ))
     : null
@@ -228,7 +230,7 @@ export default function Shop() {
           </select>
         </div>
         <div className={classes.products}>
-          {allProducts ? productsEls : <p>Loading...</p>}
+          {filteredProducts ? productsEls : <p>Loading...</p>}
         </div>
         <nav className={classes.pagination}>
           <ul className={classes.list}>
