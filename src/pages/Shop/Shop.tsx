@@ -11,7 +11,7 @@ import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
   const [allProducts, setAllProducts] = React.useState<Product[]>([])
-  const [range, setRange] = React.useState<[number, number]>([20, 80])
+  const [range, setRange] = React.useState<[number, number]>([0, 100])
   const [tags, setTags] = React.useState<string[]>([])
 
   React.useEffect(() => {
@@ -67,20 +67,29 @@ export default function Shop() {
 
     const category = formData.get("categories") as string
     const [priceMin, priceMax] = range
-    const rating = formData.get("rating")
+    const rating = Number(formData.get("rating"))
 
     const categoryFilter = allProducts.filter((product) => {
       if (category === "All categories") return true
+      if (!category) return true
       return product.category === category
     })
 
-    const priceFilter = categoryFilter.filter(
-      (product) => priceMin < product.price && product.price < priceMax
-    )
+    const priceFilter = categoryFilter.filter((product) => {
+      return priceMin < product.price && product.price < priceMax
+    })
 
-    let ratingFilter = priceFilter.filter(
-      (product) => `${product.rating}` === rating
-    )
+    if (priceFilter.length === 0) priceFilter === categoryFilter
+
+    let ratingFilter = priceFilter.filter((product) => {
+      if (!rating) return true
+      return product.rating === rating
+    })
+
+    if (!tags) {
+      setAllProducts(ratingFilter)
+      return
+    }
 
     tags.forEach((selectedTag) => {
       ratingFilter = ratingFilter.filter((product) =>
