@@ -27,9 +27,7 @@ export default function MainNav() {
     <nav>
       <ul className={classes.nav}>
         <li className={classes.navItem} onClick={toggle}>
-          <Link to="/shop">
-            Shop {on ? <FaAngleUp /> : <FaAngleDown /> }
-          </Link>
+          Shop {!on ? <FaAngleUp className={classes.alignment} /> : <FaAngleDown className={classes.alignment} />}
         </li>
         <li className={classes.navItem}>
           <NavLink to={""} className={active}>
@@ -48,7 +46,7 @@ export default function MainNav() {
         </li>
       </ul>
 
-      {on && (
+      {!on && (
         <ul className={classes.shop}>
           <NavLink to={""}>
             <MainNavItem>
@@ -90,7 +88,7 @@ export default function MainNav() {
               <FaCanadianMapleLeaf /> Bakery
             </MainNavItem>
           </NavLink>
-          <NavLink to={""}>
+          <NavLink to="shop">
             <MainNavItem>
               <FaPlus /> View all categories
             </MainNavItem>

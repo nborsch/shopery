@@ -11,19 +11,21 @@
 
 .navItem {
   font-size: 0.875rem;
-}
-
-.navItem a {
   color: #666666;
 
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 5px;
+  cursor: pointer;
 }
 
-.navItem a:hover,
+.navItem:hover,
 .active {
   color: #00b207;
+}
+
+.alignment {
+  padding-top: 2px;
 }
 
 .shop {
