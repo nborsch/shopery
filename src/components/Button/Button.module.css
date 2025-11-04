@@ -4,9 +4,10 @@
   font-family: "Poppins", Helvetica, Arial, sans-serif;
 
   padding: 0.625rem 1.5625rem;
-
   border: none;
   border-radius: 1.5625rem;
+
+  cursor: pointer;
 }
 
 .align {

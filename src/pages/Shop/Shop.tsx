@@ -10,6 +10,7 @@ import { LuFilter } from "react-icons/lu"
 import { RangeSlider } from "@mantine/core"
 
 export default function Shop() {
+  const [page, setPage] = React.useState<number>(1)
   const [allProducts, setAllProducts] = React.useState<Product[]>([])
   const [filteredProducts, setFilteredProducts] = React.useState<Product[]>([])
   const [range, setRange] = React.useState<[number, number]>([0, 100])
@@ -18,10 +19,12 @@ export default function Shop() {
   React.useEffect(() => {
     async function getAllProducts() {
       try {
-        const response = await fetch("http://localhost:3000/shop")
+        const response = await fetch(
+          `http://localhost:3000/shop?_page=${page}&_per_page=12`
+        )
         if (!response.ok) throw new Error("Server issues")
         const data = await response.json()
-        const products = data.slice(0, 15)
+        const products = data.data
         setAllProducts(products)
         setFilteredProducts(products)
       } catch (err) {
@@ -30,7 +33,7 @@ export default function Shop() {
     }
 
     getAllProducts()
-  }, [])
+  }, [page])
 
   function sortHandler(e: React.ChangeEvent<HTMLSelectElement>) {
     const sortingFilter = e.target.value
@@ -230,11 +233,15 @@ export default function Shop() {
         <nav className={classes.pagination}>
           <ul className={classes.list}>
             <li className={classes.listItem}>{"<"}</li>
-            <li className={classes.listItem}>1</li>
-            <li className={classes.listItem}>2</li>
-            <li className={classes.listItem}>3</li>
-            <li className={classes.listItem}>4</li>
-            <li className={classes.listItem}>5</li>
+            <li onClick={() => setPage(1)} className={classes.listItem}>
+              1
+            </li>
+            <li onClick={() => setPage(2)} className={classes.listItem}>
+              2
+            </li>
+            <li onClick={() => setPage(3)} className={classes.listItem}>
+              3
+            </li>
             <li className={classes.listItem}>...</li>
             <li className={classes.listItem}>21</li>
             <li className={classes.listItem}>{">"}</li>
