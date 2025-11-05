@@ -137,14 +137,10 @@ export default function Shop() {
     <p>Loading...</p>
   )
 
-  const displayCategory = (
-    value: string = "",
-    label: string = "",
-    results: number
-  ) => (
+  const displayCategory = (label: string = "", results: number) => (
     <div className={classes.category}>
-      <input type="radio" name="categories" id={value} value={label} />
-      <label htmlFor={value}>
+      <input type="radio" name="categories" id={label} value={label} />
+      <label htmlFor={label}>
         {label} <span className={classes.results}>({results})</span>
       </label>
     </div>
@@ -286,14 +282,14 @@ export default function Shop() {
             Filter <LuFilter />
           </Button>
           <Filter label="Categories">
-            {displayCategory("allcategories", "All categories", 230)}
-            {displayCategory("fruits", "Fruits", 30)}
-            {displayCategory("vegetables", "Vegetables", 40)}
-            {displayCategory("dairyeggs", "Dairy & Eggs", 20)}
-            {displayCategory("bakery", "Bakery", 25)}
-            {displayCategory("pantry", "Pantry", 50)}
-            {displayCategory("meatandseafood", "Meat & Seafood", 65)}
-            {displayCategory("beverages", "Beverages", 45)}
+            {displayCategory("All categories", 230)}
+            {displayCategory("Fruits", 30)}
+            {displayCategory("Vegetables", 40)}
+            {displayCategory("Dairy & Eggs", 20)}
+            {displayCategory("Bakery", 25)}
+            {displayCategory("Pantry", 50)}
+            {displayCategory("Meat & Seafood", 65)}
+            {displayCategory("Beverages", 45)}
           </Filter>
           <Filter label="Price">
             <RangeSlider color="#00b207" value={range} onChange={setRange} />
@@ -337,9 +333,7 @@ export default function Shop() {
           {filteredProducts ? productsEls : <p>Loading...</p>}
         </div>
         <nav className={classes.pagination}>
-          <ul className={classes.list}>
-            {displayPagination()}
-          </ul>
+          <ul className={classes.list}>{displayPagination()}</ul>
         </nav>
       </section>
     </main>
