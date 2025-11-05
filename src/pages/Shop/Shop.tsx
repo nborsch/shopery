@@ -9,12 +9,42 @@ import convertRating from "../../helper/convertRating"
 import { LuFilter } from "react-icons/lu"
 import { RangeSlider } from "@mantine/core"
 
+type FetchedData = {
+  items: number
+  pages: number
+  current: number
+  previous: number
+  next: number
+}
+
 export default function Shop() {
   const [page, setPage] = React.useState<number>(1)
+  const [pageData, setPageData] = React.useState<FetchedData | null>(null)
   const [allProducts, setAllProducts] = React.useState<Product[]>([])
   const [filteredProducts, setFilteredProducts] = React.useState<Product[]>([])
   const [range, setRange] = React.useState<[number, number]>([0, 100])
   const [tags, setTags] = React.useState<string[]>([])
+
+  const handlePageData = (
+    dataItems: number,
+    dataPages: number,
+    dataPrevious: number | null,
+    dataNext: number | null
+  ) => {
+    let previous: number
+    let next: number
+    dataPrevious === null ? (previous = 0) : (previous = dataPrevious)
+    dataNext === null ? (next = 0) : (next = dataNext)
+    const current = next === 0 ? dataPages : next - 1
+    console.log(current)
+    setPageData({
+      items: dataItems,
+      pages: dataPages,
+      current,
+      previous,
+      next,
+    })
+  }
 
   React.useEffect(() => {
     async function getAllProducts() {
@@ -25,6 +55,7 @@ export default function Shop() {
         if (!response.ok) throw new Error("Server issues")
         const data = await response.json()
         const products = data.data
+        handlePageData(data.items, data.last, data.prev, data.next)
         setAllProducts(products)
         setFilteredProducts(products)
       } catch (err) {
@@ -172,6 +203,81 @@ export default function Shop() {
     return <div className={classes.tags}>{tagsEls}</div>
   }
 
+  const displayPagination = () => {
+    if (!pageData) return <p>Loading...</p>
+    const numberOfPages = pageData.pages
+    const pageEls: React.JSX.Element[] = []
+
+    // for each link to page
+    for (let i = 1; i <= numberOfPages; i++) {
+      // if we are on the first link
+      if (i === 1) {
+        // if we are on the first link && it's page 1
+        if (page === 1) {
+          pageEls.push(<li className={classes.listItem}>{"<"}</li>)
+          pageEls.push(<li className={classes.listItem}>1</li>)
+
+          // if we are on the first link && it's NOT page 1
+        } else {
+          pageEls.push(
+            <li
+              onClick={() => setPage(pageData.previous)}
+              className={classes.listItem}
+            >
+              {"<"}
+            </li>
+          )
+          pageEls.push(
+            <li onClick={() => setPage(1)} className={classes.listItem}>
+              1
+            </li>
+          )
+        }
+        // if we're on the last link
+      } else if (i === numberOfPages) {
+        // if we are on the last link && it's the last page
+        if (pageData.current === numberOfPages) {
+          pageEls.push(<li className={classes.listItem}>{numberOfPages}</li>)
+          pageEls.push(<li className={classes.listItem}>{">"}</li>)
+
+          // if we are on the last link && it's NOT the last page
+        } else {
+          pageEls.push(
+            <li
+              onClick={() => setPage(numberOfPages)}
+              className={classes.listItem}
+            >
+              {numberOfPages}
+            </li>
+          )
+          pageEls.push(
+            <li
+              onClick={() => setPage(pageData.next)}
+              className={classes.listItem}
+            >
+              {">"}
+            </li>
+          )
+        }
+        // if we are on any other link
+      } else if (i != 1 && i != numberOfPages) {
+        // if the current link is the current page
+        if (i === page) {
+          pageEls.push(<li className={classes.listItem}>{i}</li>)
+          // if the current link is not the current page
+        } else {
+          pageEls.push(
+            <li onClick={() => setPage(i)} className={classes.listItem}>
+              {i}
+            </li>
+          )
+        }
+      }
+    }
+
+    return pageEls
+  }
+
   return (
     <main className={classes.container}>
       <aside className={classes.sidebar}>
@@ -232,19 +338,7 @@ export default function Shop() {
         </div>
         <nav className={classes.pagination}>
           <ul className={classes.list}>
-            <li className={classes.listItem}>{"<"}</li>
-            <li onClick={() => setPage(1)} className={classes.listItem}>
-              1
-            </li>
-            <li onClick={() => setPage(2)} className={classes.listItem}>
-              2
-            </li>
-            <li onClick={() => setPage(3)} className={classes.listItem}>
-              3
-            </li>
-            <li className={classes.listItem}>...</li>
-            <li className={classes.listItem}>21</li>
-            <li className={classes.listItem}>{">"}</li>
+            {displayPagination()}
           </ul>
         </nav>
       </section>
