@@ -22,6 +22,7 @@ export type Product = {
   lastUpdated: string
   sold: number
   featured: boolean
+  discount: number
 }
 
 export default function ProductCard({

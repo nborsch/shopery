@@ -6,6 +6,7 @@ import type { Product } from "../../components/ProductCard/ProductCard"
 import Filter from "../../components/Filter/Filter"
 import useToggle from "../../hooks/useToggle"
 import convertRating from "../../helper/convertRating"
+import { Link } from "react-router"
 import { LuFilter } from "react-icons/lu"
 import { RangeSlider } from "@mantine/core"
 
@@ -36,7 +37,7 @@ export default function Shop() {
     dataPrevious === null ? (previous = 0) : (previous = dataPrevious)
     dataNext === null ? (next = 0) : (next = dataNext)
     const current = next === 0 ? dataPages : next - 1
-    console.log(current)
+
     setPageData({
       items: dataItems,
       pages: dataPages,
@@ -131,7 +132,9 @@ export default function Shop() {
 
   const productsEls = filteredProducts ? (
     filteredProducts.map((product) => (
-      <ProductCard sz="lg" product={product} key={product.id} />
+      <Link to={`/shop/${product.id}`}>
+        <ProductCard sz="lg" product={product} key={product.id} />
+      </Link>
     ))
   ) : (
     <p>Loading...</p>
@@ -210,8 +213,16 @@ export default function Shop() {
       if (i === 1) {
         // if we are on the first link && it's page 1
         if (page === 1) {
-          pageEls.push(<li className={classes.listItem}>{"<"}</li>)
-          pageEls.push(<li className={classes.listItem}>1</li>)
+          pageEls.push(
+            <li className={classes.listItem} key="0">
+              {"<"}
+            </li>
+          )
+          pageEls.push(
+            <li className={classes.listItem} key="1">
+              1
+            </li>
+          )
 
           // if we are on the first link && it's NOT page 1
         } else {
@@ -219,12 +230,13 @@ export default function Shop() {
             <li
               onClick={() => setPage(pageData.previous)}
               className={classes.listItem}
+              key="0"
             >
               {"<"}
             </li>
           )
           pageEls.push(
-            <li onClick={() => setPage(1)} className={classes.listItem}>
+            <li onClick={() => setPage(1)} className={classes.listItem} key="1">
               1
             </li>
           )
@@ -233,8 +245,16 @@ export default function Shop() {
       } else if (i === numberOfPages) {
         // if we are on the last link && it's the last page
         if (pageData.current === numberOfPages) {
-          pageEls.push(<li className={classes.listItem}>{numberOfPages}</li>)
-          pageEls.push(<li className={classes.listItem}>{">"}</li>)
+          pageEls.push(
+            <li className={classes.listItem} key={numberOfPages}>
+              {numberOfPages}
+            </li>
+          )
+          pageEls.push(
+            <li className={classes.listItem} key={numberOfPages + 1}>
+              {">"}
+            </li>
+          )
 
           // if we are on the last link && it's NOT the last page
         } else {
@@ -242,6 +262,7 @@ export default function Shop() {
             <li
               onClick={() => setPage(numberOfPages)}
               className={classes.listItem}
+              key={numberOfPages}
             >
               {numberOfPages}
             </li>
@@ -250,6 +271,7 @@ export default function Shop() {
             <li
               onClick={() => setPage(pageData.next)}
               className={classes.listItem}
+              key={numberOfPages + 1}
             >
               {">"}
             </li>
@@ -259,11 +281,15 @@ export default function Shop() {
       } else if (i != 1 && i != numberOfPages) {
         // if the current link is the current page
         if (i === page) {
-          pageEls.push(<li className={classes.listItem}>{i}</li>)
+          pageEls.push(
+            <li className={classes.listItem} key={i}>
+              {i}
+            </li>
+          )
           // if the current link is not the current page
         } else {
           pageEls.push(
-            <li onClick={() => setPage(i)} className={classes.listItem}>
+            <li onClick={() => setPage(i)} className={classes.listItem} key={i}>
               {i}
             </li>
           )

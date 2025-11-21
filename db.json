@@ -4,7 +4,7 @@
       "id": 1001,
       "name": "Organic Banana",
       "brand": "Sunrise Farms",
-      "description": "Fresh, local Organic banana from Sunrise Farms. Sourced daily.",
+      "description": "Enjoy the sweet, creamy taste of our Organic Banana, proudly brought to you by Sunrise Farms. These bananas are sourced daily from local growers who prioritize sustainable farming methods to protect the environment. Packed with essential potassium and natural energy, they make the perfect pre-workout snack for active lifestyles. You can slice them onto your morning cereal, blend them into a smoothie, or simply peel and eat for a quick boost. Being 100% organic and non-GMO, you can trust that you are feeding your family the very best nature has to offer. Experience the difference in flavor that comes from produce harvested at the perfect moment of ripeness.",
       "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e",
       "quantity": 188,
       "price": 2.49,
@@ -14,13 +14,14 @@
       "dateCreated": "2024-01-15T10:30:45Z",
       "lastUpdated": "2025-09-22T14:12:01Z",
       "sold": 150,
-      "featured": true
+      "featured": true,
+      "discount": 3
     },
     {
       "id": 1002,
       "name": "Organic Spinach",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, non-gmo Organic spinach from GreenAcres Organics. Sourced daily.",
+      "description": "Discover the crisp, vibrant leaves of our Organic Spinach from GreenAcres Organics. This nutrient-dense superfood is sourced daily to ensure maximum freshness and crunch in every bite. Rich in iron and vitamins, it serves as an excellent base for healthy salads or a nutritious addition to your morning smoothies. We strictly adhere to non-GMO standards, ensuring that no harmful chemicals or modifications touch your food. Whether you choose to sauté it with garlic or eat it raw, the flavor profile is unmatched in quality. Trust GreenAcres Organics to deliver the highest quality vegetables straight from the earth to your kitchen table.",
       "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb",
       "quantity": 250,
       "price": 4.99,
@@ -30,13 +31,14 @@
       "dateCreated": "2023-11-01T08:00:00Z",
       "lastUpdated": "2025-10-20T09:30:15Z",
       "sold": 200,
-      "featured": false
+      "featured": false,
+      "discount": 7
     },
     {
       "id": 1003,
       "name": "Organic Eggs",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, free-range Organic eggs from FarmFresh Co.. Sourced locally.",
+      "description": "Start your day right with Organic Eggs from FarmFresh Co., sourced from happy, free-range hens. We believe that high-quality eggs come from birds that are treated with respect and allowed to roam locally. These eggs boast rich, golden yolks and firm whites that are perfect for any culinary application. Packed with high-quality protein, they are a staple ingredient for baking, breakfast scrambles, or savory quiches. Our commitment to organic farming means these eggs are free from antibiotics and synthetic hormones. Taste the farm-fresh difference that local sourcing and ethical practices bring to your plate.",
       "imageUrl": "https://images.unsplash.com/photo-1559738928-5d5dc5c2458d",
       "quantity": 120,
       "price": 6.99,
@@ -46,13 +48,14 @@
       "dateCreated": "2024-05-20T14:22:30Z",
       "lastUpdated": "2025-10-19T11:05:00Z",
       "sold": 350,
-      "featured": true
+      "featured": true,
+      "discount": 2
     },
     {
       "id": 1004,
       "name": "Organic Sourdough Bread",
       "brand": "Earthly Goods",
-      "description": "Fresh, fresh Organic sourdough bread from Earthly Goods. Sourced daily.",
+      "description": "Indulge in the tangy, rustic flavor of Organic Sourdough Bread, baked fresh by Earthly Goods. Sourced daily, our bread is crafted using traditional fermentation methods that unlock deep, complex flavors. The crust is perfectly crisp and golden, while the interior remains soft and airy for the perfect texture. We use only organic, non-GMO flour to ensure that every slice is as wholesome as it is delicious. This bread is ideal for artisan sandwiches, toast with avocado, or simply enjoying with a pat of butter. Elevate your bakery experience with a loaf that honors time-tested baking traditions.",
       "imageUrl": "https://images.unsplash.com/photo-1551888761-382cd30b5da6",
       "quantity": 45,
       "price": 5.49,
@@ -62,13 +65,14 @@
       "dateCreated": "2025-01-10T06:15:00Z",
       "lastUpdated": "2025-10-22T08:00:00Z",
       "sold": 80,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1005,
       "name": "Organic Olive Oil",
       "brand": "PureHarvest",
-      "description": "Fresh, kosher Organic olive oil from PureHarvest. Sourced sustainably.",
+      "description": "Elevate your cooking with the rich, robust notes of Organic Olive Oil from PureHarvest. Sourced sustainably from ancient groves, this oil is cold-pressed to preserve its natural antioxidants and healthy fats. It is fully kosher and organic, making it a versatile choice for a wide variety of dietary needs. Use it to dress fresh salads, roast vegetables, or finish a pasta dish with a touch of elegance. PureHarvest is dedicated to non-GMO practices, ensuring clarity and purity in every bottle you purchase. Bring the authentic taste of the Mediterranean into your home with this premium pantry staple.",
       "imageUrl": "https://images.unsplash.com/photo-1627894005682-166e8687356a",
       "quantity": 200,
       "price": 14.99,
@@ -78,13 +82,14 @@
       "dateCreated": "2023-12-05T11:00:00Z",
       "lastUpdated": "2025-08-30T18:45:10Z",
       "sold": 120,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1006,
       "name": "Organic Chicken Breast",
       "brand": "Nature's Bounty",
-      "description": "Fresh, free-range Organic chicken breast from Nature's Bounty. Sourced locally.",
+      "description": "Experience the superior quality of Organic Chicken Breast provided by Nature's Bounty. Our chickens are free-range and grass-fed, allowing them to forage naturally for a healthier, leaner meat profile. Sourced locally to minimize carbon footprint, this chicken is the perfect centerpiece for a nutritious dinner. It is incredibly versatile, retaining moisture well whether grilled, baked, or pan-seared. We guarantee an organic product free from added hormones, giving you peace of mind with every meal. Treat your family to the clean, savory taste of ethically raised poultry.",
       "imageUrl": "https://media.istockphoto.com/id/2175701334/photo/frying-two-chicken-breast-fillets.webp?a=1&b=1&s=612x612&w=0&k=20&c=4yqhdM-GsdV3aaKe4euiKlUwF1eYSxmpizGFOWZ53r4=",
       "quantity": 80,
       "price": 12.99,
@@ -94,13 +99,14 @@
       "dateCreated": "2024-08-01T16:00:00Z",
       "lastUpdated": "2025-10-21T10:00:00Z",
       "sold": 95,
-      "featured": true
+      "featured": true,
+      "discount": 6
     },
     {
       "id": 1007,
       "name": "Organic Kombucha",
       "brand": "GoldenRoot",
-      "description": "Fresh, vegan Organic kombucha from GoldenRoot. Sourced sustainably.",
+      "description": "Refresh your senses with the effervescent tang of Organic Kombucha by GoldenRoot. This beverage is crafted using sustainable sourcing methods and fermented to perfection for beneficial probiotics. It is completely vegan and gluten-free, making it suitable for a wide range of healthy lifestyles. Sourced with care, every bottle delivers a natural energy boost without the crash of sugary sodas. Enjoy it as a mid-day pick-me-up or a digestive aid after a hearty meal. GoldenRoot is committed to organic ingredients, ensuring you get a pure and revitalizing drink every time.",
       "imageUrl": "https://homesteadingfamily.com/wp-content/uploads/2021/05/Lemon-Ginger-Kombucha-500x500.jpg",
       "quantity": 150,
       "price": 3.99,
@@ -110,13 +116,14 @@
       "dateCreated": "2024-03-18T09:05:12Z",
       "lastUpdated": "2025-07-11T12:20:30Z",
       "sold": 210,
-      "featured": false
+      "featured": false,
+      "discount": 4
     },
     {
       "id": 1008,
       "name": "Organic Apple",
       "brand": "ValleyPure",
-      "description": "Fresh, local Organic apple from ValleyPure. Sourced daily.",
+      "description": "Crunch into the crisp, juicy goodness of a local Organic Apple from ValleyPure. Sourced daily from nearby orchards, these apples are picked at the height of their season for maximum sweetness. They are naturally packed with fiber and vitamin C, making them a smart snack choice for kids and adults alike. Whether eaten raw, baked into a pie, or sliced into a salad, their texture holds up beautifully. By choosing ValleyPure, you support local agriculture and sustainable farming practices. Enjoy the pure, unadulterated taste of an apple grown the way nature intended.",
       "imageUrl": "https://images.pexels.com/photos/3746517/pexels-photo-3746517.jpeg",
       "quantity": 300,
       "price": 1.29,
@@ -126,13 +133,14 @@
       "dateCreated": "2024-09-01T10:00:00Z",
       "lastUpdated": "2025-10-15T11:30:00Z",
       "sold": 500,
-      "featured": true
+      "featured": true,
+      "discount": 2
     },
     {
       "id": 1009,
       "name": "Organic Carrot",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic carrot from GreenAcres Organics. Sourced locally.",
+      "description": "Add a satisfying crunch to your meals with fresh Organic Carrots from GreenAcres Organics. Sourced locally to ensure peak flavor, these carrots are vibrant, sweet, and full of beta-carotene. They are grown without the use of GMOs or synthetic pesticides, prioritizing your health and the soil's health. Perfect for snacking raw with hummus, roasting as a side dish, or chopping into soups, their versatility is endless. We take pride in delivering produce that looks good and tastes even better. Make the healthy choice with carrots that are as fresh as the day they were harvested.",
       "imageUrl": "https://images.unsplash.com/photo-1729292993549-a74a67e69c2a",
       "quantity": 450,
       "price": 2.99,
@@ -142,13 +150,14 @@
       "dateCreated": "2024-02-22T13:10:05Z",
       "lastUpdated": "2025-10-18T07:45:00Z",
       "sold": 450,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1010,
       "name": "Organic Milk",
       "brand": "Sunrise Farms",
-      "description": "Fresh, grass-fed Organic milk from Sunrise Farms. Sourced daily.",
+      "description": "Nourish your body with the creamy richness of Organic Milk from Sunrise Farms. Our milk comes from grass-fed cows that graze on local pastures, ensuring a superior nutritional profile. Sourced daily, it is pasteurized gently to preserve its natural flavor and essential vitamins like Calcium and Vitamin D. This milk is perfect for your morning coffee, cereal, or simply enjoying a cold glass on its own. We are committed to organic practices, meaning no antibiotics or synthetic hormones are ever used. Taste the purity of milk produced with care for the animals and the land.",
       "imageUrl": "https://images.pexels.com/photos/28664618/pexels-photo-28664618.jpeg",
       "quantity": 90,
       "price": 5.99,
@@ -158,13 +167,14 @@
       "dateCreated": "2024-07-14T05:00:00Z",
       "lastUpdated": "2025-10-22T05:30:10Z",
       "sold": 300,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1011,
       "name": "Organic Quinoa",
       "brand": "PureHarvest",
-      "description": "Fresh, vegan Organic quinoa from PureHarvest. Sourced sustainably.",
+      "description": "Discover the ancient grain power of Organic Quinoa, brought to you by PureHarvest. Sourced sustainably, this superfood is completely vegan and naturally gluten-free, making it a safe choice for sensitive diets. It cooks up fluffy and light, with a mild, nutty flavor that complements any dish. Packed with complete protein and fiber, it is an excellent alternative to rice or pasta. PureHarvest ensures that every bag is organic, supporting farming communities and environmental health. Keep your pantry stocked with this versatile grain for quick, healthy, and satisfying meals.",
       "imageUrl": "https://images.unsplash.com/photo-1708949125682-c0cb09727101",
       "quantity": 220,
       "price": 8.99,
@@ -174,13 +184,14 @@
       "dateCreated": "2024-10-30T17:45:00Z",
       "lastUpdated": "2025-06-15T14:00:00Z",
       "sold": 75,
-      "featured": false
+      "featured": false,
+      "discount": 7
     },
     {
       "id": 1012,
       "name": "Organic Strawberry",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, seasonal Organic strawberry from FarmFresh Co.. Sourced locally.",
+      "description": "Delight in the ruby-red sweetness of seasonal Organic Strawberries from FarmFresh Co.. Sourced locally during peak harvest, these berries are bursting with natural juices and flavor. They are cultivated organically, ensuring they are free from synthetic pesticides and waxes. Perfect for slicing into fruit salads, topping desserts, or eating straight from the basket, they are a treat for the whole family. Rich in antioxidants and Vitamin C, they offer a delicious way to boost your immune system. Experience the fleeting perfection of true seasonal fruit with every bite.",
       "imageUrl": "https://images.unsplash.com/photo-1652448919151-c8be3cfb185b",
       "quantity": 130,
       "price": 4.49,
@@ -190,13 +201,14 @@
       "dateCreated": "2024-06-10T09:15:00Z",
       "lastUpdated": "2025-06-11T10:00:00Z",
       "sold": 220,
-      "featured": true
+      "featured": true,
+      "discount": 3
     },
     {
       "id": 1013,
       "name": "Organic Tomato",
       "brand": "ValleyPure",
-      "description": "Fresh, non-gmo Organic tomato from ValleyPure. Sourced daily.",
+      "description": "Savor the juicy, sun-ripened flavor of Organic Tomatoes from ValleyPure. Sourced daily from local farms, these tomatoes are selected for their vibrant color and firm texture. They are strictly non-GMO and grown organically, ensuring you avoid unwanted chemicals in your diet. Ideal for slicing into sandwiches, dicing for fresh salsa, or simmering into a rich sauce, they are a kitchen essential. ValleyPure is dedicated to bringing you the freshest produce that supports local agriculture. Taste the difference of a tomato that has been allowed to ripen fully on the vine.",
       "imageUrl": "https://images.unsplash.com/photo-1642372849465-ad4afb304542",
       "quantity": 380,
       "price": 3.49,
@@ -206,13 +218,14 @@
       "dateCreated": "2024-08-25T11:20:00Z",
       "lastUpdated": "2025-10-10T12:00:00Z",
       "sold": 380,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1014,
       "name": "Organic Ground Beef",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, grass-fed Organic ground beef from GreenAcres Organics. Sourced locally.",
+      "description": "Prepare hearty and healthy meals with Organic Ground Beef from GreenAcres Organics. Sourced locally from grass-fed cattle, this beef offers a richer flavor and healthier fat profile than conventional options. It is free from antibiotics and added hormones, adhering to strict organic standards. This ground beef is perfect for tacos, burgers, meat sauces, or casseroles, providing a high-quality source of protein. By choosing GreenAcres, you are supporting sustainable livestock practices and local farmers. Enjoy the confidence that comes with serving your family clean, ethically raised meat.",
       "imageUrl": "https://cdn.shopify.com/s/files/1/2474/3862/files/how-is-ground-beef-made.webp?v=1715807335",
       "quantity": 60,
       "price": 9.99,
@@ -222,13 +235,14 @@
       "dateCreated": "2024-04-12T18:00:00Z",
       "lastUpdated": "2025-10-21T09:15:00Z",
       "sold": 100,
-      "featured": true
+      "featured": true,
+      "discount": 4
     },
     {
       "id": 1015,
       "name": "Organic Almond Milk",
       "brand": "Earthly Goods",
-      "description": "Fresh, vegan Organic almond milk from Earthly Goods. Sourced sustainably.",
+      "description": "Enjoy the smooth, nutty taste of Organic Almond Milk by Earthly Goods. Sourced sustainably, our almond milk is a delicious vegan alternative to dairy that doesn't compromise on flavor. It is naturally gluten-free and made from high-quality, organic almonds without artificial additives. Use it in your morning coffee, pour it over cereal, or use it as a base for creamy smoothies. Earthly Goods is committed to eco-friendly practices, ensuring a product that is good for you and the planet. Make the switch to a plant-based staple that delivers on both taste and nutrition.",
       "imageUrl": "https://plus.unsplash.com/premium_photo-1693118931226-54167a9c6c12",
       "quantity": 110,
       "price": 4.79,
@@ -238,13 +252,14 @@
       "dateCreated": "2024-11-30T12:00:00Z",
       "lastUpdated": "2025-09-05T16:20:00Z",
       "sold": 150,
-      "featured": false
+      "featured": false,
+      "discount": 2
     },
     {
       "id": 1016,
       "name": "Organic Orange Juice",
       "brand": "Sunrise Farms",
-      "description": "Fresh, fresh Organic orange juice from Sunrise Farms. Sourced daily.",
+      "description": "Start your morning with a glass of sunshine using Organic Orange Juice from Sunrise Farms. Sourced daily and squeezed from fresh, non-GMO oranges, this juice retains all the natural pulp and flavor you love. It is packed with Vitamin C and essential nutrients to help support a healthy immune system. We never add sugar or artificial preservatives, offering you a purely organic beverage experience. Whether enjoyed at breakfast or as a refreshing drink throughout the day, its zesty taste is invigorating. Trust Sunrise Farms for juice that tastes like it was squeezed right in your kitchen.",
       "imageUrl": "https://example.com/images/products/orange-juice-1016.jpg",
       "quantity": 75,
       "price": 5.29,
@@ -254,13 +269,14 @@
       "dateCreated": "2025-02-01T07:30:00Z",
       "lastUpdated": "2025-10-20T08:00:00Z",
       "sold": 130,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1017,
       "name": "Organic Avocado",
       "brand": "Nature's Bounty",
-      "description": "Fresh, fair-trade Organic avocado from Nature's Bounty. Sourced sustainably.",
+      "description": "Creamy, rich, and perfectly ripe, our Organic Avocados from Nature's Bounty are a superfood staple. We prioritize fair-trade sourcing to ensure ethical treatment of workers and sustainable farming practices. These avocados are non-GMO and grown organically, delivering pure, unadulterated nutrition in every slice. Mash them for guacamole, spread them on toast, or slice them onto salads for a boost of healthy fats. Nature's Bounty guarantees quality produce that aligns with your values and dietary needs. Experience the buttery texture and superior taste of a truly ethically sourced avocado.",
       "imageUrl": "https://example.com/images/products/avocado-1017.jpg",
       "quantity": 210,
       "price": 2.99,
@@ -270,13 +286,14 @@
       "dateCreated": "2024-09-15T15:00:00Z",
       "lastUpdated": "2025-10-17T18:00:00Z",
       "sold": 400,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1018,
       "name": "Organic Whole Wheat Loaf",
       "brand": "GoldenRoot",
-      "description": "Fresh, fresh Organic whole wheat loaf from GoldenRoot. Sourced daily.",
+      "description": "Enjoy the wholesome goodness of our Organic Whole Wheat Loaf, baked daily by GoldenRoot. We use locally sourced, organic wheat to create a bread that is dense, nutritious, and full of fiber. The texture is soft yet hearty, making it the perfect foundation for sandwiches or a side for soups. Freshness is guaranteed, as we bake in small batches to ensure high quality and flavor. GoldenRoot is dedicated to providing bakery items that support a healthy lifestyle without preservatives. Make your daily bread count with a loaf that is as nutritious as it is delicious.",
       "imageUrl": "https://example.com/images/products/whole-wheat-loaf-1018.jpg",
       "quantity": 30,
       "price": 4.99,
@@ -286,13 +303,14 @@
       "dateCreated": "2025-03-03T05:30:00Z",
       "lastUpdated": "2025-10-22T06:00:00Z",
       "sold": 60,
-      "featured": false
+      "featured": false,
+      "discount": 3
     },
     {
       "id": 1019,
       "name": "Organic Broccoli",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, non-gmo Organic broccoli from FarmFresh Co.. Sourced locally.",
+      "description": "Bring vibrant green nutrition to your plate with Organic Broccoli from FarmFresh Co.. Sourced locally, this broccoli is harvested at peak freshness to retain its crunch and high vitamin content. It is completely non-GMO and grown without synthetic pesticides, ensuring a clean eating experience. Steam it, roast it, or eat it raw with dip; its versatility makes it a kitchen favorite. FarmFresh Co. partners with local growers to reduce food miles and deliver superior quality vegetables. Support your health and your local community with every head of broccoli you buy.",
       "imageUrl": "https://example.com/images/products/broccoli-1019.jpg",
       "quantity": 170,
       "price": 3.29,
@@ -302,13 +320,14 @@
       "dateCreated": "2024-07-28T10:10:10Z",
       "lastUpdated": "2025-10-19T10:00:00Z",
       "sold": 250,
-      "featured": true
+      "featured": true,
+      "discount": 7
     },
     {
       "id": 1020,
       "name": "Organic Salmon Fillet",
       "brand": "PureHarvest",
-      "description": "Fresh, fresh Organic salmon fillet from PureHarvest. Sourced sustainably.",
+      "description": "Savor the delicate flavor and flaky texture of our Organic Salmon Fillet from PureHarvest. Sourced sustainably to protect ocean ecosystems, this salmon is as responsible as it is delicious. It arrives fresh, never frozen, retaining its natural moisture and high Omega-3 fatty acid content. Free from GMOs and antibiotics, it is a protein source you can feel good about serving to your family. Whether you grill, bake, or poach it, the quality of the fish shines through in every bite. PureHarvest brings you the finest seafood with a commitment to environmental stewardship.",
       "imageUrl": "https://example.com/images/products/salmon-fillet-1020.jpg",
       "quantity": 40,
       "price": 18.99,
@@ -318,13 +337,14 @@
       "dateCreated": "2024-10-01T14:00:00Z",
       "lastUpdated": "2025-10-20T15:00:00Z",
       "sold": 70,
-      "featured": true
+      "featured": true,
+      "discount": 6
     },
     {
       "id": 1021,
       "name": "Organic Blueberry",
       "brand": "ValleyPure",
-      "description": "Fresh, seasonal Organic blueberry from ValleyPure. Sourced locally.",
+      "description": "Treat yourself to the sweet, tangy pop of Organic Blueberries from ValleyPure. These seasonal gems are sourced locally, ensuring they reach your table with maximum freshness and nutritional value. Packed with antioxidants, they are a powerful superfood that tastes like nature's candy. ValleyPure grows these berries organically, without the use of synthetic pesticides or fertilizers. They are perfect for baking muffins, topping yogurt, or snacking on by the handful. Enjoy the authentic taste of summer with berries that are good for you and the environment.",
       "imageUrl": "https://example.com/images/products/blueberry-1021.jpg",
       "quantity": 90,
       "price": 5.99,
@@ -334,13 +354,14 @@
       "dateCreated": "2024-06-25T08:30:00Z",
       "lastUpdated": "2025-06-26T09:00:00Z",
       "sold": 180,
-      "featured": false
+      "featured": false,
+      "discount": 2
     },
     {
       "id": 1022,
       "name": "Organic Coffee Beans",
       "brand": "Earthly Goods",
-      "description": "Fresh, fair-trade Organic coffee beans from Earthly Goods. Sourced sustainably.",
+      "description": "Wake up to the rich, aromatic experience of Organic Coffee Beans by Earthly Goods. These beans are fair-trade certified, ensuring that the farmers who grow them are paid a living wage. Sourced sustainably from high-altitude regions, they offer a complex flavor profile with notes of chocolate and fruit. We ensure they are non-GMO and organically grown to protect the biodiversity of the coffee regions. Grind them fresh each morning for a cup of coffee that is smooth, bold, and ethically produced. Earthly Goods invites you to savor a brew that supports both quality and global sustainability.",
       "imageUrl": "https://example.com/images/products/coffee-beans-1022.jpg",
       "quantity": 130,
       "price": 15.99,
@@ -350,13 +371,14 @@
       "dateCreated": "2024-01-20T19:00:00Z",
       "lastUpdated": "2025-08-15T10:00:00Z",
       "sold": 90,
-      "featured": true
+      "featured": true,
+      "discount": 5
     },
     {
       "id": 1023,
       "name": "Organic Yogurt",
       "brand": "Sunrise Farms",
-      "description": "Fresh, grass-fed Organic yogurt from Sunrise Farms. Sourced locally.",
+      "description": "Indulge in the creamy, tangy goodness of Organic Yogurt from Sunrise Farms. Made from the milk of grass-fed cows, this yogurt is rich in probiotics and calcium for optimal gut health. It is sourced locally to ensure freshness and support regional dairy farmers. Free from artificial sweeteners and synthetic hormones, it is a pure and wholesome snack option. Enjoy it with granola and fruit, or use it as a healthy substitute in your favorite baking recipes. Sunrise Farms is dedicated to bringing you dairy products that are as natural as they are delicious.",
       "imageUrl": "https://example.com/images/products/yogurt-1023.jpg",
       "quantity": 160,
       "price": 4.29,
@@ -366,13 +388,14 @@
       "dateCreated": "2024-08-18T13:45:00Z",
       "lastUpdated": "2025-10-18T14:00:00Z",
       "sold": 260,
-      "featured": false
+      "featured": false,
+      "discount": 4
     },
     {
       "id": 1024,
       "name": "Organic Cucumber",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, local Organic cucumber from GreenAcres Organics. Sourced daily.",
+      "description": "Cool down with the crisp, refreshing crunch of Organic Cucumbers from GreenAcres Organics. Sourced daily from local farms, these cucumbers are hydrated, firm, and full of flavor. They are grown organically, ensuring that no synthetic pesticides or waxes end up on your plate. Perfect for slicing into salads, pickling, or adding to water for a spa-like beverage. GreenAcres Organics prioritizes local sourcing to reduce environmental impact and deliver fresher produce. Add a healthy, hydrating staple to your grocery list with cucumbers you can trust.",
       "imageUrl": "https://example.com/images/products/cucumber-1024.jpg",
       "quantity": 280,
       "price": 1.99,
@@ -382,13 +405,14 @@
       "dateCreated": "2024-05-05T12:12:12Z",
       "lastUpdated": "2025-10-16T13:00:00Z",
       "sold": 310,
-      "featured": false
+      "featured": false,
+      "discount": 1
     },
     {
       "id": 1025,
       "name": "Organic Honey",
       "brand": "Nature's Bounty",
-      "description": "Fresh, local Organic honey from Nature's Bounty. Sourced sustainably.",
+      "description": "Sweeten your life naturally with Organic Honey from Nature's Bounty. Sourced locally from sustainable apiaries, this honey captures the floral essence of the region. It is raw and unfiltered, preserving beneficial enzymes and antioxidants often lost in processing. Being organic and non-GMO, it is free from environmental pollutants and synthetic chemicals. Drizzle it over yogurt, stir it into tea, or use it as a natural sweetener in your baking. Nature's Bounty delivers pure, golden honey that supports bee health and local ecosystems.",
       "imageUrl": "https://example.com/images/products/honey-1025.jpg",
       "quantity": 100,
       "price": 10.99,
@@ -398,13 +422,14 @@
       "dateCreated": "2024-04-01T16:30:00Z",
       "lastUpdated": "2025-09-20T11:00:00Z",
       "sold": 110,
-      "featured": true
+      "featured": true,
+      "discount": 3
     },
     {
       "id": 1026,
       "name": "Organic Bagels",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, fresh Organic bagels from FarmFresh Co.. Sourced daily.",
+      "description": "Start your morning with the chewy, satisfying texture of Organic Bagels from FarmFresh Co.. Baked fresh daily, these bagels are made with high-quality organic flour and traditional methods. They are certified Kosher and free from artificial preservatives, ensuring a wholesome breakfast choice. Whether you prefer them toasted with cream cheese or used as the base for a breakfast sandwich, they hold up perfectly. FarmFresh Co. is committed to delivering bakery-fresh quality using only the best organic ingredients. Enjoy a bagel that tastes like it came straight from a local artisan bakery.",
       "imageUrl": "https://example.com/images/products/bagels-1026.jpg",
       "quantity": 50,
       "price": 4.99,
@@ -414,13 +439,14 @@
       "dateCreated": "2025-04-10T06:00:00Z",
       "lastUpdated": "2025-10-22T06:30:00Z",
       "sold": 105,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1027,
       "name": "Organic Tofu",
       "brand": "PureHarvest",
-      "description": "Fresh, vegan Organic tofu from PureHarvest. Sourced sustainably.",
+      "description": "Explore the versatility of plant-based cooking with Organic Tofu from PureHarvest. Sourced sustainably, our tofu is made from non-GMO organic soybeans, ensuring a clean and protein-rich product. It is naturally gluten-free and vegan, making it a staple for diverse dietary needs. Its firm texture absorbs marinades and spices beautifully, perfect for stir-fries, grilling, or scrambling. PureHarvest is dedicated to providing sustainable food options that do not compromise on quality or taste. Incorporate this nutritious protein into your meals for a healthy, meat-free alternative.",
       "imageUrl": "https://example.com/images/products/tofu-1027.jpg",
       "quantity": 90,
       "price": 3.49,
@@ -430,13 +456,14 @@
       "dateCreated": "2024-09-20T11:50:00Z",
       "lastUpdated": "2025-08-25T14:30:00Z",
       "sold": 190,
-      "featured": false
+      "featured": false,
+      "discount": 7
     },
     {
       "id": 1028,
       "name": "Organic Lemon",
       "brand": "GoldenRoot",
-      "description": "Fresh, non-gmo Organic lemon from GoldenRoot. Sourced daily.",
+      "description": "Brighten up your dishes with the zesty tang of Organic Lemons from GoldenRoot. Sourced daily to ensure maximum freshness, these lemons are bursting with juice and vibrant citrus flavor. They are grown organically without non-GMO seeds, ensuring the peel is safe for zesting into your favorite recipes. Rich in Vitamin C, they are perfect for making lemonade, dressing salads, or garnishing seafood. GoldenRoot promises produce that is cultivated with care for the environment and your health. Add a splash of freshness to your kitchen with lemons that are as pure as nature intended.",
       "imageUrl": "https://example.com/images/products/lemon-1028.jpg",
       "quantity": 400,
       "price": 0.99,
@@ -446,13 +473,14 @@
       "dateCreated": "2024-03-12T10:00:00Z",
       "lastUpdated": "2025-10-14T11:00:00Z",
       "sold": 600,
-      "featured": true
+      "featured": true,
+      "discount": 2
     },
     {
       "id": 1029,
       "name": "Organic Bell Pepper",
       "brand": "ValleyPure",
-      "description": "Fresh, local Organic bell pepper from ValleyPure. Sourced locally.",
+      "description": "Add a splash of color and crunch to your meals with Organic Bell Peppers from ValleyPure. Sourced locally, these peppers are harvested at the peak of ripeness for a sweet, crisp flavor profile. They are grown organically, free from synthetic pesticides, so you can eat them raw or cooked with confidence. High in Vitamin C and antioxidants, they are a healthy addition to fajitas, salads, or veggie platters. ValleyPure works with local farmers to reduce transit time and deliver the freshest produce possible. Enjoy the vibrant taste and texture of peppers grown with care.",
       "imageUrl": "https://example.com/images/products/bell-pepper-1029.jpg",
       "quantity": 230,
       "price": 1.79,
@@ -462,13 +490,14 @@
       "dateCreated": "2024-11-11T11:11:11Z",
       "lastUpdated": "2025-10-13T12:00:00Z",
       "sold": 270,
-      "featured": true
+      "featured": true,
+      "discount": 5
     },
     {
       "id": 1030,
       "name": "Organic Cheddar Cheese",
       "brand": "Sunrise Farms",
-      "description": "Fresh, grass-fed Organic cheddar cheese from Sunrise Farms. Sourced locally.",
+      "description": "Experience the sharp, savory depth of Organic Cheddar Cheese from Sunrise Farms. Made from the milk of local, grass-fed cows, this cheese is aged to perfection for a rich and complex flavor. It is produced organically, ensuring that no antibiotics or synthetic hormones are involved in the process. Perfect for melting over burgers, slicing for crackers, or grating into macaroni and cheese, it is a versatile kitchen staple. Sunrise Farms is committed to traditional cheese-making methods that honor the quality of the ingredients. Taste the difference that happy cows and organic farming make in your cheese.",
       "imageUrl": "https://example.com/images/products/cheddar-cheese-1030.jpg",
       "quantity": 70,
       "price": 7.49,
@@ -478,13 +507,14 @@
       "dateCreated": "2024-07-01T14:30:00Z",
       "lastUpdated": "2025-10-10T15:00:00Z",
       "sold": 140,
-      "featured": true
+      "featured": true,
+      "discount": 3
     },
     {
       "id": 1031,
       "name": "Organic Black Beans",
       "brand": "Earthly Goods",
-      "description": "Fresh, vegan Organic black beans from Earthly Goods. Sourced sustainably.",
+      "description": "Stock your pantry with the nutritional powerhouse of Organic Black Beans from Earthly Goods. Sourced sustainably, these beans are a vegan staple rich in protein, fiber, and essential minerals. They are non-GMO and organically grown, ensuring a product that is good for you and the soil. Their earthy flavor and creamy texture make them perfect for soups, tacos, salads, or making homemade veggie burgers. Earthly Goods is dedicated to providing high-quality pantry essentials that support a healthy lifestyle. Enjoy the convenience and nutrition of beans produced with integrity.",
       "imageUrl": "https://example.com/images/products/black-beans-1031.jpg",
       "quantity": 300,
       "price": 2.99,
@@ -494,13 +524,14 @@
       "dateCreated": "2024-02-15T09:00:00Z",
       "lastUpdated": "2025-07-20T10:00:00Z",
       "sold": 280,
-      "featured": false
+      "featured": false,
+      "discount": 1
     },
     {
       "id": 1032,
       "name": "Organic Green Tea",
       "brand": "PureHarvest",
-      "description": "Fresh, fair-trade Organic green tea from PureHarvest. Sourced sustainably.",
+      "description": "Find your moment of zen with the delicate, refreshing taste of Organic Green Tea from PureHarvest. Sourced sustainably from fair-trade tea gardens, our leaves are hand-picked to ensure quality. This tea is Kosher certified and grown organically, free from synthetic pesticides and additives. Rich in antioxidants, it provides a gentle energy boost and supports overall wellness. Whether served hot to soothe the soul or iced for a summer refreshment, its flavor is clean and crisp. PureHarvest connects you with the finest tea traditions while supporting ethical farming practices.",
       "imageUrl": "https://example.com/images/products/green-tea-1032.jpg",
       "quantity": 110,
       "price": 6.49,
@@ -510,13 +541,14 @@
       "dateCreated": "2024-08-08T08:08:08Z",
       "lastUpdated": "2025-09-18T09:00:00Z",
       "sold": 150,
-      "featured": true
+      "featured": true,
+      "discount": 6
     },
     {
       "id": 1033,
       "name": "Organic Onion",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, local Organic onion from FarmFresh Co.. Sourced daily.",
+      "description": "Build the foundation of a delicious meal with Organic Onions from FarmFresh Co.. Sourced daily from local farms, these onions are firm, pungent, and packed with flavor. They are grown organically, ensuring that your kitchen staples are free from unwanted chemicals. Perfect for caramelizing, sautéing for soups, or dicing raw into salads, they add essential savory notes to any dish. FarmFresh Co. supports local agriculture, guaranteeing produce that is fresher and more sustainable. Rely on the quality of our onions to elevate your everyday cooking.",
       "imageUrl": "https://example.com/images/products/onion-1033.jpg",
       "quantity": 500,
       "price": 1.49,
@@ -526,13 +558,14 @@
       "dateCreated": "2024-03-20T10:00:00Z",
       "lastUpdated": "2025-10-20T11:00:00Z",
       "sold": 550,
-      "featured": false
+      "featured": false,
+      "discount": 4
     },
     {
       "id": 1034,
       "name": "Organic Peach",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, seasonal Organic peach from GreenAcres Organics. Sourced locally.",
+      "description": "Bite into the juicy, sun-drenched sweetness of seasonal Organic Peaches from GreenAcres Organics. Sourced locally, these peaches are harvested at the perfect moment to ensure soft flesh and high sugar content. They are grown organically, free from synthetic sprays, so you can enjoy the skin's nutrients worry-free. Ideal for eating fresh, baking into cobblers, or grilling for a savory dessert, they are a summer favorite. GreenAcres Organics brings the orchard to your door with fruit that tastes exactly as nature intended. Don't miss out on the fleeting, exquisite flavor of a truly ripe organic peach.",
       "imageUrl": "https://example.com/images/products/peach-1034.jpg",
       "quantity": 80,
       "price": 3.99,
@@ -542,13 +575,14 @@
       "dateCreated": "2024-07-15T14:00:00Z",
       "lastUpdated": "2025-07-16T15:00:00Z",
       "sold": 120,
-      "featured": true
+      "featured": true,
+      "discount": 7
     },
     {
       "id": 1035,
       "name": "Organic Muffins",
       "brand": "Nature's Bounty",
-      "description": "Fresh, gluten-free Organic muffins from Nature's Bounty. Sourced daily.",
+      "description": "Treat yourself to a guilt-free indulgence with Organic Muffins from Nature's Bounty. Baked fresh daily, these muffins are gluten-free and made with high-quality organic ingredients. They offer a moist texture and delicious flavor without the use of artificial preservatives. Perfect for a quick breakfast on the go or a satisfying afternoon snack, they pair wonderfully with coffee or tea. Nature's Bounty is committed to inclusive dietary options, ensuring everyone can enjoy a bakery treat. Experience the comfort of a homemade-style muffin with the assurance of organic certification.",
       "imageUrl": "https://example.com/images/products/muffins-1035.jpg",
       "quantity": 40,
       "price": 5.99,
@@ -558,13 +592,14 @@
       "dateCreated": "2025-01-01T06:30:00Z",
       "lastUpdated": "2025-10-22T07:00:00Z",
       "sold": 70,
-      "featured": false
+      "featured": false,
+      "discount": 2
     },
     {
       "id": 1036,
       "name": "Organic Butter",
       "brand": "GoldenRoot",
-      "description": "Fresh, grass-fed Organic butter from GoldenRoot. Sourced locally.",
+      "description": "Enrich your cooking and baking with the creamy luxury of Organic Butter from GoldenRoot. Produced locally from the milk of grass-fed cows, this butter has a rich, golden hue and superior flavor. It is organic and fresh, free from antibiotics and synthetic hormones found in conventional dairy. Whether spread on warm toast, melted over vegetables, or used to create flaky pastries, it elevates every dish. GoldenRoot partners with local dairy farmers to bring you a product that respects animal welfare and quality. Taste the difference that high-quality fat makes in your culinary creations.",
       "imageUrl": "https://example.com/images/products/butter-1036.jpg",
       "quantity": 95,
       "price": 6.29,
@@ -574,13 +609,14 @@
       "dateCreated": "2024-10-10T09:00:00Z",
       "lastUpdated": "2025-10-15T10:00:00Z",
       "sold": 200,
-      "featured": true
+      "featured": true,
+      "discount": 5
     },
     {
       "id": 1037,
       "name": "Organic Shrimp",
       "brand": "ValleyPure",
-      "description": "Fresh, fresh Organic shrimp from ValleyPure. Sourced sustainably.",
+      "description": "Dive into the fresh, succulent taste of Organic Shrimp brought to you by ValleyPure. Sourced sustainably to ensure the health of marine environments, these shrimp are a responsible seafood choice. They are fresh, never frozen, and free from the chemicals and antibiotics often found in aquaculture. Quick to cook and mild in flavor, they are perfect for stir-fries, pasta dishes, or grilling on skewers. ValleyPure guarantees a non-GMO product that meets high organic standards. Enjoy premium seafood that supports ocean sustainability and your family's health.",
       "imageUrl": "https://example.com/images/products/shrimp-1037.jpg",
       "quantity": 25,
       "price": 22.99,
@@ -590,13 +626,14 @@
       "dateCreated": "2024-12-01T15:00:00Z",
       "lastUpdated": "2025-10-19T16:00:00Z",
       "sold": 50,
-      "featured": false
+      "featured": false,
+      "discount": 1
     },
     {
       "id": 1038,
       "name": "Organic Potato",
       "brand": "Sunrise Farms",
-      "description": "Fresh, local Organic potato from Sunrise Farms. Sourced daily.",
+      "description": "Discover the earthy, comforting taste of Organic Potatoes from Sunrise Farms. Sourced daily from local fields, these potatoes are firm, skin-on, and perfect for a variety of cooking methods. We grow them organically and without GMOs, ensuring you get a vegetable that is as natural as possible. Whether mashed, roasted, baked, or fried, they provide a satisfying texture and essential nutrients like potassium. Sunrise Farms supports local agriculture, reducing the distance your food travels from farm to fork. Make these versatile tubers a staple in your healthy kitchen.",
       "imageUrl": "https://example.com/images/products/potato-1038.jpg",
       "quantity": 600,
       "price": 0.99,
@@ -606,13 +643,14 @@
       "dateCreated": "2024-05-15T10:30:00Z",
       "lastUpdated": "2025-10-20T11:30:00Z",
       "sold": 700,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1039,
       "name": "Organic Pasta",
       "brand": "Earthly Goods",
-      "description": "Fresh, kosher Organic pasta from Earthly Goods. Sourced sustainably.",
+      "description": "Create authentic Italian meals with Organic Pasta from Earthly Goods. Sourced sustainably and made with high-quality organic wheat, this pasta offers the perfect al dente texture. It is certified Kosher and non-GMO, making it a clean foundation for your favorite sauces. Whether you are making a simple spaghetti aglio e olio or a rich lasagna, this pasta holds up beautifully. Earthly Goods is committed to sustainable food production, ensuring a product that respects the earth. Bring the family together over a comforting bowl of pasta made with ingredients you can trust.",
       "imageUrl": "https://example.com/images/products/pasta-1039.jpg",
       "quantity": 250,
       "price": 3.79,
@@ -622,13 +660,14 @@
       "dateCreated": "2024-06-01T11:00:00Z",
       "lastUpdated": "2025-08-22T12:00:00Z",
       "sold": 210,
-      "featured": false
+      "featured": false,
+      "discount": 3
     },
     {
       "id": 1040,
       "name": "Organic Mango",
       "brand": "PureHarvest",
-      "description": "Fresh, fair-trade Organic mango from PureHarvest. Sourced sustainably.",
+      "description": "Transport your taste buds to the tropics with fair-trade Organic Mangos from PureHarvest. Sourced sustainably, these mangos are allowed to ripen on the tree for maximum sweetness and juiciness. They are grown organically, ensuring a pure fruit free from synthetic chemicals. Rich in Vitamin A and C, they are excellent for smoothies, salsas, or simply slicing and eating fresh. PureHarvest supports fair labor practices, so your purchase helps farming communities thrive. Enjoy the lush, exotic flavor of a premium mango with a clear conscience.",
       "imageUrl": "https://example.com/images/products/mango-1040.jpg",
       "quantity": 110,
       "price": 3.49,
@@ -638,13 +677,14 @@
       "dateCreated": "2024-08-10T13:00:00Z",
       "lastUpdated": "2025-08-12T14:00:00Z",
       "sold": 190,
-      "featured": true
+      "featured": true,
+      "discount": 7
     },
     {
       "id": 1041,
       "name": "Organic Apple Cider",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, local Organic apple cider from FarmFresh Co.. Sourced locally.",
+      "description": "Sip on the essence of autumn with Organic Apple Cider from FarmFresh Co.. Sourced locally from seasonal apples, this cider is pressed fresh to capture the crisp, tart-sweet flavor of the fruit. It is unfiltered and organic, retaining the natural nutrients and cloudy goodness of real apples. Serve it chilled on a hot day or warmed with cinnamon for a cozy treat. FarmFresh Co. uses no preservatives or added sugars, offering you a beverage that is purely fruit. Celebrate the harvest season with a drink that supports local orchards and sustainable farming.",
       "imageUrl": "https://example.com/images/products/apple-cider-1041.jpg",
       "quantity": 60,
       "price": 7.99,
@@ -654,13 +694,14 @@
       "dateCreated": "2024-09-25T14:00:00Z",
       "lastUpdated": "2025-10-15T15:00:00Z",
       "sold": 100,
-      "featured": true
+      "featured": true,
+      "discount": 2
     },
     {
       "id": 1042,
       "name": "Organic Lettuce",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic lettuce from GreenAcres Organics. Sourced daily.",
+      "description": "Create the perfect salad base with crisp Organic Lettuce from GreenAcres Organics. Sourced daily from local growers, this lettuce arrives fresh and full of hydration. It is cultivated organically, meaning you won't find any synthetic pesticide residues on your greens. Whether you are making a Caesar salad, lettuce wraps, or adding crunch to a burger, it delivers superior texture. GreenAcres Organics is committed to providing locally sourced vegetables to ensure freshness and support the community. Eat clean and green with lettuce that sets the standard for quality.",
       "imageUrl": "https://example.com/images/products/lettuce-1042.jpg",
       "quantity": 190,
       "price": 2.79,
@@ -670,13 +711,14 @@
       "dateCreated": "2024-10-20T09:00:00Z",
       "lastUpdated": "2025-10-21T09:30:00Z",
       "sold": 180,
-      "featured": false
+      "featured": false,
+      "discount": 4
     },
     {
       "id": 1043,
       "name": "Organic Oat Milk",
       "brand": "Nature's Bounty",
-      "description": "Fresh, vegan Organic oat milk from Nature's Bounty. Sourced sustainably.",
+      "description": "Experience the creamy, dairy-free delight of Organic Oat Milk by Nature's Bounty. Sourced sustainably, this milk is made from organic, gluten-free oats, making it suitable for celiacs and vegans alike. It froths beautifully for lattes and adds a subtle sweetness to cereal and baking. We use no artificial gums or stabilizers, just simple, clean ingredients. Nature's Bounty is dedicated to environmentally friendly products that help reduce your carbon footprint. Enjoy a glass of plant-based goodness that nourishes your body and protects the planet.",
       "imageUrl": "https://example.com/images/products/oat-milk-1043.jpg",
       "quantity": 130,
       "price": 4.99,
@@ -686,13 +728,14 @@
       "dateCreated": "2024-11-05T10:00:00Z",
       "lastUpdated": "2025-09-10T11:00:00Z",
       "sold": 160,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1044,
       "name": "Organic Granola",
       "brand": "GoldenRoot",
-      "description": "Fresh, gluten-free Organic granola from GoldenRoot. Sourced daily.",
+      "description": "Crunch into the satisfying texture of Organic Granola from GoldenRoot. Baked fresh daily, this granola is gluten-free and packed with organic oats, nuts, and seeds. It serves as a perfect energy-boosting breakfast or a topping for your favorite yogurt parfait. We sweeten it naturally without refined sugars, ensuring a healthy start to your day. GoldenRoot is passionate about creating bakery items that are as nutritious as they are delicious. Keep a bag on hand for a wholesome snack that the whole family will love.",
       "imageUrl": "https://example.com/images/products/granola-1044.jpg",
       "quantity": 80,
       "price": 6.99,
@@ -702,13 +745,14 @@
       "dateCreated": "2025-02-10T07:00:00Z",
       "lastUpdated": "2025-09-30T08:00:00Z",
       "sold": 90,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1045,
       "name": "Organic Oats",
       "brand": "ValleyPure",
-      "description": "Fresh, vegan Organic oats from ValleyPure. Sourced sustainably.",
+      "description": "Start your day with the heart-healthy benefits of Organic Oats from ValleyPure. Sourced sustainably, our oats are certified gluten-free and vegan, making them a safe choice for everyone. They are milled gently to preserve their fiber and nutrients, cooking up creamy and delicious every time. Use them for oatmeal, overnight oats, baking cookies, or making homemade granola bars. ValleyPure ensures that our grains are grown organically to support soil health and biodiversity. Fuel your morning with a bowl of pure, unadulterated comfort food.",
       "imageUrl": "https://example.com/images/products/oats-1045.jpg",
       "quantity": 400,
       "price": 5.49,
@@ -718,13 +762,14 @@
       "dateCreated": "2024-01-30T13:00:00Z",
       "lastUpdated": "2025-07-01T14:00:00Z",
       "sold": 350,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1046,
       "name": "Organic Grapes",
       "brand": "Sunrise Farms",
-      "description": "Fresh, seasonal Organic grapes from Sunrise Farms. Sourced locally.",
+      "description": "Snack on the sweet, juicy burst of Organic Grapes from Sunrise Farms. Sourced locally during their peak season, these grapes are fresh and full of natural sugars. They are grown organically, free from synthetic pesticides, making them a safe and healthy snack for kids. Freeze them for a cool treat, toss them into fruit salads, or pair them with cheese for an elegant appetizer. Sunrise Farms brings you the best of the harvest with fruit that supports local agriculture. Enjoy the crisp snap and sweet flavor of grapes grown with care.",
       "imageUrl": "https://example.com/images/products/grapes-1046.jpg",
       "quantity": 120,
       "price": 4.99,
@@ -734,13 +779,14 @@
       "dateCreated": "2024-08-15T10:00:00Z",
       "lastUpdated": "2025-08-16T11:00:00Z",
       "sold": 140,
-      "featured": false
+      "featured": false,
+      "discount": 3
     },
     {
       "id": 1047,
       "name": "Organic Kale",
       "brand": "Earthly Goods",
-      "description": "Fresh, fresh Organic kale from Earthly Goods. Sourced daily.",
+      "description": "Power up your meals with the nutrient-dense leaves of Organic Kale from Earthly Goods. Sourced daily to ensure freshness, this kale is robust, dark green, and packed with vitamins K, A, and C. It is non-GMO and organically grown, ensuring no harmful chemicals are part of your diet. Massage it for a tender salad, bake it into crispy chips, or blend it into a green smoothie for a health boost. Earthly Goods is committed to delivering fresh vegetables that help you live a healthier life. Add this superfood to your cart and taste the quality of fresh greens.",
       "imageUrl": "https://example.com/images/products/kale-1047.jpg",
       "quantity": 150,
       "price": 3.49,
@@ -750,13 +796,14 @@
       "dateCreated": "2024-09-10T11:00:00Z",
       "lastUpdated": "2025-10-21T12:00:00Z",
       "sold": 220,
-      "featured": true
+      "featured": true,
+      "discount": 7
     },
     {
       "id": 1048,
       "name": "Organic Tempeh",
       "brand": "PureHarvest",
-      "description": "Fresh, vegan Organic tempeh from PureHarvest. Sourced sustainably.",
+      "description": "Discover the nutty, savory flavor of Organic Tempeh by PureHarvest. Sourced sustainably, our tempeh is a fermented soy product that is rich in protein and probiotics. It is naturally gluten-free and vegan, serving as an excellent meat substitute for hearty dishes. Marinate it and grill it, crumble it into tacos, or slice it into stir-fries for a texture that holds up well to cooking. PureHarvest ensures that all ingredients are organic and non-GMO, providing a clean source of plant-based nutrition. elevate your vegetarian cooking with this traditional, fermented superfood.",
       "imageUrl": "https://example.com/images/products/tempeh-1048.jpg",
       "quantity": 60,
       "price": 4.99,
@@ -766,13 +813,14 @@
       "dateCreated": "2024-12-10T14:00:00Z",
       "lastUpdated": "2025-09-15T15:00:00Z",
       "sold": 80,
-      "featured": false
+      "featured": false,
+      "discount": 2
     },
     {
       "id": 1049,
       "name": "Organic Sparkling Water",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, kosher Organic sparkling water from FarmFresh Co.. Sourced locally.",
+      "description": "Refresh yourself with the crisp, clean taste of Organic Sparkling Water from FarmFresh Co.. Sourced locally, this water is carbonated to perfection for a refreshing fizz without added sugars. It is Kosher certified and organic, flavored only with natural essences. Enjoy it as a guilt-free soda alternative or use it as a mixer for fresh, organic cocktails. FarmFresh Co. is dedicated to providing beverages that are healthy, hydrating, and environmentally responsible. Quench your thirst with bubbly water that is as pure as it is refreshing.",
       "imageUrl": "https://example.com/images/products/sparkling-water-1049.jpg",
       "quantity": 300,
       "price": 1.99,
@@ -782,13 +830,14 @@
       "dateCreated": "2025-03-15T09:00:00Z",
       "lastUpdated": "2025-10-01T10:00:00Z",
       "sold": 300,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1050,
       "name": "Organic Goat Cheese",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, fresh Organic goat cheese from GreenAcres Organics. Sourced locally.",
+      "description": "Delight in the tangy, creamy texture of Organic Goat Cheese from GreenAcres Organics. Sourced locally from small herds, this cheese is fresh and soft, perfect for spreading or crumbling. It is made organically, ensuring high standards of animal welfare and ingredient purity. Use it to top salads, spread on crackers, or melt into a savory tart for a gourmet touch. GreenAcres Organics brings you artisan cheese that reflects the quality of local dairy farming. Add a sophisticated flavor profile to your meals with this delicious, fresh cheese.",
       "imageUrl": "https://example.com/images/products/goat-cheese-1050.jpg",
       "quantity": 50,
       "price": 8.99,
@@ -798,13 +847,14 @@
       "dateCreated": "2024-08-20T16:00:00Z",
       "lastUpdated": "2025-10-12T17:00:00Z",
       "sold": 95,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1051,
       "name": "Organic Zucchini",
       "brand": "Nature's Bounty",
-      "description": "Fresh, local Organic zucchini from Nature's Bounty. Sourced daily.",
+      "description": "Enjoy the versatility and fresh flavor of Organic Zucchini from Nature's Bounty. Sourced daily from local farms, these zucchinis are firm, glossy, and ready for your kitchen creations. They are grown organically, free from synthetic chemicals, ensuring a healthy addition to your diet. Spiralize them into noodles, bake them into bread, or simply sauté them with herbs for a quick side dish. Nature's Bounty connects you with local growers to provide produce that is fresh and sustainable. Make zucchini the star of your next meal with quality you can taste.",
       "imageUrl": "https://example.com/images/products/zucchini-1051.jpg",
       "quantity": 200,
       "price": 2.29,
@@ -814,13 +864,14 @@
       "dateCreated": "2024-07-20T10:00:00Z",
       "lastUpdated": "2025-10-18T11:00:00Z",
       "sold": 230,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1052,
       "name": "Organic Watermelon",
       "brand": "GoldenRoot",
-      "description": "Fresh, seasonal Organic watermelon from GoldenRoot. Sourced locally.",
+      "description": "Celebrate summer with the sweet, hydration-packed Organic Watermelon from GoldenRoot. Sourced locally during peak season, these melons are heavy, ripe, and bursting with juice. They are grown organically, ensuring that you are serving your family fruit free from unwanted pesticides. Slice it up for a picnic, blend it into a refreshing drink, or toss it into a fruit salad. GoldenRoot is committed to bringing you the best of the local harvest. Enjoy the quintessential taste of summer with a watermelon that is as healthy as it is delicious.",
       "imageUrl": "https://example.com/images/products/watermelon-1052.jpg",
       "quantity": 30,
       "price": 7.99,
@@ -830,13 +881,14 @@
       "dateCreated": "2024-07-05T13:00:00Z",
       "lastUpdated": "2025-07-06T14:00:00Z",
       "sold": 85,
-      "featured": true
+      "featured": true,
+      "discount": 4
     },
     {
       "id": 1053,
       "name": "Organic Tomato Sauce",
       "brand": "ValleyPure",
-      "description": "Fresh, kosher Organic tomato sauce from ValleyPure. Sourced sustainably.",
+      "description": "Bring the taste of Italy home with Organic Tomato Sauce from ValleyPure. Sourced sustainably and made with ripe organic tomatoes, this sauce is rich, savory, and ready to use. It is Kosher certified and non-GMO, serving as a clean base for your family's favorite pasta dishes. We use simple, high-quality ingredients without added sugars or artificial preservatives. ValleyPure believes in the power of good food to bring people together. Simmer this sauce with your favorite herbs and enjoy a meal that tastes like it was made from scratch.",
       "imageUrl": "https://example.com/images/products/tomato-sauce-1053.jpg",
       "quantity": 180,
       "price": 4.49,
@@ -846,13 +898,14 @@
       "dateCreated": "2024-09-05T15:00:00Z",
       "lastUpdated": "2025-09-01T16:00:00Z",
       "sold": 160,
-      "featured": false
+      "featured": false,
+      "discount": 7
     },
     {
       "id": 1054,
       "name": "Organic Croissants",
       "brand": "Sunrise Farms",
-      "description": "Fresh, fresh Organic croissants from Sunrise Farms. Sourced daily.",
+      "description": "Start your day with a touch of elegance using Organic Croissants from Sunrise Farms. Baked fresh daily using organic flour and butter, these pastries are flaky, buttery, and golden brown. They are sourced from local ingredients to ensure the highest quality and freshness. Enjoy them warm with jam, use them for a decadent sandwich, or simply savor them on their own with coffee. Sunrise Farms brings the bakery experience to your home with products made with care and integrity. Indulge in a croissant that is light, airy, and purely delicious.",
       "imageUrl": "https://example.com/images/products/croissants-1054.jpg",
       "quantity": 20,
       "price": 6.99,
@@ -862,13 +915,14 @@
       "dateCreated": "2025-05-01T05:00:00Z",
       "lastUpdated": "2025-10-22T05:30:00Z",
       "sold": 55,
-      "featured": false
+      "featured": false,
+      "discount": 2
     },
     {
       "id": 1055,
       "name": "Organic Sausages",
       "brand": "Earthly Goods",
-      "description": "Fresh, grass-fed Organic sausages from Earthly Goods. Sourced locally.",
+      "description": "Fire up the grill with savory Organic Sausages from Earthly Goods. Made from grass-fed, organic meat sourced locally, these sausages are packed with protein and natural flavor. They are free from nitrates, antibiotics, and fillers, offering a cleaner meat option for your family. Perfect for breakfast, BBQ, or adding to pasta sauces, they are a versatile kitchen staple. Earthly Goods is committed to ethical meat production that respects the animal and the consumer. Enjoy the robust taste of high-quality sausage without the additives.",
       "imageUrl": "https://example.com/images/products/sausages-1055.jpg",
       "quantity": 40,
       "price": 11.99,
@@ -878,13 +932,14 @@
       "dateCreated": "2024-10-15T12:00:00Z",
       "lastUpdated": "2025-10-20T13:00:00Z",
       "sold": 65,
-      "featured": false
+      "featured": false,
+      "discount": 3
     },
     {
       "id": 1056,
       "name": "Organic Mushroom",
       "brand": "PureHarvest",
-      "description": "Fresh, local Organic mushroom from PureHarvest. Sourced daily.",
+      "description": "Add savory depth to your meals with Organic Mushrooms from PureHarvest. Sourced daily from local growers, these mushrooms are firm, fresh, and full of umami flavor. They are grown organically, ensuring they are free from the chemicals often used in conventional mushroom farming. Slice them for pizza, sauté them for steak toppings, or roast them as a hearty side dish. PureHarvest brings you produce that is as versatile as it is healthy. Support local agriculture and enjoy the earthy goodness of fresh organic mushrooms.",
       "imageUrl": "https://example.com/images/products/mushroom-1056.jpg",
       "quantity": 100,
       "price": 4.99,
@@ -894,13 +949,14 @@
       "dateCreated": "2024-11-20T09:30:00Z",
       "lastUpdated": "2025-10-19T10:30:00Z",
       "sold": 130,
-      "featured": true
+      "featured": true,
+      "discount": 1
     },
     {
       "id": 1057,
       "name": "Organic Lentils",
       "brand": "FarmFresh Co.",
-      "description": "Fresh, vegan Organic lentils from FarmFresh Co.. Sourced sustainably.",
+      "description": "Create nourishing meals with the wholesome goodness of Organic Lentils from FarmFresh Co.. Sourced sustainably, these lentils are a fantastic source of plant-based protein and dietary fiber. They are vegan, gluten-free, and non-GMO, making them a staple for healthy, conscious eating. Quick to cook and requiring no soaking, they are perfect for soups, curries, or warm salads. FarmFresh Co. ensures that our pantry staples are grown with respect for the soil and the environment. Keep a bag on hand for a quick, nutritious meal solution.",
       "imageUrl": "https://example.com/images/products/lentils-1057.jpg",
       "quantity": 280,
       "price": 3.99,
@@ -910,13 +966,14 @@
       "dateCreated": "2024-12-20T11:00:00Z",
       "lastUpdated": "2025-08-10T12:00:00Z",
       "sold": 200,
-      "featured": false
+      "featured": false,
+      "discount": 6
     },
     {
       "id": 1058,
       "name": "Organic Orange",
       "brand": "GreenAcres Organics",
-      "description": "Fresh, non-gmo Organic orange from GreenAcres Organics. Sourced daily.",
+      "description": "Peel into the citrusy brightness of Organic Oranges from GreenAcres Organics. Sourced daily to ensure freshness, these oranges are juicy, sweet, and packed with Vitamin C. They are non-GMO and grown organically, so you can use the zest as freely as the flesh. Perfect for snacking, juicing, or slicing into fruit salads, they are a refreshing treat any time of day. GreenAcres Organics delivers fruit that is cultivated with care for the environment and your well-being. Enjoy the pure, vibrant taste of a high-quality organic orange.",
       "imageUrl": "https://example.com/images/products/orange-1058.jpg",
       "quantity": 350,
       "price": 1.49,
@@ -926,13 +983,14 @@
       "dateCreated": "2025-01-05T10:00:00Z",
       "lastUpdated": "2025-10-17T11:00:00Z",
       "sold": 450,
-      "featured": false
+      "featured": false,
+      "discount": 5
     },
     {
       "id": 1059,
       "name": "Organic Almonds",
       "brand": "Nature's Bounty",
-      "description": "Fresh, vegan Organic almonds from Nature's Bounty. Sourced sustainably.",
+      "description": "Snack smart with the crunch of Organic Almonds from Nature's Bounty. Sourced sustainably, these almonds are a vegan powerhouse of protein, healthy fats, and fiber. They are non-GMO and grown organically, ensuring you get a pure nut without chemical residues. Eat them raw, roast them with spices, or chop them into your morning oatmeal for added texture. Nature's Bounty is committed to providing snacks that support a healthy, active lifestyle. Keep a bag in your pantry for a satisfying snack that fuels your day.",
       "imageUrl": "https://example.com/images/products/almonds-1059.jpg",
       "quantity": 160,
       "price": 12.99,
@@ -942,13 +1000,14 @@
       "dateCreated": "2025-02-20T14:00:00Z",
       "lastUpdated": "2025-09-25T15:00:00Z",
       "sold": 110,
-      "featured": true
+      "featured": true,
+      "discount": 2
     },
     {
       "id": 1060,
       "name": "Organic Peanut Butter",
       "brand": "GoldenRoot",
-      "description": "Fresh, vegan Organic peanut butter from GoldenRoot. Sourced sustainably.",
+      "description": "Spread the love with creamy Organic Peanut Butter from GoldenRoot. Sourced sustainably, this peanut butter is vegan, gluten-free, and made from roasted organic peanuts. It contains no hydrogenated oils or added sugars, just pure, nutty deliciousness. Perfect for sandwiches, smoothies, or dipping apples, it is a pantry essential for kids and adults. GoldenRoot ensures that our products are produced in a way that respects the environment and delivers high nutritional value. Enjoy the simple, honest taste of peanut butter made the right way.",
       "imageUrl": "https://example.com/images/products/peanut-butter-1060.jpg",
       "quantity": 140,
       "price": 6.49,
@@ -958,7 +1017,8 @@
       "dateCreated": "2025-03-25T16:00:00Z",
       "lastUpdated": "2025-10-05T17:00:00Z",
       "sold": 180,
-      "featured": false
+      "featured": false,
+      "discount": 4
     }
   ],
   "blog": [
