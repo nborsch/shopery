@@ -32,9 +32,8 @@ export default function ProductDetails() {
 
     async function fetchRelatedProducts() {
       const response = await fetch(
-        `http://localhost:3000/shop?_start${randomNumber}&_limit=4`
+        `http://localhost:3000/shop?_start=${randomNumber}&_limit=4`
       )
-
       const data = await response.json()
 
       setRelatedProducts(data)
