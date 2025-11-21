@@ -145,11 +145,16 @@
   height: 30px;
   padding: 3px 5px;
   background-color: #e5e5e5;
+  border: none;
   border-radius: 50px;
 }
 
 .button {
   width: 400px;
+}
+
+.heart {
+  color: red;
 }
 
 .apart {
@@ -170,7 +175,6 @@
   text-align: center;
   margin: 0;
 
-  
   font-family: "Poppins Bold", Helvetica, Arial, sans-serif;
   font-size: 32px;
 }

@@ -3,6 +3,7 @@ import classes from "./ProductDetails.module.css"
 import Button from "../../components/Button/Button"
 import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
+import useToggle from "../../hooks/useToggle"
 import convertRating from "../../helper/convertRating"
 import { useParams, Link } from "react-router"
 import {
@@ -19,7 +20,9 @@ import {
 export default function ProductDetails() {
   const [currentProduct, setCurrentProduct] = React.useState<Product[]>([])
   const [relatedProducts, setRelatedProducts] = React.useState<Product[]>([])
+  const [qtyCart, setQtyCart] = React.useState<number>(0)
   const params = useParams()
+  const [on, toggle] = useToggle()
 
   React.useEffect(() => {
     async function fetchCurrentProduct() {
@@ -41,6 +44,8 @@ export default function ProductDetails() {
 
     fetchCurrentProduct()
     fetchRelatedProducts()
+    setQtyCart(0)
+    window.scrollTo(0, 0)
   }, [params])
 
   const relatedProductsEls = relatedProducts ? (
@@ -59,6 +64,17 @@ export default function ProductDetails() {
     const decimalDiscount = discount / 10
     const fullPrice = price / (1 - decimalDiscount)
     return Number(fullPrice.toFixed(2))
+  }
+
+  const minusQtyCart = () => {
+    setQtyCart((prevQtyCart: number) => {
+      if (prevQtyCart === 0) return prevQtyCart
+      return prevQtyCart - 1
+    })
+  }
+
+  const plusQtyCart = () => {
+    setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
   }
 
   return (
@@ -121,22 +137,35 @@ export default function ProductDetails() {
             </p>
             <div className={classes.cartContainer}>
               <div className={classes.qty}>
-                <span className={classes.qtyMinus}>-</span>5
-                <span className={classes.qtyPlus}>+</span>
+                <button className={classes.qtyMinus} onClick={minusQtyCart}>
+                  -
+                </button>
+                <span>{qtyCart}</span>
+                <button className={classes.qtyPlus} onClick={plusQtyCart}>
+                  +
+                </button>
               </div>
               <Button type="submit" className={classes.button}>
                 Add to cart
                 <FaCartPlus />
               </Button>
-              <FaRegHeart />
+              {on ? (
+                <FaRegHeart onClick={toggle} />
+              ) : (
+                <FaHeart onClick={toggle} className={classes.heart} />
+              )}
             </div>
             <p className={classes.apart}>
               <span className={classes.bold}>Category:</span>
-              <span className={classes.gray}>Vegetables</span>
+              <span className={classes.gray}>
+                {currentProduct[0] && currentProduct[0].category}
+              </span>
             </p>
             <p className={classes.apart}>
               <span className={classes.bold}>Tags:</span>
-              <span className={classes.gray}>non-gmo, kosher</span>
+              <span className={classes.gray}>
+                {currentProduct[0] && currentProduct[0].tags.join(", ")}
+              </span>
             </p>
           </div>
         </section>
