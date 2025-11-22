@@ -25,41 +25,33 @@ export default function ProductDetails() {
   const [on, toggle] = useToggle()
 
   React.useEffect(() => {
-    async function fetchCurrentProduct() {
-      const response = await fetch(`http://localhost:3000/shop?id=${params.id}`)
+    const randomNumber: number = Math.floor(Math.random() * (56 - 1 + 1)) + 1 // 56 products starting at 1
+    const currentProductUrl = `http://localhost:3000/shop?id=${params.id}`
+    const relatedProductsUrl = `http://localhost:3000/shop?_start=${randomNumber}&_limit=4`
+
+    async function fetchData(
+      url: string,
+      setter: React.Dispatch<React.SetStateAction<Product[]>>
+    ) {
+      const response = await fetch(url)
       const data = await response.json()
-      setCurrentProduct(data)
+      setter(data)
     }
 
-    const randomNumber: number = Math.floor(Math.random() * (56 - 1 + 1)) + 1
-
-    async function fetchRelatedProducts() {
-      const response = await fetch(
-        `http://localhost:3000/shop?_start=${randomNumber}&_limit=4`
-      )
-      const data = await response.json()
-
-      setRelatedProducts(data)
-    }
-
-    fetchCurrentProduct()
-    fetchRelatedProducts()
+    fetchData(currentProductUrl, setCurrentProduct)
+    fetchData(relatedProductsUrl, setRelatedProducts)
     setQtyCart(0)
     window.scrollTo(0, 0)
   }, [params])
 
-  const relatedProductsEls = relatedProducts ? (
-    relatedProducts.map((product) => {
+  const relatedProductsEls = relatedProducts.map((product) => {
       return (
         <Link to={`/shop/${product.id}`} key={product.id}>
           <ProductCard sz="md" product={product} />
         </Link>
       )
     })
-  ) : (
-    <>Loading...</>
-  )
-
+  
   const calculateFullPrice = (discount: number, price: number) => {
     const decimalDiscount = discount / 10
     const fullPrice = price / (1 - decimalDiscount)
@@ -81,12 +73,12 @@ export default function ProductDetails() {
     <>
       <main className={classes.container}>
         <section className={classes.details}>
-          <img
-            className={classes.detailsPhoto}
-            src={
-              currentProduct[0] ? `${currentProduct[0].imageUrl}` : undefined
-            }
-          />
+          {currentProduct[0] ? (
+            <img
+              className={classes.detailsPhoto}
+              src={`${currentProduct[0].imageUrl}`}
+            />
+          ) : <>Loading</>}
           <div>
             <div className={classes.nameContainer}>
               <p className={classes.name}>

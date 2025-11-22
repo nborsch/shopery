@@ -1,3 +1,4 @@
+import React from "react"
 import { Routes, Route } from "react-router"
 import "@mantine/core/styles.css"
 import Layout from "./components/Layout"
@@ -6,15 +7,26 @@ import Shop from "./pages/Shop/Shop"
 import Shop2 from "./pages/Shop2/Shop2"
 import ProductDetails from "./pages/ProductDetails/ProductDetails"
 
+type Cart = {
+  cart: string[]
+  setCart: React.Dispatch<React.SetStateAction<string[]>>
+}
+
+const CartContext = React.createContext<Cart>({} as Cart)
+
 export default function App() {
+  const [cart, setCart] = React.useState<string[]>([])
+
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="shop" element={<Shop />} />
-        <Route path="shop2" element={<Shop2 />} />
-        <Route path="shop/:id" element={<ProductDetails />} />
-      </Route>
-    </Routes>
+    <CartContext.Provider value={{ cart, setCart }}>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="shop" element={<Shop />} />
+          <Route path="shop2" element={<Shop2 />} />
+          <Route path="shop/:id" element={<ProductDetails />} />
+        </Route>
+      </Routes>
+    </CartContext.Provider>
   )
 }
