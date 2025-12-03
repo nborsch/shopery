@@ -149,6 +149,19 @@
   border-radius: 50px;
 }
 
+.qtyPlus:hover,
+.qtyMinus:hover {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.qtyPlus:active,
+.qtyMinus:active {
+  background-color: #00b207;
+  border: none;
+  color: white;
+}
+
 .button {
   width: 400px;
 }

@@ -8,14 +8,19 @@ import Shop2 from "./pages/Shop2/Shop2"
 import ProductDetails from "./pages/ProductDetails/ProductDetails"
 
 type Cart = {
-  cart: string[]
-  setCart: React.Dispatch<React.SetStateAction<string[]>>
+  cart: CartProduct[]
+  setCart: React.Dispatch<React.SetStateAction<CartProduct[]>>
 }
 
-const CartContext = React.createContext<Cart>({} as Cart)
+export type CartProduct = {
+  id: number
+  qty: number
+}
+
+export const CartContext = React.createContext<Cart>({} as Cart)
 
 export default function App() {
-  const [cart, setCart] = React.useState<string[]>([])
+  const [cart, setCart] = React.useState<CartProduct[]>([])
 
   return (
     <CartContext.Provider value={{ cart, setCart }}>

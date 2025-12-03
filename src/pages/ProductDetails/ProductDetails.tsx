@@ -3,6 +3,8 @@ import classes from "./ProductDetails.module.css"
 import Button from "../../components/Button/Button"
 import ProductCard from "../../components/ProductCard/ProductCard"
 import type { Product } from "../../components/ProductCard/ProductCard"
+import { CartContext } from "../../App"
+import type { CartProduct } from "../../App"
 import useToggle from "../../hooks/useToggle"
 import convertRating from "../../helper/convertRating"
 import { useParams, Link } from "react-router"
@@ -23,6 +25,7 @@ export default function ProductDetails() {
   const [qtyCart, setQtyCart] = React.useState<number>(0)
   const params = useParams()
   const [on, toggle] = useToggle()
+  const { cart, setCart } = React.useContext(CartContext)
 
   React.useEffect(() => {
     const randomNumber: number = Math.floor(Math.random() * (56 - 1 + 1)) + 1 // 56 products starting at 1
@@ -45,29 +48,84 @@ export default function ProductDetails() {
   }, [params])
 
   const relatedProductsEls = relatedProducts.map((product) => {
-      return (
-        <Link to={`/shop/${product.id}`} key={product.id}>
-          <ProductCard sz="md" product={product} />
-        </Link>
-      )
-    })
-  
+    return (
+      <Link to={`/shop/${product.id}`} key={product.id}>
+        <ProductCard sz="md" product={product} />
+      </Link>
+    )
+  })
+
   const calculateFullPrice = (discount: number, price: number) => {
     const decimalDiscount = discount / 10
     const fullPrice = price / (1 - decimalDiscount)
     return Number(fullPrice.toFixed(2))
   }
 
-  const minusQtyCart = () => {
-    setQtyCart((prevQtyCart: number) => {
-      if (prevQtyCart === 0) return prevQtyCart
-      return prevQtyCart - 1
+  const productCartIndex = () => {
+    const result = cart.findIndex((product: CartProduct) => {
+      return product.id === currentProduct[0].id // find if current product is in cart
+    })
+
+    return result
+  }
+
+  const minusCart = () => {
+    const index = productCartIndex()
+    if (index === -1) return // did not find item in cart
+
+    setCart((prevCart: CartProduct[]) => {
+      const bufferCart = [...prevCart]
+      const prevProduct = bufferCart[index]
+      bufferCart.splice(index, 1) // remove product from buffer cart
+      if (prevProduct.qty === 1) {
+        // if previous qty is 1, return cart without it
+        return bufferCart
+      } else {
+        prevProduct.qty = prevProduct.qty - 1 //change quantity
+        return [...bufferCart, prevProduct] //return cart with updated product quantity
+      }
     })
   }
 
-  const plusQtyCart = () => {
-    setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
+  const plusCart = () => {
+    const index = productCartIndex()
+    // if product isn't in cart
+    if (index === -1) {
+      // create the new product for cart
+      const newProduct = {
+        id: currentProduct[0].id,
+        qty: 1,
+      }
+      // add product to cart
+      setCart((prevCart: CartProduct[]) => [...prevCart, newProduct])
+      return
+    }
+    // product exists in cart
+    setCart((prevCart: CartProduct[]) => {
+      const bufferCart = [...prevCart]
+      const prevProduct = bufferCart[index]
+
+      bufferCart.splice(index, 1) // remove product from buffer cart
+      prevProduct.qty = prevProduct.qty + 1 // change quantity
+      return [...bufferCart, prevProduct] //return cart with updated product quantity
+    })
   }
+
+  const productQtyCart = () => {
+    const index = productCartIndex()
+    return index === -1 ? 0 : cart[index].qty
+  }
+
+  // const minusQtyCart = () => {
+  //   setQtyCart((prevQtyCart: number) => {
+  //     if (prevQtyCart === 0) return prevQtyCart
+  //     return prevQtyCart - 1
+  //   })
+  // }
+
+  // const plusQtyCart = () => {
+  //   setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
+  // }
 
   return (
     <>
@@ -78,7 +136,9 @@ export default function ProductDetails() {
               className={classes.detailsPhoto}
               src={`${currentProduct[0].imageUrl}`}
             />
-          ) : <>Loading</>}
+          ) : (
+            <>Loading</>
+          )}
           <div>
             <div className={classes.nameContainer}>
               <p className={classes.name}>
@@ -129,11 +189,11 @@ export default function ProductDetails() {
             </p>
             <div className={classes.cartContainer}>
               <div className={classes.qty}>
-                <button className={classes.qtyMinus} onClick={minusQtyCart}>
+                <button className={classes.qtyMinus} onClick={minusCart}>
                   -
                 </button>
-                <span>{qtyCart}</span>
-                <button className={classes.qtyPlus} onClick={plusQtyCart}>
+                <span>{productQtyCart()}</span>
+                <button className={classes.qtyPlus} onClick={plusCart}>
                   +
                 </button>
               </div>
