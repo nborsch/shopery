@@ -104,7 +104,6 @@ export default function ProductDetails() {
     setCart((prevCart: CartProduct[]) => {
       const bufferCart = [...prevCart]
       const prevProduct = bufferCart[index]
-
       bufferCart.splice(index, 1) // remove product from buffer cart
       prevProduct.qty = prevProduct.qty + 1 // change quantity
       return [...bufferCart, prevProduct] //return cart with updated product quantity
@@ -115,17 +114,6 @@ export default function ProductDetails() {
     const index = productCartIndex()
     return index === -1 ? 0 : cart[index].qty
   }
-
-  // const minusQtyCart = () => {
-  //   setQtyCart((prevQtyCart: number) => {
-  //     if (prevQtyCart === 0) return prevQtyCart
-  //     return prevQtyCart - 1
-  //   })
-  // }
-
-  // const plusQtyCart = () => {
-  //   setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
-  // }
 
   return (
     <>
