@@ -81,17 +81,17 @@ export default function ProductDetails() {
     }
 
     setCart((prevCart: CartProduct[]) => {
-      const newCart = [...prevCart]
-      const foundIndex = newCart.findIndex(
+      const tempCart = [...prevCart]
+      const foundIndex = tempCart.findIndex(
         // find if product already exists in cart
         (cartProduct) => cartProduct.id === currentProduct[0].id
       )
 
       if (foundIndex === -1) {
-        return [...newCart, newProdObj] // product did not exist in cart, let's add it
+        return [...tempCart, newProdObj] // product did not exist in cart, let's add it
       } else {
-        newCart[foundIndex].qty += qtyCart
-        return newCart
+        tempCart[foundIndex].qty += qtyCart
+        return tempCart
       }
     })
 

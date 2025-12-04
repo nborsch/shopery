@@ -53,7 +53,7 @@ export default function ProductCard({
           </span>
           <div>{starRating || null}</div>
         </div>
-        <CartBtn />
+        <CartBtn prodId={product.id}/>
       </div>
     </div>
   )
