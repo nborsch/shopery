@@ -26,7 +26,7 @@ export default function ProductDetails() {
   const params = useParams()
   const [on, toggle] = useToggle()
   const { cart, setCart } = React.useContext(CartContext)
-
+  console.log(params)
   React.useEffect(() => {
     const randomNumber: number = Math.floor(Math.random() * (56 - 1 + 1)) + 1 // 56 products starting at 1
     const currentProductUrl = `http://localhost:3000/shop?id=${params.id}`
@@ -45,7 +45,7 @@ export default function ProductDetails() {
     fetchData(relatedProductsUrl, setRelatedProducts)
     setQtyCart(0)
     window.scrollTo(0, 0)
-  }, [params])
+  }, [params.id])
 
   const relatedProductsEls = relatedProducts.map((product) => {
     return (
@@ -69,50 +69,15 @@ export default function ProductDetails() {
     return result
   }
 
-  const minusCart = () => {
-    const index = productCartIndex()
-    if (index === -1) return // did not find item in cart
-
-    setCart((prevCart: CartProduct[]) => {
-      const bufferCart = [...prevCart]
-      const prevProduct = bufferCart[index]
-      bufferCart.splice(index, 1) // remove product from buffer cart
-      if (prevProduct.qty === 1) {
-        // if previous qty is 1, return cart without it
-        return bufferCart
-      } else {
-        prevProduct.qty = prevProduct.qty - 1 //change quantity
-        return [...bufferCart, prevProduct] //return cart with updated product quantity
-      }
+  const minusQtyCart = () => {
+    setQtyCart((prevQtyCart: number) => {
+      if (prevQtyCart === 0) return prevQtyCart
+      return prevQtyCart - 1
     })
   }
 
-  const plusCart = () => {
-    const index = productCartIndex()
-    // if product isn't in cart
-    if (index === -1) {
-      // create the new product for cart
-      const newProduct = {
-        id: currentProduct[0].id,
-        qty: 1,
-      }
-      // add product to cart
-      setCart((prevCart: CartProduct[]) => [...prevCart, newProduct])
-      return
-    }
-    // product exists in cart
-    setCart((prevCart: CartProduct[]) => {
-      const bufferCart = [...prevCart]
-      const prevProduct = bufferCart[index]
-      bufferCart.splice(index, 1) // remove product from buffer cart
-      prevProduct.qty = prevProduct.qty + 1 // change quantity
-      return [...bufferCart, prevProduct] //return cart with updated product quantity
-    })
-  }
-
-  const productQtyCart = () => {
-    const index = productCartIndex()
-    return index === -1 ? 0 : cart[index].qty
+  const plusQtyCart = () => {
+    setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
   }
 
   return (
@@ -177,11 +142,11 @@ export default function ProductDetails() {
             </p>
             <div className={classes.cartContainer}>
               <div className={classes.qty}>
-                <button className={classes.qtyMinus} onClick={minusCart}>
+                <button className={classes.qtyMinus} onClick={minusQtyCart}>
                   -
                 </button>
-                <span>{productQtyCart()}</span>
-                <button className={classes.qtyPlus} onClick={plusCart}>
+                <span>{qtyCart}</span>
+                <button className={classes.qtyPlus} onClick={plusQtyCart}>
                   +
                 </button>
               </div>
