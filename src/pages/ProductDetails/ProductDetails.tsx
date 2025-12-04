@@ -26,7 +26,7 @@ export default function ProductDetails() {
   const params = useParams()
   const [on, toggle] = useToggle()
   const { cart, setCart } = React.useContext(CartContext)
-  console.log(params)
+
   React.useEffect(() => {
     const randomNumber: number = Math.floor(Math.random() * (56 - 1 + 1)) + 1 // 56 products starting at 1
     const currentProductUrl = `http://localhost:3000/shop?id=${params.id}`
@@ -61,14 +61,6 @@ export default function ProductDetails() {
     return Number(fullPrice.toFixed(2))
   }
 
-  const productCartIndex = () => {
-    const result = cart.findIndex((product: CartProduct) => {
-      return product.id === currentProduct[0].id // find if current product is in cart
-    })
-
-    return result
-  }
-
   const minusQtyCart = () => {
     setQtyCart((prevQtyCart: number) => {
       if (prevQtyCart === 0) return prevQtyCart
@@ -78,6 +70,32 @@ export default function ProductDetails() {
 
   const plusQtyCart = () => {
     setQtyCart((prevQtyCart: number) => prevQtyCart + 1)
+  }
+
+  const addToCart = () => {
+    if (qtyCart === 0) return
+
+    const newProdObj: CartProduct = {
+      id: currentProduct[0].id,
+      qty: qtyCart,
+    }
+
+    setCart((prevCart: CartProduct[]) => {
+      const newCart = [...prevCart]
+      const foundIndex = newCart.findIndex(
+        // find if product already exists in cart
+        (cartProduct) => cartProduct.id === currentProduct[0].id
+      )
+
+      if (foundIndex === -1) {
+        return [...newCart, newProdObj] // product did not exist in cart, let's add it
+      } else {
+        newCart[foundIndex].qty += qtyCart
+        return newCart
+      }
+    })
+
+    setQtyCart(0)
   }
 
   return (
@@ -150,7 +168,11 @@ export default function ProductDetails() {
                   +
                 </button>
               </div>
-              <Button type="submit" className={classes.button}>
+              <Button
+                type="submit"
+                className={classes.button}
+                onClick={addToCart}
+              >
                 Add to cart
                 <FaCartPlus />
               </Button>
