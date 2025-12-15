@@ -18,7 +18,7 @@ import classes from "./MainNav.module.css"
 import MainNavItem from "./MainNavItem"
 
 export default function MainNav() {
-  const [on, toggle] = useToggle()
+  const [open, setOpen] = React.useState<boolean>(false)
 
   const active = ({ isActive }: { isActive: boolean }) =>
     isActive ? classes.active : ""
@@ -26,8 +26,8 @@ export default function MainNav() {
   return (
     <nav>
       <ul className={classes.nav}>
-        <li className={classes.navItem} onClick={toggle}>
-          Shop {!on ? <FaAngleUp className={classes.alignment} /> : <FaAngleDown className={classes.alignment} />}
+        <li className={classes.navItem} onClick={() => setOpen(!open)}>
+          Shop {open ? <FaAngleUp className={classes.alignment} /> : <FaAngleDown className={classes.alignment} />}
         </li>
         <li className={classes.navItem}>
           <NavLink to={""} className={active}>
@@ -46,8 +46,8 @@ export default function MainNav() {
         </li>
       </ul>
 
-      {!on && (
-        <ul className={classes.shop}>
+      {open && (
+        <ul className={classes.shop} onClick={() => setOpen(!open)}>
           <NavLink to={""}>
             <MainNavItem>
               <FaAppleWhole /> Fruits
